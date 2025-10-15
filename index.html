@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Neurologie Prüfungsfragen Generator</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; background: #f8f9fa; color: #212529; }
+    h1 { color: #004085; }
+    button, select { padding: 0.5rem 1rem; margin-top: 1rem; font-size: 1rem; }
+    .question { margin: 1rem 0; padding: 1rem; background: white; border-left: 4px solid #17a2b8; }
+    .answer { display: none; color: #155724; margin-top: 0.5rem; }
+    .show-answer-btn { margin-left: 1rem; font-size: 0.9rem; cursor: pointer; color: #007bff; background: none; border: none; }
+  </style>
+</head>
+<body>
+  <h1>Neurologie Fragen Generator (DE)</h1>
+  <p>Wähle ein Thema und drücke den Button, um 20 zufällige Prüfungsfragen anzuzeigen.</p>
+  <label for="topic">Themenauswahl:</label>
+  <select id="topic">
+    <option value="general">Allgemein</option>
+    <option value="stroke">Schlaganfall</option>
+    <option value="epilepsy">Epilepsie</option>
+    <option value="ms">Multiple Sklerose</option>
+    <option value="movement">Bewegungsstörungen</option>
+  </select><br>
+  <button onclick="generateQuestions()">20 Fragen generieren</button>
+  <div id="questions"></div>
+  <script>
+    let questions = {};
+    fetch("questions.json")
+      .then(response => response.json())
+      .then(data => questions = data)
+      .catch(err => alert("Fehler beim Laden der Fragen."));
+
+    function generateQuestions() {
+      const topic = document.getElementById("topic").value;
+      const pool = questions[topic] || [];
+      const shuffled = pool.sort(() => 0.5 - Math.random()).slice(0, 20);
+      const container = document.getElementById("questions");
+      container.innerHTML = "";
+
+      shuffled.forEach((qa, index) => {
+        const div = document.createElement("div");
+        div.className = "question";
+        div.innerHTML = `<strong>Frage ${index + 1}:</strong> ${qa.q}<br>` +
+          `<button class='show-answer-btn' onclick='this.nextElementSibling.style.display = "block"'>Antwort anzeigen</button>` +
+          `<div class='answer'>${qa.a}</div>`;
+        container.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>

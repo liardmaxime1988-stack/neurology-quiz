@@ -1,0 +1,40 @@
+{
+  "general": [
+    {
+      "q": "Was ist die häufigste Ursache einer nicht-traumatischen Subarachnoidalblutung?",
+      "a": "Ruptur eines zerebralen Aneurysmas."
+    },
+    {
+      "q": "Was ist die First-Line-Therapie beim Status epilepticus?",
+      "a": "Benzodiazepine (z. B. Lorazepam i.v.)."
+    }
+  ],
+  "stroke": [
+    {
+      "q": "Welches bildgebende Verfahren ist am sensitivsten zum Nachweis eines akuten ischämischen Schlaganfalls?",
+      "a": "Diffusionsgewichtete MRT (DWI)."
+    },
+    {
+      "q": "Welche Arterie ist häufig bei einem Mediainfarkt betroffen?",
+      "a": "A. cerebri media."
+    }
+  ],
+  "epilepsy": [
+    {
+      "q": "Welches EEG-Muster ist typisch für juvenile myoklonische Epilepsie?",
+      "a": "4–6 Hz Polyspike-and-slow-wave-Komplexe."
+    }
+  ],
+  "ms": [
+    {
+      "q": "Nennen Sie zwei typische Liquorbefunde bei Multipler Sklerose.",
+      "a": "Oligoklonale Banden, leichte Pleozytose."
+    }
+  ],
+  "movement": [
+    {
+      "q": "Welche Bewegungsstörung ist durch Bradykinese, Rigor und Ruhetremor gekennzeichnet?",
+      "a": "Morbus Parkinson."
+    }
+  ]
+}
