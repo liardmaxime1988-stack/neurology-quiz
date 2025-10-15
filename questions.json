@@ -7,34 +7,78 @@
     {
       "q": "Was ist die First-Line-Therapie beim Status epilepticus?",
       "a": "Benzodiazepine (z. B. Lorazepam i.v.)."
-    }
-  ],
-  "stroke": [
-    {
-      "q": "Welches bildgebende Verfahren ist am sensitivsten zum Nachweis eines akuten ischämischen Schlaganfalls?",
-      "a": "Diffusionsgewichtete MRT (DWI)."
     },
     {
-      "q": "Welche Arterie ist häufig bei einem Mediainfarkt betroffen?",
-      "a": "A. cerebri media."
-    }
-  ],
-  "epilepsy": [
+      "q": "Welcher Neurotransmitter ist bei der Parkinson-Krankheit vermindert?",
+      "a": "Dopamin."
+    },
     {
-      "q": "Welches EEG-Muster ist typisch für juvenile myoklonische Epilepsie?",
-      "a": "4–6 Hz Polyspike-and-slow-wave-Komplexe."
-    }
-  ],
-  "ms": [
+      "q": "Was versteht man unter dem Uhthoff-Phänomen?",
+      "a": "Eine reversible Verschlechterung neurologischer Symptome bei Erhöhung der Körpertemperatur."
+    },
     {
-      "q": "Nennen Sie zwei typische Liquorbefunde bei Multipler Sklerose.",
-      "a": "Oligoklonale Banden, leichte Pleozytose."
-    }
-  ],
-  "movement": [
+      "q": "Was ist die häufigste Ursache einer rasch progredienten Demenz?",
+      "a": "Creutzfeldt-Jakob-Krankheit."
+    },
     {
-      "q": "Welche Bewegungsstörung ist durch Bradykinese, Rigor und Ruhetremor gekennzeichnet?",
-      "a": "Morbus Parkinson."
+      "q": "Was ist die klassische Trias des Normaldruckhydrozephalus?",
+      "a": "Gangstörung, Demenz, Harninkontinenz."
+    },
+    {
+      "q": "Welche Hirnnerven sind bei internukleärer Ophthalmoplegie betroffen?",
+      "a": "N. oculomotorius und N. abducens über das mediale Längsbündel (MLF)."
+    },
+    {
+      "q": "Was bedeutet das Lhermitte-Zeichen?",
+      "a": "Stromschlagartiges Gefühl entlang der Wirbelsäule bei Vorneigung des Kopfes, typisch bei MS."
+    },
+    {
+      "q": "Was ist die häufigste Ursache einer zerebralen Sinusvenenthrombose?",
+      "a": "Thrombophilie oder orale Kontrazeptiva."
+    },
+    {
+      "q": "Welche Komplikation kann bei hypertensiver Enzephalopathie auftreten?",
+      "a": "Posteriores reversibles Enzephalopathiesyndrom (PRES)."
+    },
+    {
+      "q": "Was ist ein typisches Merkmal der Fazialisparese peripheren Typs?",
+      "a": "Betroffenheit der Stirn- und Augenmuskulatur."
+    },
+    {
+      "q": "Was ist ein häufiges Symptom bei einer Läsion des N. hypoglossus?",
+      "a": "Zungendeviation zur betroffenen Seite."
+    },
+    {
+      "q": "Welche Ursache kann eine bilaterale Pyramidenbahnzeichen verursachen?",
+      "a": "Zentrale Myelinolyse, z. B. durch rasche Natriumkorrektur."
+    },
+    {
+      "q": "Was ist das Horner-Syndrom?",
+      "a": "Ptosis, Miosis, Anhidrose durch Schädigung der sympathischen Innervation."
+    },
+    {
+      "q": "Was ist das West-Syndrom?",
+      "a": "Infantile Spasmen, hypsarrythmisches EEG, Entwicklungsverzögerung."
+    },
+    {
+      "q": "Was ist eine Bulbärparalyse?",
+      "a": "Ausfall der motorischen Hirnnerven IX–XII mit Dysarthrie, Dysphagie, Hypotonie der Zunge."
+    },
+    {
+      "q": "Was ist eine Pseudobulbärparalyse?",
+      "a": "Beidseitige kortikonukleäre Läsion mit Dysarthrie, Dysphagie, emotionaler Labilität."
+    },
+    {
+      "q": "Was zeigt das Babinski-Zeichen an?",
+      "a": "Pyramidenbahnzeichen (pathologischer Plantarreflex)."
+    },
+    {
+      "q": "Was versteht man unter Brown-Séquard-Syndrom?",
+      "a": "Halbseitige Rückenmarksläsion mit ipsilateraler Parese und kontralateralem Schmerz-/Temperaturverlust."
+    },
+    {
+      "q": "Was ist ein typisches Symptom bei Kleinhirnläsionen?",
+      "a": "Dysmetrie, Ataxie, Intentionstremor."
     }
   ]
 }
