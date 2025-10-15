@@ -586,21 +586,32 @@
       const caseList = document.getElementById('caseList');
       caseList.innerHTML = '<h3 style="color: #2c3e50; margin-bottom: 1rem;">Wähle einen Fall:</h3>';
 
+      // Get unique cases
+      const uniqueCases = [];
+      const seenCases = new Set();
+      
       caseStudies.forEach((caseStudy, index) => {
-        // Count questions for this case
-        const questionCount = caseStudy.questions ? caseStudy.questions.length : 
-                             caseStudies.filter(c => c.case === caseStudy.case).length;
+        if (!seenCases.has(caseStudy.case)) {
+          seenCases.add(caseStudy.case);
+          uniqueCases.push({
+            case: caseStudy.case,
+            firstIndex: index,
+            firstQuestion: caseStudy.q
+          });
+        }
+      });
+
+      uniqueCases.forEach((uniqueCase, idx) => {
+        const questionCount = caseStudies.filter(c => c.case === uniqueCase.case).length;
         
         const caseCard = document.createElement('div');
         caseCard.className = 'case-card-preview';
-        caseCard.onclick = () => startCase(index);
+        caseCard.onclick = () => startCase(uniqueCase.firstIndex);
         
-        const title = caseStudy.case || `Fall ${index + 1}`;
-        const firstQuestion = caseStudy.q || (caseStudy.questions ? caseStudy.questions[0].q : '');
-        const preview = firstQuestion.substring(0, 100) + '...';
+        const preview = uniqueCase.firstQuestion.substring(0, 100) + '...';
         
         caseCard.innerHTML = `
-          <h3>${title}</h3>
+          <h3>${uniqueCase.case}</h3>
           <p>${preview}</p>
           <span class="case-badge">${questionCount} Fragen</span>
         `;
@@ -631,20 +642,22 @@
       currentQuestionIndex = 0;
       
       const caseTitle = caseStudy.case || `Fall ${caseIndex + 1}`;
-      const totalCases = [...new Set(caseStudies.map(c => c.case))].length;
+      const uniqueCases = [...new Set(caseStudies.map(c => c.case))];
+      const currentCasePosition = uniqueCases.indexOf(caseStudy.case) + 1;
+      const totalCases = uniqueCases.length;
       
       let html = `
         <div class="case-header">
           <button class="back-btn" onclick="backToCaseList()">← Zurück zur Fallauswahl</button>
-          <div class="case-progress">Fall ${caseIndex + 1} von ${totalCases}</div>
+          <div class="case-progress">Fall ${currentCasePosition} von ${totalCases}</div>
         </div>
         <h2 class="case-title">${caseTitle}</h2>
         <div id="currentQuestionContainer"></div>
         <div class="case-navigation">
-          <button class="nav-btn" onclick="previousCase()" ${caseIndex === 0 ? 'disabled' : ''}>
+          <button class="nav-btn" onclick="previousCase()" ${currentCasePosition === 1 ? 'disabled' : ''}>
             ← Vorheriger Fall
           </button>
-          <button class="nav-btn primary" onclick="nextCase()" ${caseIndex >= totalCases - 1 ? 'disabled' : ''}>
+          <button class="nav-btn primary" onclick="nextCase()" ${currentCasePosition >= totalCases ? 'disabled' : ''}>
             Nächster Fall →
           </button>
         </div>
@@ -721,29 +734,28 @@
     }
 
     function previousCase() {
-      if (currentCaseIndex > 0) {
-        // Find the previous unique case
-        const currentCase = caseStudies[currentCaseIndex].case;
-        for (let i = currentCaseIndex - 1; i >= 0; i--) {
-          if (caseStudies[i].case !== currentCase) {
-            startCase(i);
-            break;
-          }
-        }
+      // Get list of unique cases
+      const uniqueCases = [...new Set(caseStudies.map(c => c.case))];
+      const currentCase = caseStudies[currentCaseIndex].case;
+      const currentCasePosition = uniqueCases.indexOf(currentCase);
+      
+      if (currentCasePosition > 0) {
+        const previousCaseName = uniqueCases[currentCasePosition - 1];
+        const previousCaseIndex = caseStudies.findIndex(c => c.case === previousCaseName);
+        startCase(previousCaseIndex);
       }
     }
 
     function nextCase() {
-      const totalCases = [...new Set(caseStudies.map(c => c.case))].length;
-      if (currentCaseIndex < totalCases - 1) {
-        // Find the next unique case
-        const currentCase = caseStudies[currentCaseIndex].case;
-        for (let i = currentCaseIndex + 1; i < caseStudies.length; i++) {
-          if (caseStudies[i].case !== currentCase) {
-            startCase(i);
-            break;
-          }
-        }
+      // Get list of unique cases
+      const uniqueCases = [...new Set(caseStudies.map(c => c.case))];
+      const currentCase = caseStudies[currentCaseIndex].case;
+      const currentCasePosition = uniqueCases.indexOf(currentCase);
+      
+      if (currentCasePosition < uniqueCases.length - 1) {
+        const nextCaseName = uniqueCases[currentCasePosition + 1];
+        const nextCaseIndex = caseStudies.findIndex(c => c.case === nextCaseName);
+        startCase(nextCaseIndex);
       }
     }
 
