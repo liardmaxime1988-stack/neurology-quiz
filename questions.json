@@ -1552,5 +1552,127 @@
     "q": "MRT Wirbelsäule sagittal T2: Sie sehen eine zentral gelegene, langstreckige T2-Hyperintensität von C2 bis T2 mit Erweiterung des Rückenmarks (Durchmesser 15mm, normal 8mm). Die Syrinx enthält liquorisointense Flüssigkeit. Zusätzlich sehen Sie eine Verlagerung der Kleinhirntonsillen 8mm unterhalb des Foramen magnum. Was ist die Diagnose und die assoziierte Anomalie?",
     "a": "Syringomyelie assoziiert mit Arnold-Chiari-Malformation Typ I. Syrinx = flüssigkeitsgefüllte Höhle im Rückenmark. Klinik: dissoziierte Sensibilitätsstörung (Verlust Schmerz/Temperatur bei erhaltener Feinberührung), oft 'cape-like' zervikal, Muskelschwäche. Chiari I: Tonsillen >5mm unterhalb Foramen magnum. Therapie: bei symptomatischer Syrinx → subokzipitale Dekompression ± Syrinx-Drainage."
   }
+],
+  "case_studies": [
+  {
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 1/5: Ein 68-jähriger Mann wird mit akut aufgetretener rechtsseitiger Hemiparese und Aphasie in die Notaufnahme gebracht. Symptombeginn war vor 90 Minuten. RR 165/95 mmHg, HF 88/min, GCS 14. Was sind Ihre ersten 3 Schritte?",
+    "a": "1) ABCDE-Schema stabilisieren, 2) Sofortige kraniale Bildgebung (CT nativ zum Ausschluss Blutung), 3) Stroke-Team aktivieren, NIHSS-Score erheben, Zeitfenster für Lyse/Thrombektomie prüfen. Blutzucker messen (Hypoglykämie-Ausschluss)."
+  },
+  {
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 2/5: Das native CT zeigt keine Blutung, einen ASPECTS-Score von 8, und eine hyperdense Media links. CTA zeigt einen M1-Verschluss links. NIHSS ist 16. Was ist Ihre Therapie?",
+    "a": "Kombination aus i.v.-Thrombolyse (Alteplase 0.9mg/kg, max 90mg) UND mechanische Thrombektomie. Bridging-Konzept bei großem Gefäßverschluss innerhalb 4.5h. ASPECTS ≥6 ist günstig für Thrombektomie. M1-Verschluss = klare Indikation für MT."
+  },
+  {
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 3/5: Die Thrombektomie war erfolgreich (TICI 3). 24h später: RR 195/110 mmHg. Wie managen Sie den Blutdruck post-Thrombektomie?",
+    "a": "Post-Thrombektomie: RR-Ziel <180/105 mmHg in ersten 24h (wie nach Lyse). Vorsichtige Senkung mit i.v.-Antihypertensiva (Urapidil, Labetalol). Bei erfolgreicher Reperfusion RR nicht zu stark senken (Penumbra-Perfusion wichtig). Ab 24h post-interventionell: individualisierte Ziele je nach Patient."
+  },
+  {
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 4/5: Ätiologische Abklärung: EKG zeigt Vorhofflimmern (neu diagnostiziert), Echokardiographie unauffällig, Karotisduplex zeigt 30% Stenose beidseits. Wie sieht Ihre Sekundärprophylaxe aus?",
+    "a": "Kardioembolischer Schlaganfall bei VHF: Orale Antikoagulation (DOAK bevorzugt: Apixaban, Rivaroxaban, Edoxaban oder Dabigatran; alternativ VKA). Start nach ~4-14 Tagen je nach Infarktgröße (große Infarkte: später Start wegen Blutungsrisiko). Keine Thrombozytenaggregation zusätzlich nötig. Statine, RR-Kontrolle, Risikofaktoren-Management."
+  },
+  {
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 5/5: Wann kann der Patient nach Hause entlassen werden und welche Rehabilitation empfehlen Sie?",
+    "a": "Entlassung wenn: medizinisch stabil, Schluckstörung ausgeschlossen/versorgt, Sekundärprophylaxe etabliert, häusliche Versorgung geklärt. Rehabilitation: bei NIHSS >5 oder funktionellen Defiziten → stationäre Neuro-Reha empfohlen. Frührehabilitation Phase B/C je nach Schweregrad. Ambulante Physio-/Ergotherapie, Logopädie bei Bedarf. Fahreignung: mind. 3 Monate pausieren."
+  },
+  {
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 1/4: Eine 35-jährige Frau hat seit 15 Minuten einen generalisierten tonisch-klonischen Anfall. Keine Epilepsie-Anamnese bekannt. Was tun Sie?",
+    "a": "Status epilepticus (SE) ab 5 Min kontinuierlicher Aktivität. Sofortmaßnahmen: 1) ABCDE (Atemweg sichern, O2, venöser Zugang), 2) Blutzucker-Schnelltest, 3) Benzodiazepine i.v.: Lorazepam 4mg i.v. (oder Diazepam 10mg, Midazolam 10mg i.m. wenn kein Zugang). Bei Anhalten nach 5 Min: Lorazepam wiederholen (max 8mg total)."
+  },
+  {
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 2/4: Nach 2x Lorazepam persistiert der Anfall. BZ 6.5 mmol/L. Was ist der nächste Schritt?",
+    "a": "Etablierter/refraktärer SE: Second-Line-Antiepileptikum i.v.: Optionen: 1) Levetiracetam 60mg/kg (max 4500mg) über 15 Min, 2) Valproat 40mg/kg (max 3000mg) über 10 Min, 3) Phenytoin 20mg/kg (max 1500mg) über 30 Min (EKG-Monitoring!). Levetiracetam bevorzugt (wenig NW, keine Interaktionen). Parallel: Ursachensuche (Labor, CT, Toxikologie)."
+  },
+  {
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 3/4: Nach Levetiracetam sistiert der Anfall. CT zeigt links temporal eine KM-aufnehmende Raumforderung mit Ödem. Was ist Ihre Verdachtsdiagnose und weiteres Vorgehen?",
+    "a": "V.a. Hirntumor oder Abszess. Weiteres Vorgehen: 1) MRT mit KM zur besseren Charakterisierung, 2) Dexamethason 8mg i.v. (Ödem-Therapie), 3) Fortführung AED (Levetiracetam), 4) Neurochirurgische Mitbeurteilung, 5) Bei V.a. Abszess: Infekt-Labor, Blutkulturen. Differentialdiagnose: Glioblastom, Metastase, Abszess, Lymphom. Biopsie/Resektion zur Histologie nötig."
+  },
+  {
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 4/4: Histologie zeigt Glioblastom WHO Grad 4. Wie beraten Sie die Patientin bezüglich Prognose und Therapie?",
+    "a": "Glioblastom: mediane Überlebenszeit 15 Monate mit Therapie. Standardtherapie (Stupp-Protokoll): 1) Maximale sichere Resektion, 2) Radiotherapie 60 Gy über 6 Wochen, 3) Konkomitantes Temozolomid während RT, 4) Adjuvantes Temozolomid 6 Monate. Prognosefaktoren: MGMT-Promotor-Methylierung (besser), Alter, KPS, Resektionsausmaß. Antiepileptika fortführen. Multidisziplinäres Team (Neurochirurgie, Onkologie, Radioonkologie)."
+  },
+  {
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 1/5: Eine 28-jährige Frau berichtet über subakuten Visusverlust rechts mit Schmerzen bei Augenbewegung seit 4 Tagen. Visus RE 0.3, LE 1.0. RAPD rechts positiv. Ophthalmoskopie: leichte Papillenschwellung RE. Was ist Ihre Verdachtsdiagnose und Diagnostik?",
+    "a": "Verdacht auf Optikusneuritis (ON). Diagnostik: 1) MRT Orbita mit KM (Nachweis N. opticus-Enhancement), 2) MRT Schädel (DD: MS, NMOSD, andere), 3) VEP (verzögerte Latenz), 4) Labor: AQP4-AK (NMOSD), MOG-AK. ON ist bei 50% Erstsymptom der MS. Bei isolierter ON ohne MS-typische Läsionen im MRT: Risiko für MS-Entwicklung 25% in 5 Jahren, 50% in 15 Jahren."
+  },
+  {
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 2/5: MRT Schädel zeigt 8 periventrikuläre ovale Läsionen (Dawson-Finger), 2 juxtakortikale Läsionen, 1 infratentorielle Läsion. Eine Läsion zeigt KM-Enhancement. AQP4/MOG-AK negativ. Erfüllt das die McDonald-Kriterien 2017?",
+    "a": "JA. McDonald 2017: Dissemination in Raum (DIS): ≥2 von 4 Regionen (periventrikulär ✓, juxtakortikal ✓, infratentoriell ✓, spinal). Dissemination in Zeit (DIT): Gleichzeitiges Vorhandensein von KM-aufnehmenden und nicht-aufnehmenden Läsionen ✓. ODER: neue Läsion im Verlaufs-MRT. → Diagnose: Multiple Sklerose. Weitere Diagnostik: Liquor (oligoklonale Banden zur Bestätigung intrathekaler IgG-Synthese)."
+  },
+  {
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 3/5: Liquor: Zellzahl 8/µl, Protein 0.45 g/L, oligoklonale Banden Typ 2. MS bestätigt. Wie behandeln Sie den akuten Schub?",
+    "a": "Akuter MS-Schub: Hochdosis-Methylprednisolon i.v. 1000mg/Tag für 3-5 Tage. Bei unzureichendem Ansprechen: Eskalation auf 2000mg/Tag für 3-5 Tage ODER Plasmapherese (5-7 Zyklen). Keine orale Ausschleichung nötig (außer bei sehr langer i.v.-Therapie). Ziel: Beschleunigung der Schub-Rückbildung, aber kein Einfluss auf Langzeitprognose. Bei ON: Therapie verkürzt Erholungszeit."
+  },
+  {
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 4/5: Nach Schub-Therapie deutliche Besserung (Visus RE 0.8). Sie empfehlen eine krankheitsmodifizierende Therapie (DMT). Welche Optionen diskutieren Sie bei dieser jungen Patientin?",
+    "a": "Optionen nach Aktivität/Risiko: Moderate Wirksamkeit: Interferone (IFN-β), Glatirameracetat, Teriflunomid, Dimethylfumarat. Hohe Wirksamkeit bei aktiver MS (≥2 Schübe/Jahr, KM-aufnehmende Läsionen): Natalizumab, Ocrelizumab, Fingolimod, Cladribin, Alemtuzumab. Bei junger Patientin mit aktiver MS: Ocrelizumab (B-Zell-Depletion, alle 6 Monate i.v., gute Wirksamkeit) oder Fingolimod (oral) erwägen. Kinderwunsch besprechen (Ocrelizumab: 6 Monate Pause vor Konzeption)."
+  },
+  {
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 5/5: Die Patientin entscheidet sich für Ocrelizumab. Welche Vorabklärungen und Monitoring sind notwendig?",
+    "a": "Vorabklärungen: 1) Impfstatus (Lebendimpfstoffe VOR Therapie, Totimpfstoffe möglich), 2) Hepatitis B/C-Serologie, 3) Quantiferon/Tuberkulin-Test, 4) IgG/IgM-Spiegel, 5) BB mit Differentialblutbild. Monitoring: 1) Infusionsreaktionen (Prämedikation: Methylprednisolon, Antihistaminikum), 2) Infektionen (vor jeder Infusion), 3) IgG-Spiegel (alle 6 Monate), 4) MRT-Monitoring (jährlich zur Aktivitätsbeurteilung). Über PML-Risiko aufklären (gering, aber möglich)."
+  },
+  {
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 1/4: Ein 45-jähriger Mann klagt über zunehmende beidseitige Ptosis und Diplopie, verstärkt am Abend. Zusätzlich Kauschwäche beim Essen. Symptome bessern sich nach Ruhe. Was ist Ihre Verdachtsdiagnose?",
+    "a": "Verdacht auf Myasthenia gravis (MG). Leitsymptome: belastungsabhängige, fluktuierende Schwäche, okuläre Symptome (Ptosis, Diplopie) häufig initial, Besserung durch Ruhe. Differentialdiagnosen: Lambert-Eaton-Myasthenie-Syndrom (LEMS: eher proximale Schwäche, postexerzitorische Fazilitation), Mitochondriopathie, okuläre Myopathie, MuSK-positive MG."
+  },
+  {
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 2/4: Welche Diagnostik führen Sie durch?",
+    "a": "1) Serologie: Anti-AChR-Antikörper (85% positiv bei generalisierter MG), bei Negativität: Anti-MuSK-AK (5-10%), Anti-LRP4-AK. 2) Repetitive Nerven-Stimulation (RNS): Dekrement >10% bei 3 Hz. 3) Einzel-Faser-EMG (sensitivster Test). 4) Tensilon-Test (Edrophonium i.v.): heute seltener, kurzzeitige Besserung. 5) CT Thorax: Thymom-Suche (10-15% der MG-Patienten). 6) Lungenfunktion bei Verdacht auf Atemmuskel-Beteiligung."
+  },
+  {
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 3/4: Anti-AChR-Antikörper positiv (35 nmol/L, Norm <0.4). CT Thorax zeigt ein 3cm großes Thymom. Wie behandeln Sie?",
+    "a": "Therapie: 1) Symptomatisch: Pyridostigmin 60mg alle 4-6h p.o. (Cholinesterase-Hemmer). 2) Immunsuppression: Prednisolon (einschleichen: 10mg → 1mg/kg), Azathioprin als Steroid-Sparer. 3) Thymektomie: Bei Thymom OBLIGAT (Tumor-Entfernung), auch bei generalisierter AChR-positiver MG ohne Thymom empfohlen (besonders <65 Jahre). Thymektomie verbessert Langzeitprognose. OP: nach Stabilisierung, Vorbereitung mit IVIG/Plasmapherese bei schwerer MG."
+  },
+  {
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 4/4: 3 Monate post-Thymektomie entwickelt der Patient akute Dyspnoe, Orthopnoe und kann nicht mehr schlucken. Was ist passiert und wie handeln Sie?",
+    "a": "Myasthene Krise: akute schwere Exazerbation mit respiratorischer Insuffizienz. Trigger: Infektion, OP-Stress, Medikamente (Aminoglykoside, Fluorchinolone, Betablocker). Akutmanagement: 1) SOFORT: ABC-Stabilisierung, NIV/Intubation bei Bedarf, 2) Intensivstation, 3) Plasmapherese (5-7 Zyklen) ODER IVIg (0.4g/kg für 5 Tage) - gleichwertig, 4) Pyridostigmin pausieren (kann Sekretion erhöhen), 5) Hochdosis-Steroide NACH Plasmapherese/IVIg. Vitalkapazität-Monitoring (<15ml/kg → Intubation erwägen)."
+  },
+  {
+    "case": "Fall 5: Guillain-Barré-Syndrom",
+    "q": "Frage 1/3: Ein 52-jähriger Mann hat seit 3 Tagen zunehmende Schwäche beider Beine, aufsteigend. Heute auch Arme betroffen. Vor 2 Wochen Durchfall-Erkrankung. Klinisch: areflexisch, symmetrische distale und proximale Schwäche (Kraft 3/5 Beine, 4/5 Arme). Was ist Ihre Verdachtsdiagnose und Diagnostik?",
+    "a": "Verdacht auf Guillain-Barré-Syndrom (GBS/AIDP). Klinik: aufsteigende, symmetrische Paresen, Areflexie, oft post-infektiös (Campylobacter, CMV, EBV). Diagnostik: 1) Liquor: albumino-zytologische Dissoziation (Protein ↑, Zellen normal) - typisch ab Tag 7-10. 2) Neurographie: demyelinisierende NLG-Verlangsamung, Leitungsblöcke, verlängerte F-Wellen-Latenzen. 3) Labor: Erreger-Serologie, Anti-Gangliosid-AK (Anti-GM1, Anti-GQ1b). 4) Vitalkapazität-Monitoring (Ateminsuffizienz-Risiko!)."
+  },
+  {
+    "case": "Fall 5: Guillain-Barré-Syndrom",
+    "q": "Frage 2/3: Liquor: Protein 1.2 g/L, Zellen 3/µl. NLG: verlängerte F-Wellen, NLG-Verlangsamung. GBS bestätigt. Die Schwäche progrediert (jetzt Kraft 2/5 Beine). Vitalkapazität 2.1 L (60% des Sollwertes). Was ist Ihre Therapie?",
+    "a": "Therapie bei GBS mit Progression: IVIg (0.4 g/kg/Tag für 5 Tage) ODER Plasmapherese (5 Zyklen) - beide gleichwertig. IVIg praktischer, Plasmapherese bei IVIg-Kontraindikation (IgA-Mangel). KEINE Steroide (nicht wirksam bei GBS!). Supportiv: 1) Intensiv-Monitoring (Vitalkapazität <15-20 ml/kg oder <1L → Intubation erwägen), 2) Thromboseprophylaxe, 3) Schmerztherapie, 4) Autonome Dysfunktion-Monitoring (Arrhythmien, Blutdruck-Schwankungen), 5) Frühmobilisation."
+  },
+  {
+    "case": "Fall 5: Guillain-Barré-Syndrom",
+    "q": "Frage 3/3: Nach IVIg stabilisiert sich der Patient. Wie ist die Prognose und was raten Sie bezüglich Rehabilitation?",
+    "a": "Prognose GBS: 85% gute Erholung innerhalb 6-12 Monate, 15% behalten moderate Behinderung. 5% Mortalität (autonome Dysfunktion, Ateminsuffizienz). Schlechte Prognose-Faktoren: hohes Alter, rasche Progression, axonale Varianten (AMAN/AMSAN), Campylobacter-assoziiert, beatmungspflichtig. Rehabilitation: intensive Physio-/Ergotherapie ab Stabilisierung, stationäre Neuro-Reha empfohlen. Erholung kann Monate dauern. Rezidiv selten (<5%), dann DD: CIDP erwägen."
+  },
+  {
+    "case": "Fall 6: Meningitis",
+    "q": "Frage 1/3: Eine 25-jährige Studentin hat seit 6 Stunden starke Kopfschmerzen, Fieber (39.5°C), Nackensteifigkeit und Photophobie. GCS 14 (E4V4M6), keine Papillenödeme, keine fokalen Zeichen. Was ist Ihr Vorgehen?",
+    "a": "V.a. bakterielle Meningitis - NOTFALL! Sofortmaßnahmen: 1) Blutkultur (2 Paar), 2) KEINE LP-Verzögerung bei diesem Befund (kein CT vorher nötig: GCS >11, keine fokalen Zeichen, keine Papillenödeme, kein Immmunsuppression), 3) Sofort empirische Antibiotika NACH Blutkultur: Ceftriaxon 2g i.v. alle 12h + Ampicillin 2g alle 4h (wenn >50J wegen Listerien - hier 25J, also nur Ceftriaxon), 4) Dexamethason 10mg i.v. VOR/MIT erster Antibiotika-Gabe, dann alle 6h für 4 Tage."
+  },
+  {
+    "case": "Fall 6: Meningitis",
+    "q": "Frage 2/3: Liquor: Zellzahl 2400/µl (95% Neutrophile), Protein 3.2 g/L, Glukose 1.8 mmol/L (Serum 5.5 mmol/L), Laktat 8 mmol/L. Grampräparat: Gram-positive Diplokokken. Was ist der wahrscheinlichste Erreger und adjustieren Sie die Therapie?",
+    "a": "Befund: bakterielle Meningitis, Gram-positive Diplokokken → Streptococcus pneumoniae (Pneumokokken) - häufigster Erreger bei Erwachsenen. Therapie: Ceftriaxon 2g alle 12h i.v. für 10-14 Tage fortführen (deckt Pneumokokken ab). Dexamethason fortführen (reduziert Mortalität und neurologische Folgeschäden bei Pneumokokken-Meningitis). Bei Penicillin-Resistenz-Risiko: Vancomycin zusätzlich erwägen. Kontrollliquor bei kompliziertem Verlauf nach 48h."
+  },
+  {
+    "case": "Fall 6: Meningitis",
+    "q": "Frage 3/3: Unter Therapie entfiebert die Patientin nach 48h. Welche Komplikationen und Spätfolgen müssen beachtet werden?",
+    "a": "Komplikationen bakterielle Meningitis: 1) Akut: zerebrale Thrombophlebitis/Sinusvenenthrombose, Hirnödem, Hydrozephalus, Hirnabszess, septischer Schock. 2) Spätfolgen: Hörverlust (20-30% bei Pneumokokken - AUDIOMETRIE vor Entlassung!), kognitive Defizite, Epilepsie (10%), fokale neurologische Defizite. Follow-up: Audiometrie, bei neurologischen Residuen: neuropsychologische Testung. Impfung: Pneumokokken-Impfung nach Genesung empfehlen."
+  }
 ]
 }
