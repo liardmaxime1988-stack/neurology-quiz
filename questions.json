@@ -1,4 +1,119 @@
 {
+      "q": "Wie wird MNS behandelt?",
+      "a": "Sofortiges Absetzen des Neuroleptikums, supportive Therapie, Dantrolen oder Bromocriptin."
+    },
+    {
+      "q": "Was ist zentrale pontine Myelinolyse?",
+      "a": "Demyelinisierung durch zu rasche Natriumkorrektur bei schwerer Hyponatriämie; Symptome: Tetraparese, Pseudobulbärparalyse, Locked-in-Syndrom."
+    },
+    {
+      "q": "Wie vermeidet man zentrale pontine Myelinolyse?",
+      "a": "Langsame Natriumkorrektur: maximal 8-10 mmol/L pro 24h bei chronischer Hyponatriämie."
+    },
+    {
+      "q": "Was ist CO-Intoxikation?",
+      "a": "Kohlenmonoxid-Vergiftung; Symptome: Kopfschmerzen, Übelkeit, Bewusstseinsstörung; verzögert: Parkinsonismus, kognitive Störungen; MRT: Globus pallidus-Nekrose."
+    },
+    {
+      "q": "Wie wird CO-Intoxikation behandelt?",
+      "a": "Hochdosis-Sauerstoff (100% O2), hyperbare Sauerstofftherapie bei schwerer Intoxikation."
+    },
+    {
+      "q": "Was ist Methanol-Intoxikation?",
+      "a": "Toxische Alkohol-Ingestion; Metabolit: Formaldehyd/Ameisensäure; Symptome: Visusstörung bis Erblindung (Optikusneuropathie), metabolische Azidose."
+    },
+    {
+      "q": "Wie wird Methanol-Intoxikation behandelt?",
+      "a": "Fomepizol (hemmt Alkohol-Dehydrogenase), Hämodialyse, Folinsäure."
+    }
+  ],
+  "misc": [
+    {
+      "q": "Was ist Syringomyelie?",
+      "a": "Flüssigkeitsgefüllte Höhle (Syrinx) im Rückenmark; Symptome: dissoziierte Sensibilitätsstörung (Verlust von Schmerz/Temperatur bei erhaltener Feinberührung), oft zervikal, cape-like distribution."
+    },
+    {
+      "q": "Was ist Arnold-Chiari-Malformation?",
+      "a": "Kaudale Verlagerung der Kleinhirntonsillen durch Foramen magnum; Typ I: oft asymptomatisch oder mit Syringomyelie; Typ II: mit Myelomeningozele."
+    },
+    {
+      "q": "Was ist transverse Myelitis?",
+      "a": "Akute entzündliche Rückenmarkserkrankung; Symptome: Para-/Tetraparese, Sensibilitätsniveau, Blasen-/Darmstörung; Ursachen: idiopathisch, MS, NMOSD, Infektionen."
+    },
+    {
+      "q": "Was ist das Miller-Fisher-Syndrom?",
+      "a": "GBS-Variante; Trias: Ophthalmoplegie, Ataxie, Areflexie; Anti-GQ1b-Antikörper positiv."
+    },
+    {
+      "q": "Was ist konversive Störung (funktionelle neurologische Störung)?",
+      "a": "Neurologische Symptome ohne organische Korrelation; Diagnose: inkongruente Befunde (z.B. Hoover-Zeichen), nicht-anatomische Ausfälle; Behandlung: Psychotherapie, Physiotherapie."
+    },
+    {
+      "q": "Was ist Tolosa-Hunt-Syndrom?",
+      "a": "Schmerzhafte Ophthalmoplegie durch idiopathische granulomatöse Entzündung im Sinus cavernosus; Steroide wirksam."
+    },
+    {
+      "q": "Was ist Neurosarkoidose?",
+      "a": "ZNS-Beteiligung bei Sarkoidose (5-10%); Symptome: Hirnnervenausfälle (oft N. VII), aseptische Meningitis, Hypothalamus-Hypophysen-Dysfunktion, Raumforderungen; ACE erhöht (nicht spezifisch)."
+    },
+    {
+      "q": "Was ist Susac-Syndrom?",
+      "a": "Mikroangiopathie mit Trias: Enzephalopathie, branch retinal artery occlusions, Hörverlust; MRT: 'snowball' Läsionen im Corpus callosum."
+    },
+    {
+      "q": "Was ist Takayasu-Arteriitis?",
+      "a": "Großgefäß-Vaskulitis (Aorta und große Äste); neurologisch: TIA/Schlaganfall, Differenz der Blutdrücke an Armen."
+    },
+    {
+      "q": "Was ist Behçet-Krankheit?",
+      "a": "Multisystem-Vaskulitis; neuro-Behçet: Hirnstammenzephalitis, aseptische Meningitis, zerebrale Sinusvenenthrombose; orale/genitale Ulzera, Uveitis."
+    },
+    {
+      "q": "Was ist primäre Vaskulitis des ZNS?",
+      "a": "Isolierte Vaskulitis zerebraler Gefäße; Symptome: Schlaganfälle, Kopfschmerzen, kognitive Störungen; Diagnose: Angiographie, Hirnbiopsie (Gold standard); Behandlung: Steroide + Cyclophosphamid."
+    },
+    {
+      "q": "Was ist CADASIL?",
+      "a": "Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy (NOTCH3-Mutation); rezidivierende Schlaganfälle, Migräne mit Aura, vaskuläre Demenz; MRT: extensive weiße Substanz-Läsionen, anterior temporal pole betroffen."
+    },
+    {
+      "q": "Was ist Stiff-Person-Syndrom?",
+      "a": "Seltene Autoimmunerkrankung; progressive Muskelsteifigkeit (Rumpf, Extremitäten), schmerzhafte Spasmen; Anti-GAD-Antikörper; Behandlung: Benzodiazepine, IVIg, Immunsuppression."
+    },
+    {
+      "q": "Was ist Isaac-Syndrom (Neuromyotonie)?",
+      "a": "Kontinuierliche Muskelaktivität; Myokymie, Muskelsteifigkeit, Krämpfe, Schwitzen; EMG: spontane Aktivität; oft Anti-VGKC-Antikörper; Behandlung: Antiepileptika, Immuntherapie."
+    },
+    {
+      "q": "Was ist Mitochondriale Enzephalomyopathie (MELAS)?",
+      "a": "Mitochondrial Encephalomyopathy, Lactic Acidosis, and Stroke-like episodes; maternale Vererbung; Laktatazidose, schlaganfallähnliche Episoden, Epilepsie, Diabetes, Hörverlust."
+    },
+    {
+      "q": "Was ist Leigh-Syndrom?",
+      "a": "Subakute nekrotisierende Enzephalomyelopathie; mitochondriale oder nukleäre Gen-Mutation; Beginn Kindheit; progrediente neurologische Degeneration, Laktatazidose; MRT: bilaterale Basalganglien-Läsionen."
+    },
+    {
+      "q": "Was ist Adrenoleukodystrophie (ALD)?",
+      "a": "X-chromosomal-rezessiv (ABCD1-Gen); Akkumulation von very-long-chain fatty acids; zerebrale ALD (Kinder): Demyelinisierung, neurologische Regression; Adrenomyeloneuropathie (Erwachsene): Spastik, Neuropathie, Nebenniereninsuffizienz."
+    },
+    {
+      "q": "Was ist metachromatische Leukodystrophie?",
+      "a": "Autosomal-rezessiv (ARSA-Gen, Arylsulfatase A-Mangel); Akkumulation von Sulfatiden; progressive Demyelinisierung, Entwicklungsregression, periphere Neuropathie."
+    },
+    {
+      "q": "Was ist Fabry-Krankheit?",
+      "a": "X-chromosomal-rezessiv (GLA-Gen, α-Galaktosidase A-Mangel); Akkumulation von Globotriaosylceramid; Angiokeratome, Neuropathie (brennende Schmerzen), Kardiomyopathie, Niereninsuffizienz, Schlaganfälle; Enzymersatztherapie verfügbar."
+    },
+    {
+      "q": "Was ist Krabbe-Krankheit?",
+      "a": "Autosomal-rezessiv (GALC-Gen); Galaktozerebrosidase-Mangel; infantile Form: schwere Demyelinisierung, Entwicklungsregression, Hypertonie, Anfälle."
+    },
+    {
+      "q": "Was ist Pompe-Krankheit?",
+      "a": "Autosomal-rezessiv (GAA-Gen, saure α-Glukosidase-Mangel); Glykogen-Speicherkrankheit Typ II; infantile Form: Kardiomegalie, Muskelschwäche; adult-onset: proximale Myopathie, Ateminsuffizienz; Enzymersatztherapie verfügbar."
+    }
+  ]
+}{
   "general": [
     {
       "q": "Was ist die häufigste Ursache einer nicht-traumatischen Subarachnoidalblutung?",
@@ -6,7 +121,7 @@
     },
     {
       "q": "Was ist die First-Line-Therapie beim Status epilepticus?",
-      "a": "Benzodiazepine (z. B. Lorazepam i.v.)."
+      "a": "Benzodiazepine (z. B. Lorazepam i.v.)."
     },
     {
       "q": "Welcher Neurotransmitter ist bei der Parkinson-Krankheit vermindert?",
@@ -50,7 +165,7 @@
     },
     {
       "q": "Welche Ursache kann eine bilaterale Pyramidenbahnzeichen verursachen?",
-      "a": "Zentrale Myelinolyse, z. B. durch rasche Natriumkorrektur."
+      "a": "Zentrale Myelinolyse, z. B. durch rasche Natriumkorrektur."
     },
     {
       "q": "Was ist das Horner-Syndrom?",
@@ -79,6 +194,1351 @@
     {
       "q": "Was ist ein typisches Symptom bei Kleinhirnläsionen?",
       "a": "Dysmetrie, Ataxie, Intentionstremor."
+    },
+    {
+      "q": "Welche Liquorbefunde sind typisch für eine bakterielle Meningitis?",
+      "a": "Erhöhte Zellzahl (>1000/µl, neutrophil), erhöhtes Protein, erniedrigte Glukose (<40% des Serumwertes)."
+    },
+    {
+      "q": "Was ist der Ottawa-SAB-Score und wofür wird er verwendet?",
+      "a": "Klinisches Entscheidungsinstrument zur Identifikation von Patienten mit akutem Kopfschmerz, die ein erhöhtes SAB-Risiko haben (inkl. Alter ≥40, Nackensteifigkeit, Bewusstseinsverlust, Beginn bei Anstrengung)."
+    },
+    {
+      "q": "Welcher Antikörper ist am spezifischsten für Myasthenia gravis?",
+      "a": "Anti-AChR-Antikörper (bei 85% der generalisierten MG positiv)."
+    },
+    {
+      "q": "Was ist das Lambert-Eaton-Myasthenie-Syndrom und welche Antikörper sind typisch?",
+      "a": "Paraneoplastisches Syndrom mit präsynaptischer NMJ-Störung, Anti-VGCC-Antikörper, oft assoziiert mit kleinzelligem Bronchialkarzinom."
+    },
+    {
+      "q": "Nennen Sie drei Differentialdiagnosen einer isolierten N. oculomotorius-Parese mit Pupillenbeteiligung.",
+      "a": "Posteriores Kommunikans-Aneurysma, unkales Herniation, diabetische Mononeuropathie (meist ohne Pupillenbeteiligung)."
     }
-  ]
-}
+  ],
+  "stroke": [
+    {
+      "q": "Innerhalb welcher Zeitfenster ist eine intravenöse Thrombolyse beim ischämischen Schlaganfall indiziert?",
+      "a": "Bis 4,5 Stunden nach Symptombeginn (nach aktuellen ESO-Guidelines)."
+    },
+    {
+      "q": "Welche bildgebende Methode ist Standard zur Detektion von Großgefäßverschlüssen vor mechanischer Thrombektomie?",
+      "a": "CT-Angiographie (CTA) oder MR-Angiographie (MRA)."
+    },
+    {
+      "q": "Was sind die absoluten Kontraindikationen für eine i.v.-Thrombolyse?",
+      "a": "Aktive Blutung, intrakranielle Blutung in der Anamnese, kürzlicher großer chirurgischer Eingriff (<14 Tage), unkontrollierte Hypertonie (>185/110 mmHg), Thrombozytopenie <100.000/µl."
+    },
+    {
+      "q": "Bis zu welchem Zeitfenster kann eine mechanische Thrombektomie bei nachgewiesenem Großgefäßverschluss durchgeführt werden?",
+      "a": "Bis zu 24 Stunden bei selektierten Patienten mit günstigem Penumbra-Profil (DAWN/DEFUSE-3-Kriterien)."
+    },
+    {
+      "q": "Was ist der NIHSS und welcher Score-Wert deutet auf einen schweren Schlaganfall hin?",
+      "a": "National Institutes of Health Stroke Scale; NIHSS >15 deutet auf schweren Schlaganfall hin."
+    },
+    {
+      "q": "Welche Blutdruckzielwerte gelten in den ersten 24h nach i.v.-Lyse?",
+      "a": "<180/105 mmHg in den ersten 24 Stunden post-Lyse."
+    },
+    {
+      "q": "Was versteht man unter dem ASPECTS-Score?",
+      "a": "Alberta Stroke Program Early CT Score: 10-Punkte-System zur Quantifizierung früher ischämischer Veränderungen im Media-Territorium; Score ≥6 ist oft Voraussetzung für Thrombektomie."
+    },
+    {
+      "q": "Welche Sekundärprophylaxe ist bei kardioembolischem Schlaganfall indiziert?",
+      "a": "Orale Antikoagulation (DOAK oder Vitamin-K-Antagonist bei Vorhofflimmern)."
+    },
+    {
+      "q": "Ab welchem Alter ist ein PFO-Verschluss nach kryptogenem Schlaganfall erwägenswert?",
+      "a": "Bei Patienten <60 Jahre mit hochrisiko-PFO-Merkmalen (großes PFO, Vorhofseptumaneurysma)."
+    },
+    {
+      "q": "Was ist ein Stroke Mimik und nennen Sie drei häufige Beispiele?",
+      "a": "Nicht-vaskuläre Ursachen schlaganfallähnlicher Symptome: Hypoglykämie, Krampfanfall (Todd-Parese), funktionelle Störung, Migräne mit Aura."
+    },
+    {
+      "q": "Welches ist das typische MRT-Muster bei posteriorem reversiblen Enzephalopathiesyndrom (PRES)?",
+      "a": "T2/FLAIR-Hyperintensitäten in den posterioren Hemisphären (okzipital, parietal), oft symmetrisch, vasogenes Ödem."
+    },
+    {
+      "q": "Was ist ein Malignominfarkt und wie wird er behandelt?",
+      "a": "Großer raumfordernder Mediainfarkt mit Herniation-Risiko; Behandlung: dekompressive Hemikraniektomie innerhalb von 48h bei Patienten <60 Jahre (DECIMAL/DESTINY/HAMLET-Studien)."
+    },
+    {
+      "q": "Welcher Gefäßverschluss führt typischerweise zum Locked-in-Syndrom?",
+      "a": "Basilarisverschluss mit bilateraler Pons-Läsion."
+    },
+    {
+      "q": "Was ist der CHA2DS2-VASc-Score und ab welchem Wert ist eine Antikoagulation bei Vorhofflimmern indiziert?",
+      "a": "Score zur Einschätzung des Schlaganfallrisikos bei Vorhofflimmern; ≥2 bei Männern, ≥3 bei Frauen: Antikoagulation empfohlen."
+    },
+    {
+      "q": "Nennen Sie drei bildgebende Zeichen einer frischen Hirnblutung im CT.",
+      "a": "Hyperdens, homogen, scharf begrenzt, Raumforderungseffekt mit Mittellinienshift möglich."
+    },
+    {
+      "q": "Wann sollte bei einer intrazerebralen Blutung eine chirurgische Evakuation erwogen werden?",
+      "a": "Bei lobären Blutung >30ml mit klinischer Verschlechterung, zerebelläre Blutung >3cm mit Hirnstamm-Kompression oder Hydrozephalus."
+    },
+    {
+      "q": "Was ist die MISTIE-III-Studie und was waren ihre Ergebnisse?",
+      "a": "Studie zur minimal-invasiven Hämatom-Evakuation bei ICB; zeigte keinen funktionellen Benefit gegenüber konservativer Therapie."
+    },
+    {
+      "q": "Welche Blutdruckzielwerte werden in der Akutphase einer intrazerebralen Blutung empfohlen?",
+      "a": "Systolisch <140 mmHg innerhalb von 1 Stunde (INTERACT-2/ATACH-II)."
+    },
+    {
+      "q": "Was ist ein Moyamoya-Syndrom?",
+      "a": "Progressive Stenose der distalen A. carotis interna und proximalen Hirnarterien mit kompensatorischen Kollateralen ('Rauchwolke' in der Angiographie)."
+    },
+    {
+      "q": "Welche Laborparameter sollten vor i.v.-Lyse zwingend bestimmt werden?",
+      "a": "Thrombozyten, INR/aPTT, Blutzucker (Hypoglykämie ausschließen)."
+    },
+    {
+      "q": "Was ist das mRS-Score-System?",
+      "a": "Modified Rankin Scale: 0-6 Punkte zur Beurteilung des funktionellen Outcomes nach Schlaganfall (0=asymptomatisch, 6=Tod)."
+    },
+    {
+      "q": "Nennen Sie die Hauptindikationen für eine Karotis-TEA oder Stenting.",
+      "a": "Symptomatische Karotisstenose ≥50% oder asymptomatische Stenose ≥60-70% bei niedrigem perioperativem Risiko."
+    },
+    {
+      "q": "Was ist ein Watershed-Infarkt und bei welcher Pathophysiologie tritt er auf?",
+      "a": "Infarkt in Grenzzonen zwischen Gefäßterritorien, typischerweise bei globaler Hypoperfusion (z.B. Herzstillstand, schwere Hypotonie)."
+    },
+    {
+      "q": "Welches ist die häufigste Ursache einer Sinusvenenthrombose bei jungen Frauen?",
+      "a": "Orale Kontrazeptiva."
+    },
+    {
+      "q": "Wie behandelt man eine zerebrale Sinusvenenthrombose?",
+      "a": "Therapeutische Antikoagulation mit Heparin, auch bei Vorliegen einer hämorrhagischen Infarzierung."
+    }
+  ],
+  "epilepsy": [
+    {
+      "q": "Nennen Sie die drei Hauptkriterien für die Diagnose einer Epilepsie nach ILAE 2014.",
+      "a": "1) ≥2 unprovozierte Anfälle im Abstand >24h, 2) ein unprovozierter Anfall mit ≥60% Rezidivrisiko, 3) Epilepsiesyndrom-Diagnose."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen einem fokalen und einem generalisierten Anfall?",
+      "a": "Fokaler Anfall: Beginn in einem umschriebenen Hirnareal; generalisierter Anfall: bilaterale Aktivierung von Beginn an."
+    },
+    {
+      "q": "Welches ist das Antiepileptikum der ersten Wahl bei neu diagnostizierter fokaler Epilepsie?",
+      "a": "Levetiracetam oder Lamotrigin (breites Spektrum, gute Verträglichkeit)."
+    },
+    {
+      "q": "Was ist ein SUDEP und welche Risikofaktoren sind bekannt?",
+      "a": "Sudden Unexpected Death in Epilepsy; Risikofaktoren: unkontrollierte generalisierte tonisch-klonische Anfälle, Non-Compliance, junges Alter, nächtliche Anfälle."
+    },
+    {
+      "q": "Wann ist ein EEG bei V.a. Epilepsie obligat?",
+      "a": "Nach jedem ersten unprovozierten Anfall zur Risikoeinschätzung und Klassifikation."
+    },
+    {
+      "q": "Was sind typische EEG-Befunde bei Absence-Epilepsie?",
+      "a": "Generalisierte 3-Hz-Spike-Wave-Komplexe."
+    },
+    {
+      "q": "Welche Antiepileptika sind bei idiopathisch generalisierter Epilepsie wirksam?",
+      "a": "Valproat, Lamotrigin, Levetiracetam, Topiramat."
+    },
+    {
+      "q": "Was ist ein Status epilepticus und ab welcher Dauer spricht man davon?",
+      "a": "Kontinuierliche Anfallsaktivität >5 Minuten oder wiederholte Anfälle ohne zwischenzeitliche Erholung des Bewusstseins."
+    },
+    {
+      "q": "Wie lautet das therapeutische Vorgehen beim Status epilepticus?",
+      "a": "1) Benzodiazepine i.v. (Lorazepam 4mg), 2) Phenytoin, Valproat oder Levetiracetam i.v., 3) Narkose mit Intubation bei refraktärem Status."
+    },
+    {
+      "q": "Was ist ein non-konvulsiver Status epilepticus?",
+      "a": "Andauernde epileptische Aktivität ohne offensichtliche motorische Zeichen; kann mit Verwirrtheit, Bewusstseinsstörung einhergehen; EEG-Diagnose."
+    },
+    {
+      "q": "Welche strukturellen Ursachen einer Epilepsie sollten mittels MRT ausgeschlossen werden?",
+      "a": "Tumoren, vaskuläre Malformationen, Hippocampus-Sklerose, kortikale Dysplasien, Traumafolgen."
+    },
+    {
+      "q": "Was ist eine Hippocampus-Sklerose und bei welcher Epilepsieform ist sie typisch?",
+      "a": "Atrophie und Gliose des Hippocampus; typisch bei mesiotemporaler Epilepsie."
+    },
+    {
+      "q": "Wann ist eine epilepsiechirurgische Evaluation indiziert?",
+      "a": "Bei pharmakoresistenter fokaler Epilepsie nach Versagen von mindestens zwei adäquat dosierten Antiepileptika."
+    },
+    {
+      "q": "Was versteht man unter Pharmakoresistenz bei Epilepsie?",
+      "a": "Fortbestehen von Anfällen trotz adäquater Behandlung mit zwei gut verträglichen, geeigneten Antiepileptika in Monotherapie oder Kombination."
+    },
+    {
+      "q": "Nennen Sie Kontraindikationen für Valproat bei Frauen im gebärfähigen Alter.",
+      "a": "Hohes teratogenes Risiko (neuronale Entwicklungsstörungen, Spina bifida); nur bei fehlenden Alternativen und sicherer Kontrazeption."
+    },
+    {
+      "q": "Was ist das Dravet-Syndrom?",
+      "a": "Schwere myoklonische Epilepsie des Kindesalters, meist SCN1A-Mutation, Beginn im 1. Lebensjahr mit prolongierten Fieberkrämpfen."
+    },
+    {
+      "q": "Welche Antiepileptika können Absence-Anfälle verschlechtern?",
+      "a": "Carbamazepin, Phenytoin, Gabapentin, Pregabalin, Vigabatrin."
+    },
+    {
+      "q": "Was ist eine Autoimmun-Enzephalitis und welche Antikörper sind bei epileptischen Anfällen relevant?",
+      "a": "Entzündliche Hirnerkrankung durch Autoantikörper; relevant: Anti-NMDA-Rezeptor, Anti-LGI1, Anti-CASPR2, Anti-GAD."
+    },
+    {
+      "q": "Was ist das Juveniles Myoklonus-Epilepsie (Janz-Syndrom)?",
+      "a": "Idiopathisch generalisierte Epilepsie mit Beginn in Adoleszenz, Morgenmyoklonien, generalisierte tonisch-klonische Anfälle, Photosensitivität."
+    },
+    {
+      "q": "Welche Provokationsfaktoren sollten bei Epilepsie-Patienten vermieden werden?",
+      "a": "Schlafmangel, Alkohol, abruptes Absetzen von AED, Stress, flackernde Lichter (bei Photosensitivität)."
+    },
+    {
+      "q": "Was ist ein Peri-iktales SPECT und wofür wird es eingesetzt?",
+      "a": "SPECT während oder kurz nach Anfall zur Lokalisation des epileptogenen Fokus durch Darstellung der Hyperperfusion."
+    },
+    {
+      "q": "Wann dürfen Epilepsie-Patienten in der Schweiz wieder Autofahren?",
+      "a": "Nach 12 Monaten Anfallsfreiheit (bei privater Fahrerlaubnis); spezifische Regelungen für Berufsfahrer."
+    },
+    {
+      "q": "Was ist eine Todd-Parese?",
+      "a": "Vorübergehende postiktale Parese nach fokalem Anfall, Dauer Minuten bis Stunden."
+    },
+    {
+      "q": "Nennen Sie drei typische Ursachen von akut-symptomatischen Anfällen.",
+      "a": "Metabolische Entgleisung (Hypoglykämie, Hyponatriämie), akuter Schlaganfall, Schädel-Hirn-Trauma, Alkoholentzug, Intoxikation."
+    },
+    {
+      "q": "Was ist ein psychogener nicht-epileptischer Anfall (PNEA)?",
+      "a": "Anfallsartiges Ereignis ohne epileptische Grundlage, oft durch Video-EEG-Monitoring zu differenzieren; Behandlung: Psychotherapie."
+    }
+  ],
+  "ms": [
+    {
+      "q": "Welche McDonald-Kriterien 2017 gelten für die Diagnose einer Multiplen Sklerose?",
+      "a": "Nachweis von Dissemination in Raum (DIS: ≥2 Regionen des ZNS mit Läsionen) und Zeit (DIT: neue Läsionen in Follow-up-MRT oder gleichzeitiges Vorhandensein von KM-aufnehmenden und nicht-aufnehmenden Läsionen)."
+    },
+    {
+      "q": "Was sind die Dawson-Finger im MRT?",
+      "a": "Periventrikuläre MS-Läsionen, die senkrecht zu den Ventrikeln verlaufen, entsprechend perivaskulären Entzündungen."
+    },
+    {
+      "q": "Welche oligoklonalen Banden im Liquor sind beweisend für eine intrathekale Antikörpersynthese?",
+      "a": "Typ-2- oder Typ-3-Muster: oligoklonale Banden im Liquor, die im Serum fehlen oder zusätzliche Banden im Liquor."
+    },
+    {
+      "q": "Was ist das Uhthoff-Phänomen?",
+      "a": "Vorübergehende Verschlechterung neurologischer Symptome bei Temperaturerhöhung (Fieber, heißes Bad)."
+    },
+    {
+      "q": "Welche Therapie ist First-Line bei akutem MS-Schub?",
+      "a": "Hochdosis-Methylprednisolon i.v. (1000 mg/Tag für 3-5 Tage)."
+    },
+    {
+      "q": "Was ist eine Optikusneuritis und wie ist die typische Präsentation?",
+      "a": "Akute Entzündung des N. opticus mit Visusminderung, Schmerzen bei Augenbewegung, Farbentsättigung; bei MS in ca. 50% der Fälle als Erstsymptom."
+    },
+    {
+      "q": "Nennen Sie drei krankheitsmodifizierende Therapien (DMT) für schubförmige MS mit hoher Wirksamkeit.",
+      "a": "Natalizumab, Ocrelizumab, Alemtuzumab, Fingolimod, Cladribin."
+    },
+    {
+      "q": "Was ist das Risiko bei Natalizumab-Therapie und wie wird es überwacht?",
+      "a": "Progressive multifokale Leukenzephalopathie (PML) durch JC-Virus-Reaktivierung; Monitoring via JC-Virus-Antikörper-Titer, MRT alle 6 Monate."
+    },
+    {
+      "q": "Was unterscheidet primär progrediente von sekundär progredienter MS?",
+      "a": "PPMS: Progression von Beginn an ohne Schübe; SPMS: zunächst schubförmig, dann kontinuierliche Progression mit/ohne aufgelagerte Schübe."
+    },
+    {
+      "q": "Was ist das Lhermitte-Zeichen?",
+      "a": "Stromschlagähnliches Gefühl entlang der Wirbelsäule bei Nackenflexion, typisch für zervikale Myelonläsionen bei MS."
+    },
+    {
+      "q": "Welche B-Zell-depletierenden Therapien sind für MS zugelassen?",
+      "a": "Ocrelizumab (für schubförmige und primär progrediente MS), Ofatumumab."
+    },
+    {
+      "q": "Was sind die typischen MRT-Kriterien für MS-Läsionen?",
+      "a": "Ovale, >3mm, periventrikulär, juxtakortikal, infratentoriell, spinal; T2/FLAIR-hyperintens, Gadolinium-Aufnahme bei Aktivität."
+    },
+    {
+      "q": "Nennen Sie wichtige Differentialdiagnosen der MS.",
+      "a": "NMOSD, MOGAD, Neurosarkoidose, Vaskulitis des ZNS, ADEM, Lyme-Neuroborreliose."
+    },
+    {
+      "q": "Was ist NMOSD (Neuromyelitis-optica-Spektrum-Erkrankung)?",
+      "a": "Autoimmunerkrankung mit Antikörpern gegen Aquaporin-4, Befall von N. opticus und Rückenmark (longitudinal extensive Myelitis >3 Segmente)."
+    },
+    {
+      "q": "Welche Therapien sind für NMOSD spezifisch zugelassen?",
+      "a": "Eculizumab, Satralizumab, Inebilizumab, Rituximab (off-label)."
+    },
+    {
+      "q": "Was ist MOGAD?",
+      "a": "MOG-Antikörper-assoziierte Erkrankung mit Optikusneuritis, Myelitis, ADEM-artigen Präsentationen; meist monophasisch oder rezidivierend."
+    },
+    {
+      "q": "Wie unterscheidet sich MOGAD im MRT von MS?",
+      "a": "MOGAD: oft große, fluffige kortikale/juxtakortikale Läsionen, ADEM-artig, weniger Dawson-Finger; MS: klassische periventrikuläre ovale Läsionen."
+    },
+    {
+      "q": "Was ist die EDSS-Skala?",
+      "a": "Expanded Disability Status Scale (0-10): Beurteilung des Behinderungsgrades bei MS; 0=normal, 10=Tod durch MS."
+    },
+    {
+      "q": "Welche symptomatische Therapie ist bei MS-assoziierter Fatigue evidenzbasiert?",
+      "a": "Amantadin, Modafinil (off-label), Sport, Energiemanagement; Evidenz ist jedoch begrenzt."
+    },
+    {
+      "q": "Was ist Fampridin und bei welchen MS-Symptomen ist es zugelassen?",
+      "a": "Kaliumkanalblocker zur Verbesserung der Gehfähigkeit bei MS-Patienten mit Gangstörung."
+    },
+    {
+      "q": "Wie wird Spastik bei MS behandelt?",
+      "a": "Physiotherapie, Baclofen, Tizanidin, Gabapentin; intrathekales Baclofen oder Cannabinoide bei schwerer Spastik."
+    },
+    {
+      "q": "Was ist ein Marburg-Variant der MS?",
+      "a": "Akut fulminante, rasch progrediente Verlaufsform mit großen konfluierenden Läsionen und schlechter Prognose."
+    },
+    {
+      "q": "Welche Impfungen sind bei immunsuppressiver MS-Therapie kontraindiziert?",
+      "a": "Lebendimpfstoffe (z.B. MMR, Varizellen, Gelbfieber) unter B-Zell-Depletion, Fingolimod, Cladribin."
+    },
+    {
+      "q": "Was sind Radiologische Isolated Syndrome (RIS)?",
+      "a": "Zufällig entdeckte MS-typische MRT-Läsionen ohne klinische Symptomatik; ca. 30-40% entwickeln später klinische MS."
+    }
+  ],
+  "movement": [
+    {
+      "q": "Nennen Sie die kardinalen motorischen Symptome der Parkinson-Krankheit.",
+      "a": "Bradykinese (obligat), Rigor, Ruhetremor, posturale Instabilität."
+    },
+    {
+      "q": "Was sind die UK Brain Bank Kriterien für idiopathisches Parkinson-Syndrom?",
+      "a": "Bradykinese plus mindestens eines: Ruhetremor 4-6 Hz, Rigor, posturale Instabilität; plus Ansprechen auf Levodopa und Ausschluss atypischer Features."
+    },
+    {
+      "q": "Welche bildgebende Untersuchung kann zur Differenzierung von idiopathischem Parkinson und atypischen Parkinson-Syndromen hilfreich sein?",
+      "a": "DaTSCAN (123I-FP-CIT-SPECT) zeigt verminderte striatale Dopamintransporter-Dichte; MRT zur Erkennung von Atrophiemustern bei atypischen Syndromen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Parkinson-Krankheit und Multisystematrophie (MSA)?",
+      "a": "MSA: atypisches Parkinson-Syndrom mit zusätzlich autonomer Dysfunktion, Kleinhirnataxie (MSA-C) oder vorwiegend Parkinson-Symptomen (MSA-P), fehlendes/schlechtes Levodopa-Ansprechen, rascher Progress."
+    },
+    {
+      "q": "Was ist das typische MRT-Zeichen bei MSA?",
+      "a": "Hot-cross-bun-Zeichen (Kreuzform in der Pons), putaminale Atrophie mit T2-Hyperintensität."
+    },
+    {
+      "q": "Nennen Sie drei nicht-motorische Symptome der Parkinson-Krankheit.",
+      "a": "REM-Schlaf-Verhaltensstörung (RBD), Hyposmie, Obstipation, Depression, kognitive Störungen, orthostatische Hypotonie."
+    },
+    {
+      "q": "Was ist die First-Line-Therapie bei neu diagnostizierter Parkinson-Krankheit bei Patienten <65 Jahre?",
+      "a": "Dopaminagonisten oder MAO-B-Hemmer zur Verzögerung von Levodopa und motorischen Komplikationen."
+    },
+    {
+      "q": "Was sind Wearing-off-Phänomene bei Parkinson-Therapie?",
+      "a": "Nachlassen der Wirkung von Levodopa vor der nächsten Dosis mit Wiederkehr der Parkinson-Symptome."
+    },
+    {
+      "q": "Was sind Dyskinesien bei Parkinson und wie entstehen sie?",
+      "a": "Unwillkürliche, choreiforme Bewegungen, meist Peak-Dose-Dyskinesien durch langfristige pulsatile Dopaminstimulation mit Levodopa."
+    },
+    {
+      "q": "Wann ist eine tiefe Hirnstimulation (DBS) bei Parkinson indiziert?",
+      "a": "Bei motorischen Fluktuationen und Dyskinesien trotz optimierter Medikation, Krankheitsdauer >4 Jahre, gutes Levodopa-Ansprechen, keine relevante Demenz."
+    },
+    {
+      "q": "Was ist die Progressive Supranukleäre Blickparese (PSP)?",
+      "a": "Atypisches Parkinson-Syndrom mit vertikaler Blickparese (initial supranukleär), axiale Rigidität, frühe Stürze, frontale Demenz, fehlendes Levodopa-Ansprechen."
+    },
+    {
+      "q": "Was ist die kortikobasale Degeneration (CBD)?",
+      "a": "Atypisches Parkinson-Syndrom mit asymmetrischer Rigidität, Apraxie, Alien-Limb-Phänomen, kortikaler Atrophie, fehlende Levodopa-Response."
+    },
+    {
+      "q": "Nennen Sie die Trias der Lewy-Body-Demenz.",
+      "a": "Fluktuierende Kognition, visuelle Halluzinationen, Parkinsonismus; plus REM-Schlaf-Verhaltensstörung."
+    },
+    {
+      "q": "Was ist ein essentieller Tremor und wie unterscheidet er sich vom Parkinson-Tremor?",
+      "a": "Essentieller Tremor: Aktionstremor (Halte-/Bewegungstremor) 6-12 Hz, bilateral, oft Ansprechen auf Alkohol/Propranolol; Parkinson: Ruhetremor 4-6 Hz, asymmetrisch."
+    },
+    {
+      "q": "Welche medikamentöse Therapie ist bei essentiellem Tremor wirksam?",
+      "a": "Propranolol, Primidon; bei Versagen: Topiramat, Gabapentin; DBS bei schwerem, therapierefraktärem Tremor."
+    },
+    {
+      "q": "Was ist Chorea Huntington?",
+      "a": "Autosomal-dominante neurodegenerative Erkrankung (HTT-Gen, CAG-Repeat-Expansion >36), choreiforme Bewegungen, psychiatrische Symptome, Demenz."
+    },
+    {
+      "q": "Was ist das Wilson-Krankheit-Syndrom?",
+      "a": "Autosomal-rezessiv, gestörter Kupferstoffwechsel (ATP7B-Mutation), Akkumulation in Leber und Basalganglien; Symptome: Bewegungsstörung, Leberzirrhose, Kayser-Fleischer-Kornealring."
+    },
+    {
+      "q": "Welche Labordiagnostik ist bei V.a. Morbus Wilson obligat?",
+      "a": "Serumceruloplasmin (↓), Serumkupfer (oft ↓), 24h-Urinkupfer (↑), Spaltlampenuntersuchung (Kayser-Fleischer-Ring)."
+    },
+    {
+      "q": "Was ist die Therapie bei Morbus Wilson?",
+      "a": "Chelatbildner (D-Penicillamin, Trientin), Zinksulfat; lebenslange Therapie."
+    },
+    {
+      "q": "Was ist tardive Dyskinesie?",
+      "a": "Spät auftretende, oft irreversible Dyskinesie nach langfristiger Neuroleptika-Therapie, oft orofazial."
+    },
+    {
+      "q": "Was sind Tics und nennen Sie eine typische Tic-Störung?",
+      "a": "Plötzliche, rasche, repetitive Bewegungen oder Vokalisationen; Gilles-de-la-Tourette-Syndrom: multiple motorische + ≥1 vokale Tics."
+    },
+    {
+      "q": "Was ist Restless-Legs-Syndrom (RLS) und welche Therapie ist First-Line?",
+      "a": "Bewegungsdrang der Beine mit Parästhesien, abends/nachts schlimmer, Besserung durch Bewegung; Therapie: Dopaminagonisten (Pramipexol, Ropinirol), α2δ-Liganden (Pregabalin)."
+    },
+    {
+      "q": "Was ist Myoklonus und nennen Sie mögliche Ursachen?",
+      "a": "Kurze, blitzartige Muskelzuckungen; Ursachen: kortikaler Myoklonus (Epilepsie), subkortikaler Myoklonus (metabolisch), spinaler Myoklonus."
+    },
+    {
+      "q": "Was ist Dystonie?",
+      "a": "Anhaltende oder intermittierende Muskelkontraktionen mit abnormen Bewegungen und Haltungen."
+    },
+    {
+      "q": "Nennen Sie Beispiele fokaler Dystonien.",
+      "a": "Blepharospasmus, zervikale Dystonie (Torticollis), Schreibkrampf, oromandibulare Dystonie."
+    },
+    {
+      "q": "Was ist die Therapie der Wahl bei fokaler Dystonie?",
+      "a": "Botulinumtoxin-Injektionen."
+    }
+  ],
+  "dementia": [
+    {
+      "q": "Was sind die diagnostischen Kriterien für Alzheimer-Demenz nach NIA-AA?",
+      "a": "Schleichender Beginn, progrediente Gedächtnisstörung, Beeinträchtigung in ≥1 weiterer kognitiver Domäne, Ausschluss anderer Ursachen."
+    },
+    {
+      "q": "Welche Liquorbiomarker sind typisch für Alzheimer-Demenz?",
+      "a": "Erniedrigtes Aβ42, erhöhtes Gesamt-Tau und Phospho-Tau; Aβ42/Aβ40-Ratio erniedrigt."
+    },
+    {
+      "q": "Was zeigt das Amyloid-PET bei Alzheimer-Demenz?",
+      "a": "Erhöhte kortikale Amyloid-Ablagerung (positives Amyloid-PET)."
+    },
+    {
+      "q": "Welche medikamentöse Therapie ist für leichte bis moderate Alzheimer-Demenz zugelassen?",
+      "a": "Acetylcholinesterase-Hemmer (Donepezil, Rivastigmin, Galantamin)."
+    },
+    {
+      "q": "Wann ist Memantin bei Alzheimer-Demenz indiziert?",
+      "a": "Bei moderater bis schwerer Alzheimer-Demenz; NMDA-Rezeptor-Antagonist."
+    },
+    {
+      "q": "Was sind neue Amyloid-targeting Therapien bei Alzheimer?",
+      "a": "Monoklonale Antikörper wie Lecanemab, Donanemab (Reduktion von Amyloid-Plaques, mäßige Verlangsamung der Progression)."
+    },
+    {
+      "q": "Was ist vaskuläre Demenz und wie unterscheidet sie sich von Alzheimer?",
+      "a": "Demenz durch zerebrovaskuläre Erkrankung; oft stufenförmiger Progress, frühe exekutive Dysfunktion, fokale neurologische Zeichen, vaskuläre Risikofaktoren."
+    },
+    {
+      "q": "Was ist die Lewy-Body-Demenz?",
+      "a": "Demenz mit α-Synuclein-Ablagerungen (Lewy Bodies); Kernsymptome: fluktuierende Kognition, visuelle Halluzinationen, Parkinsonismus, RBD."
+    },
+    {
+      "q": "Welche Medikamente sollten bei Lewy-Body-Demenz vermieden werden?",
+      "a": "Typische Neuroleptika (hohe Neuroleptika-Sensitivität mit schweren extrapyramidalen Nebenwirkungen)."
+    },
+    {
+      "q": "Was ist frontotemporale Demenz (FTD)?",
+      "a": "Gruppe von Demenzen mit frontotemporaler Degeneration; Varianten: behaviorale FTD (Verhaltensänderungen), semantische Demenz, primär progrediente Aphasie."
+    },
+    {
+      "q": "Nennen Sie typische Verhaltensänderungen bei behavioraler FTD.",
+      "a": "Enthemmung, Apathie, Verlust von Empathie, stereotype/repetitive Verhaltensweisen, Hyperoralität."
+    },
+    {
+      "q": "Was ist Normaldruckhydrozephalus (NPH)?",
+      "a": "Symptomtrias: Gangstörung (magnetischer Gang), Demenz, Harninkontinenz; erweiterte Ventrikel bei normalem Liquordruck."
+    },
+    {
+      "q": "Wie wird die Diagnose des Normaldruckhydrozephalus gestellt?",
+      "a": "Klinik + Bildgebung (MRT: erweiterte Ventrikel, Disproportionately Enlarged Subarachnoid-Space Hydrocephalus DESH) + Tap-Test (Besserung nach Liquorpunktion) oder Liquor-Drainage-Test."
+    },
+    {
+      "q": "Was ist die Therapie des Normaldruckhydrozephalus?",
+      "a": "Ventrikuloperitonealer Shunt (VP-Shunt)."
+    },
+    {
+      "q": "Was ist Creutzfeldt-Jakob-Krankheit (CJK)?",
+      "a": "Rasch progrediente Demenz durch Prionen-Protein; Symptome: Myoklonien, Ataxie, psychiatrische Symptome, akinetischer Mutismus."
+    },
+    {
+      "q": "Welche diagnostischen Tests unterstützen die CJK-Diagnose?",
+      "a": "MRT (kortikales Ribboning, DWI/FLAIR-Hyperintensität in Basalganglien), EEG (periodische Sharp-Wave-Komplexe), Liquor (14-3-3-Protein, RT-QuIC positiv)."
+    },
+    {
+      "q": "Was ist die MMSE und welcher Score deutet auf Demenz hin?",
+      "a": "Mini-Mental State Examination (0-30 Punkte); <24 Punkte: Hinweis auf kognitive Beeinträchtigung; <20: Demenz wahrscheinlich."
+    },
+    {
+      "q": "Was ist der MoCA-Test?",
+      "a": "Montreal Cognitive Assessment: sensitiver als MMSE für leichte kognitive Beeinträchtigung (MCI); Score <26/30 abnormal."
+    },
+    {
+      "q": "Was ist eine leichte kognitive Beeinträchtigung (MCI)?",
+      "a": "Kognitive Einschränkung über Altersnorm, aber keine wesentliche Beeinträchtigung von Alltagsaktivitäten; erhöhtes Demenz-Risiko."
+    },
+    {
+      "q": "Nennen Sie reversible Ursachen einer Demenz.",
+      "a": "Hypothyreose, Vitamin-B12-Mangel, Normaldruckhydrozephalus, Depression (Pseudodemenz), Medikamentennebenwirkungen, chronische Infektionen (HIV, Syphilis)."
+    },
+    {
+      "q": "Was ist posteriore kortikale Atrophie?",
+      "a": "Atypische Alzheimer-Variante mit früher visueller Dysfunktion (Balint-Syndrom, Prosopagnosie), relativ erhaltenes Gedächtnis."
+    }
+  ],
+  "headache": [
+    {
+      "q": "Nennen Sie die diagnostischen Kriterien für Migräne ohne Aura nach ICHD-3.",
+      "a": "≥5 Attacken, 4-72h Dauer, ≥2 von: unilateral, pulsierend, moderate-schwere Intensität, Verstärkung durch Aktivität; plus ≥1: Übelkeit/Erbrechen oder Photo-/Phonophobie."
+    },
+    {
+      "q": "Was ist eine Migräne mit Aura?",
+      "a": "Migräne mit vorausgehenden fokalneurologischen Symptomen (typisch visuell: Flimmerskotom, Fortifikationen), die sich über 5-60 Min entwickeln und <60 Min anhalten."
+    },
+    {
+      "q": "Welche Akuttherapie ist First-Line bei Migräneattacke?",
+      "a": "Triptane (z.B. Sumatriptan) oder NSAR (Ibuprofen, ASS) plus Antiemetikum bei Bedarf."
+    },
+    {
+      "q": "Wann ist eine Migräneprophylaxe indiziert?",
+      "a": "Bei ≥3 Attacken/Monat mit erheblicher Beeinträchtigung, unzureichendem Ansprechen auf Akuttherapie, Kontraindikationen für Akutmedikation."
+    },
+    {
+      "q": "Nennen Sie drei First-Line-Prophylaktika bei Migräne.",
+      "a": "Betablocker (Metoprolol, Propranolol), Topiramat, Amitriptylin, Flunarizin."
+    },
+    {
+      "q": "Was sind CGRP-Antagonisten und wann werden sie eingesetzt?",
+      "a": "Monoklonale Antikörper gegen CGRP oder CGRP-Rezeptor (Erenumab, Fremanezumab, Galcanezumab); Prophylaxe bei episodischer oder chronischer Migräne, besonders nach Versagen klassischer Prophylaxe."
+    },
+    {
+      "q": "Was ist chronische Migräne?",
+      "a": "≥15 Kopfschmerztage/Monat über >3 Monate, davon ≥8 Tage mit Migränecharakteristik."
+    },
+    {
+      "q": "Was ist Medikamentenübergebrauchskopfschmerz (MOH)?",
+      "a": "Kopfschmerz an ≥15 Tagen/Monat bei regelmäßiger Einnahme von Akutmedikation (≥10 Tage/Monat bei Triptanen/Opioiden, ≥15 Tage bei einfachen Analgetika) über >3 Monate."
+    },
+    {
+      "q": "Wie wird Medikamentenübergebrauchskopfschmerz behandelt?",
+      "a": "Absetzen der Übergebrauchsmedikation (ggf. stationär mit Bridging-Therapie), Beginn einer Prophylaxe."
+    },
+    {
+      "q": "Was ist Clusterkopfschmerz?",
+      "a": "Streng einseitiger, periorbitaler, extrem starker Kopfschmerz (15-180 Min), ipsilaterale autonome Symptome (Lakrimation, Rhinorrhö, Horner), Attacken in Serie (Cluster)."
+    },
+    {
+      "q": "Was ist die Akuttherapie bei Clusterkopfschmerz?",
+      "a": "Hochdosis-Sauerstoff (12 L/Min über Maske für 15 Min) oder Sumatriptan s.c."
+    },
+    {
+      "q": "Was ist die Prophylaxe bei episodischem Clusterkopfschmerz?",
+      "a": "Verapamil (hohe Dosis bis 960mg/d, EKG-Kontrolle!); alternativ: Lithium, Topiramat, kurzzeitig Steroide."
+    },
+    {
+      "q": "Was ist Spannungskopfschmerz?",
+      "a": "Beidseitiger, drückend-ziehender Kopfschmerz, leicht-moderate Intensität, keine Verstärkung durch Aktivität, keine/wenig vegetative Symptome."
+    },
+    {
+      "q": "Was ist Trigeminusneuralgie?",
+      "a": "Blitzartige, einseitige, extrem starke Schmerzattacken im Trigeminusversorgungsgebiet (oft V2/V3), durch Trigger auslösbar."
+    },
+    {
+      "q": "Was ist die First-Line-Therapie bei Trigeminusneuralgie?",
+      "a": "Carbamazepin oder Oxcarbazepin."
+    },
+    {
+      "q": "Welche strukturelle Ursache sollte bei Trigeminusneuralgie ausgeschlossen werden?",
+      "a": "Neurovaskuläre Kompression, Multiple Sklerose-Plaque, Tumor im Kleinhirnbrückenwinkel."
+    },
+    {
+      "q": "Was ist SUNCT/SUNA?",
+      "a": "Short-lasting Unilateral Neuralgiform headache attacks with Conjunctival injection and Tearing/Autonomic symptoms: Kurze (5-240 Sek), sehr häufige Attacken."
+    },
+    {
+      "q": "Was sind 'Red Flags' bei Kopfschmerzen, die weiterführende Diagnostik erfordern?",
+      "a": "Erster/schwerster Kopfschmerz ('Thunderclap'), Beginn >50 Jahre, progredient, fokal-neurologische Symptome, Fieber, Immunsuppression, Trauma, Sehstörungen."
+    },
+    {
+      "q": "Was ist ein Thunderclap-Kopfschmerz und welche Ursachen müssen ausgeschlossen werden?",
+      "a": "Plötzlicher, schwerster Kopfschmerz (Maximum in Sekunden bis Minuten); DD: SAB, RCVS, zerebrale Sinusvenenthrombose, Hypophysenapoplex, Arteriendissektion."
+    },
+    {
+      "q": "Was ist RCVS (Reversibles cerebrales Vasokonstriktionssyndrom)?",
+      "a": "Reversible Vasokonstriktion zerebraler Arterien mit Thunderclap-Kopfschmerzen, oft bei Frauen, Trigger: Drogen, postpartal; Angiographie: 'String of beads'-Zeichen."
+    }
+  ],
+  "neuromuscular": [
+    {
+      "q": "Was sind die Leitsymptome einer Myasthenia gravis?",
+      "a": "Belastungsabhängige, fluktuierende Muskelschwäche, okuläre Symptome (Ptosis, Diplopie), bulbäre Schwäche, Besserung durch Ruhe."
+    },
+    {
+      "q": "Welche Antikörper sind bei Myasthenia gravis nachweisbar?",
+      "a": "Anti-AChR (85%), Anti-MuSK (5-10%), Anti-LRP4 (<5%); 10-15% seronegativ."
+    },
+    {
+      "q": "Was ist der Tensilon-Test?",
+      "a": "Edrophonium (Cholinesterase-Hemmer) i.v. führt zu kurzzeitiger Besserung der Symptome bei MG; heute seltener verwendet."
+    },
+    {
+      "q": "Welche Therapie ist First-Line bei Myasthenia gravis?",
+      "a": "Pyridostigmin (Cholinesterase-Hemmer); bei unzureichender Wirkung: Immunsuppression (Steroide, Azathioprin)."
+    },
+    {
+      "q": "Wann ist eine Thymektomie bei Myasthenia gravis indiziert?",
+      "a": "Bei Thymom (obligat) oder generalisierter MG mit Anti-AChR-Antikörpern, besonders <65 Jahre."
+    },
+    {
+      "q": "Was ist eine myasthene Krise?",
+      "a": "Akute schwere Exazerbation mit respiratorischer Insuffizienz; Therapie: Plasmapherese oder IVIg, Intensivstation, ggf. Intubation."
+    },
+    {
+      "q": "Nennen Sie Trigger für myasthene Krisen.",
+      "a": "Infektionen, Operationen, Medikamente (Aminoglykoside, Fluorchinolone, Betablocker), Absetzen von Immunsuppression."
+    },
+    {
+      "q": "Was ist das Lambert-Eaton-Myasthenie-Syndrom (LEMS)?",
+      "a": "Paraneoplastisches Syndrom (meist kleinzelliges Bronchial-Ca) oder autoimmun; präsynaptische NMJ-Störung mit Anti-VGCC-Antikörpern; proximale Schwäche, autonome Dysfunktion, areflexie mit postexerzitorischer Fazilitation."
+    },
+    {
+      "q": "Was ist Guillain-Barré-Syndrom (GBS)?",
+      "a": "Akute inflammatorische demyelinisierende Polyneuropathie (AIDP), oft post-infektiös (Campylobacter); aufsteigende Paresen, Areflexie, autonome Dysfunktion."
+    },
+    {
+      "q": "Welche Liquorbefunde sind typisch für GBS?",
+      "a": "Albumino-zytologische Dissoziation: erhöhtes Protein bei normaler Zellzahl."
+    },
+    {
+      "q": "Was ist die Therapie des Guillain-Barré-Syndroms?",
+      "a": "IVIg oder Plasmapherese (gleichwertig); Steroide nicht wirksam."
+    },
+    {
+      "q": "Was sind Varianten des GBS?",
+      "a": "Miller-Fisher-Syndrom (Ophthalmoplegie, Ataxie, Areflexie; Anti-GQ1b), AMAN (akute motorische axonale Neuropathie), AMSAN (akute motor-sensorische axonale Neuropathie)."
+    },
+    {
+      "q": "Was ist chronisch inflammatorische demyelinisierende Polyneuropathie (CIDP)?",
+      "a": "Chronische (>8 Wochen), progrediente oder rezidivierende, symmetrische Polyneuropathie mit proximaler und distaler Schwäche, erhöhtem Liquorprotein."
+    },
+    {
+      "q": "Wie wird CIDP behandelt?",
+      "a": "IVIg (First-Line), Kortikosteroide, Plasmapherese; ggf. Immunsuppressiva (Azathioprin, Rituximab)."
+    },
+    {
+      "q": "Was ist Charcot-Marie-Tooth-Erkrankung (CMT)?",
+      "a": "Hereditäre motorisch-sensible Neuropathie; CMT1 (demyelinisierend), CMT2 (axonal); Symptome: distale Paresen (Steppergang), Fußdeformitäten (Hohlfuß), Areflexie."
+    },
+    {
+      "q": "Nennen Sie typische Ursachen einer Polyneuropathie.",
+      "a": "Diabetes mellitus (häufigste!), Alkohol, Vitamin-B-Mangel, Niereninsuffizienz, Paraproteinämie, Chemotherapie, hereditär."
+    },
+    {
+      "q": "Was ist eine kritische Illness-Polyneuropathie (CIP)?",
+      "a": "Axonale Polyneuropathie bei kritisch Kranken (Sepsis, MOV), Schwäche, Entwöhnung vom Respirator erschwert."
+    },
+    {
+      "q": "Was ist Amyotrophe Lateralsklerose (ALS)?",
+      "a": "Neurodegenerative Erkrankung mit Degeneration von oberen und unteren Motoneuronen; Symptome: Muskelschwäche, Faszikulationen, Spastik, Bulbärparalyse."
+    },
+    {
+      "q": "Welche diagnostischen Kriterien gelten für ALS?",
+      "a": "El-Escorial- / Awaji-Kriterien: Zeichen von Degeneration von oberem und unterem Motoneuron in ≥2 Regionen; EMG zeigt Denervierung."
+    },
+    {
+      "q": "Welche krankheitsmodifizierende Therapie ist bei ALS zugelassen?",
+      "a": "Riluzol (verlängert Überleben moderat), Edaravon (in Japan/USA zugelassen, Benefit unklar)."
+    },
+    {
+      "q": "Was ist spinale Muskelatrophie (SMA)?",
+      "a": "Hereditäre Motoneuron-Erkrankung (SMN1-Gen-Mutation), Beginn im Kindesalter; neue Therapien: Nusinersen, Risdiplam, Gentherapie (Onasemnogen)."
+    },
+    {
+      "q": "Was ist Myotone Dystrophie Typ 1 (Curschmann-Steinert)?",
+      "a": "Autosomal-dominante Multisystemerkrankung (CTG-Repeat-Expansion im DMPK-Gen); Myotonie, distale Schwäche, Katarakt, Kardiomyopathie, endokrine Störungen."
+    },
+    {
+      "q": "Was ist Fazioskapulohumerale Muskeldystrophie (FSHD)?",
+      "a": "Autosomal-dominante Muskeldystrophie mit fazialer Schwäche, Scapula alata, Oberarm-/Beckengürtel-Beteiligung."
+    },
+    {
+      "q": "Was sind Symptome der Duchenne-Muskeldystrophie?",
+      "a": "X-chromosomal-rezessiv (Dystrophin-Gen), Beginn in Kindheit, rasch progredient, proximale Schwäche, Gowers-Zeichen, Wadenhypertrophie, CK massiv erhöht, Kardiomyopathie."
+    },
+    {
+      "q": "Was ist Polymyositis und wie wird sie diagnostiziert?",
+      "a": "Inflammatorische Myopathie mit proximaler Schwäche, CK-Erhöhung, EMG zeigt myopathisches Muster, Muskelbiopsie: entzündliches Infiltrat."
+    },
+    {
+      "q": "Was unterscheidet Dermatomyositis von Polymyositis?",
+      "a": "Dermatomyositis: zusätzlich Hautmanifestationen (Gottron-Papeln, heliotropes Erythem), höheres Malignom-Risiko."
+    }
+  ],
+  "infections": [
+    {
+      "q": "Nennen Sie typische Liquorbefunde bei bakterieller Meningitis.",
+      "a": "Zellzahl >1000/µl (neutrophil dominiert), Protein >1 g/L, Glukose <40% des Serumwertes, Laktat >3.5 mmol/L."
+    },
+    {
+      "q": "Was ist die empirische antibiotische Therapie bei V.a. bakterielle Meningitis bei Erwachsenen?",
+      "a": "Ceftriaxon 2g alle 12h i.v. + Ampicillin 2g alle 4h i.v. (>50 Jahre wegen Listerien); plus Dexamethason 10mg alle 6h für 4 Tage."
+    },
+    {
+      "q": "Wann sollte Dexamethason bei bakterieller Meningitis gegeben werden?",
+      "a": "Vor oder mit der ersten Antibiotika-Gabe, besonders bei V.a. Pneumokokken-Meningitis."
+    },
+    {
+      "q": "Welche bildgebende Untersuchung sollte vor Lumbalpunktion bei V.a. Meningitis durchgeführt werden?",
+      "a": "Kraniales CT bei Bewusstseinsstörung, fokal-neurologischen Zeichen, Papillenödem, Immunsuppression, fokalen Anfällen – zur Ausschluss erhöhtem Hirndruck/Raumforderung."
+    },
+    {
+      "q": "Was ist Listeria monocytogenes-Meningitis und welche Patienten sind gefährdet?",
+      "a": "Bakterielle Meningitis bei Immunsupprimierten, >50 Jahre, Schwangeren; Behandlung mit Ampicillin (Cephalosporine unwirksam!)."
+    },
+    {
+      "q": "Nennen Sie typische Liquorbefunde bei viraler Meningitis.",
+      "a": "Zellzahl 10-1000/µl (lymphozytär), Protein leicht erhöht, Glukose normal, Laktat normal."
+    },
+    {
+      "q": "Was ist Herpes-simplex-Enzephalitis (HSE)?",
+      "a": "Schwerste virale Enzephalitis (meist HSV-1), temporale Enzephalitis mit Fieber, Bewusstseinsstörung, Verhaltensänderung, Anfällen."
+    },
+    {
+      "q": "Welche Befunde sprechen für HSV-Enzephalitis?",
+      "a": "MRT: FLAIR/T2-Hyperintensitäten temporal (oft asymmetrisch), Liquor: lymphozytär, HSV-PCR positiv, EEG: temporale PLEDs (periodic lateralized epileptiform discharges)."
+    },
+    {
+      "q": "Was ist die Therapie der Herpes-simplex-Enzephalitis?",
+      "a": "Aciclovir 10 mg/kg alle 8h i.v. für mindestens 14-21 Tage; sofortiger Therapiestart bei Verdacht!"
+    },
+    {
+      "q": "Was ist VZV-Meningitis/-Enzephalitis?",
+      "a": "Varizella-Zoster-Virus-Infektion des ZNS, oft mit Herpes zoster (besonders bei Immunsupprimierten); Vaskulitis möglich."
+    },
+    {
+      "q": "Was ist CMV-Enzephalitis und bei welchen Patienten tritt sie auf?",
+      "a": "Zytomegalievirus-Enzephalitis bei schwer Immunsupprimierten (HIV, Transplantation); ventrikuloenzephalitis; Therapie: Ganciclovir/Foscarnet."
+    },
+    {
+      "q": "Was ist Neuroborreliose (Lyme-Borreliose)?",
+      "a": "Infektion durch Borrelia burgdorferi; Symptome: Meningoradikulitis (Bannwarth-Syndrom), Fazialisparese, Meningitis."
+    },
+    {
+      "q": "Wie wird Neuroborreliose diagnostiziert?",
+      "a": "Liquor: lymphozytäre Pleozytose, intrathekale Borrelien-Antikörper (AI >2), Serologie."
+    },
+    {
+      "q": "Was ist die Therapie der Neuroborreliose?",
+      "a": "Ceftriaxon 2g/Tag i.v. für 14-21 Tage oder Doxycyclin 200mg/Tag p.o. für 14-21 Tage."
+    },
+    {
+      "q": "Was ist FSME (Frühsommer-Meningoenzephalitis)?",
+      "a": "Durch Zecken übertragene Flavivirus-Infektion; biphasischer Verlauf: Fieber, dann ZNS-Symptome (Meningitis, Enzephalitis, Myelitis); keine spezifische Therapie, Impfung verfügbar."
+    },
+    {
+      "q": "Was ist Progressive multifokale Leukenzephalopathie (PML)?",
+      "a": "JC-Virus-Reaktivierung bei Immunsuppression (HIV, Natalizumab, Rituximab); progrediente multifokale neurologische Defizite, MRT: asymmetrische Läsionen in weißer Substanz."
+    },
+    {
+      "q": "Nennen Sie typische opportunistische ZNS-Infektionen bei HIV/AIDS.",
+      "a": "Toxoplasmose (ring-enhancing Läsionen), PML, Kryptokokken-Meningitis, CMV-Enzephalitis, primäres ZNS-Lymphom."
+    },
+    {
+      "q": "Was ist zerebrale Toxoplasmose?",
+      "a": "Opportunistische Infektion bei HIV (CD4 <100); multiple ring-enhancing Läsionen, oft Basalganglien; Therapie: Pyrimethamin + Sulfadiazin + Folinsäure."
+    },
+    {
+      "q": "Was ist Kryptokokken-Meningitis?",
+      "a": "Pilzmeningitis bei Immunsuppression (HIV); subakut, Kopfschmerzen, erhöhter Hirndruck; Liquor: erhöhter Eröffnungsdruck, Tusche-Färbung, Kryptokokken-Antigen."
+    },
+    {
+      "q": "Was ist Tuberkulöse Meningitis?",
+      "a": "Mycobacterium tuberculosis-Meningitis; subakut, basale Meningitis, Hirnnervenausfälle; Liquor: lymphozytär, Protein sehr hoch, Glukose niedrig."
+    },
+    {
+      "q": "Wie wird tuberkulöse Meningitis behandelt?",
+      "a": "Rifampicin, Isoniazid, Pyrazinamid, Ethambutol für 2 Monate, dann Rifampicin + Isoniazid für weitere 10 Monate; plus Dexamethason."
+    },
+    {
+      "q": "Was ist ein Hirnabszess?",
+      "a": "Fokale eitrige Infektion; oft hämatogen (Endokarditis), kontiguierend (Sinusitis, Otitis) oder traumatisch; Symptome: Kopfschmerzen, Fieber, fokal-neurologische Defizite, Anfälle."
+    },
+    {
+      "q": "Wie wird ein Hirnabszess behandelt?",
+      "a": "Breitspektrum-Antibiotika (Ceftriaxon + Metronidazol), neurochirurgische Drainage/Exzision bei großen Abszessen."
+    },
+    {
+      "q": "Was ist Neurosyphilis?",
+      "a": "ZNS-Beteiligung bei Syphilis (Treponema pallidum); Formen: Meningitis, vaskuläre Syphilis, tabes dorsalis, progressive Paralyse."
+    },
+    {
+      "q": "Wie wird Neurosyphilis diagnostiziert und behandelt?",
+      "a": "Serologie: TPPA/TPHA positiv, VDRL/RPR; Liquor: VDRL positiv (spezifisch), Pleozytose; Therapie: Penicillin G 18-24 Mio IE/Tag i.v. für 14 Tage."
+    }
+  ],
+  "tumors": [
+    {
+      "q": "Was ist das häufigste primäre maligne Hirntumor bei Erwachsenen?",
+      "a": "Glioblastom (WHO-Grad 4)."
+    },
+    {
+      "q": "Was ist die Standardtherapie des Glioblastoms?",
+      "a": "Maximale sichere Resektion, gefolgt von Radiotherapie (60 Gy) plus konkomitantes und adjuvantes Temozolomid (Stupp-Protokoll)."
+    },
+    {
+      "q": "Was ist die prognostische Bedeutung der MGMT-Promotor-Methylierung beim Glioblastom?",
+      "a": "Methylierter MGMT-Promotor: besseres Ansprechen auf Temozolomid und längeres Überleben."
+    },
+    {
+      "q": "Was sind IDH-mutierte Gliome?",
+      "a": "Gliome mit IDH1/2-Mutation; bessere Prognose als IDH-Wildtyp; Astrozytome und Oligodendrogliome (WHO-Grad 2-4)."
+    },
+    {
+      "q": "Was ist ein Oligodendrogliom?",
+      "a": "IDH-mutiertes und 1p/19q-kodeletiertes Gliom; bessere Prognose und Chemosensitivität (PCV: Procarbazin, CCNU, Vincristin)."
+    },
+    {
+      "q": "Was ist ein Meningiom?",
+      "a": "Häufigster benigner Hirntumor, von Meningen ausgehend; oft asymptomatisch, langsam wachsend; Therapie: Beobachtung oder Resektion."
+    },
+    {
+      "q": "Welche WHO-Grade haben Meningiome und was bedeutet das?",
+      "a": "Grad 1 (benigne, ~80%), Grad 2 (atypisch, erhöhtes Rezidivrisiko), Grad 3 (maligne/anaplastisch, aggressiv)."
+    },
+    {
+      "q": "Was ist ein Vestibularisschwannom (Akustikusneurinom)?",
+      "a": "Benigner Tumor des N. vestibulocochlearis (VIII), typisch Kleinhirnbrückenwinkel; Symptome: Hörverlust, Tinnitus, Schwindel."
+    },
+    {
+      "q": "Was ist ein primäres ZNS-Lymphom (PCNSL)?",
+      "a": "Meist diffuses großzelliges B-Zell-Lymphom des ZNS; MRT: homogen KM-aufnehmende Läsionen, oft periventrikulär; erhöhtes Risiko bei Immunsuppression."
+    },
+    {
+      "q": "Wie wird primäres ZNS-Lymphom behandelt?",
+      "a": "Hochdosis-Methotrexat-basierte Chemotherapie, ggf. + Radiotherapie; KEINE primäre Resektion (Biopsie zur Diagnose)."
+    },
+    {
+      "q": "Was ist ein Medulloblastom?",
+      "a": "Maligner embryonaler Tumor der hinteren Schädelgrube bei Kindern; Therapie: Resektion + Radiotherapie + Chemotherapie."
+    },
+    {
+      "q": "Was sind die häufigsten Quellen von Hirnmetastasen?",
+      "a": "Bronchialkarzinom (häufigste), Mammakarzinom, Melanom, Nierenzellkarzinom, kolorektales Karzinom."
+    },
+    {
+      "q": "Wann ist eine stereotaktische Radiochirurgie bei Hirnmetastasen indiziert?",
+      "a": "Bei 1-4 Metastasen, Größe <3 cm, guter Karnofsky-Performance-Status, kontrollierter Primärtumor."
+    },
+    {
+      "q": "Was ist eine Ganzhirnbestrahlung (WBRT) und wann wird sie eingesetzt?",
+      "a": "Bestrahlung des gesamten Gehirns; bei multiplen (>4) Metastasen oder leptomeningealer Aussaat; Risiko: kognitive Verschlechterung."
+    },
+    {
+      "q": "Was ist leptomeningeale Metastasierung?",
+      "a": "Metastasen in Meningen/Liquorraum; Symptome: Kopfschmerzen, Hirnnervenausfälle, radikuläre Symptome; Liquor: maligne Zellen, MRT: KM-Aufnahme der Meningen."
+    },
+    {
+      "q": "Was ist ein Hypophysenadenom?",
+      "a": "Häufigster Hypophysentumor; funktionell (Hormon-produzierend: Prolaktinom, GH, ACTH) oder nicht-funktionell; Symptome: Hormonüberschuss/-mangel, Chiasma-Kompression."
+    },
+    {
+      "q": "Was ist ein Prolaktinom und wie wird es behandelt?",
+      "a": "Prolaktin-sezernierendes Hypophysenadenom; Therapie: Dopaminagonisten (Cabergolin, Bromocriptin); OP bei Versagen oder Chiasma-Kompression."
+    },
+    {
+      "q": "Was ist ein Kraniopharyngeom?",
+      "a": "Benigner Tumor der Sellaregion (Rathke-Tasche); häufig bei Kindern; Symptome: Hypophyseninsuffizienz, Sehstörungen, Hydrozephalus."
+    },
+    {
+      "q": "Was ist ein Ependymom?",
+      "a": "Glialer Tumor aus Ependymzellen, häufig im 4. Ventrikel oder spinal; bei Kindern häufiger; Therapie: Resektion + Radiotherapie."
+    },
+    {
+      "q": "Was ist ein pilozytisches Astrozytom?",
+      "a": "WHO-Grad 1, häufigster pädiatrischer Hirntumor, oft zerebellär; gute Prognose nach kompletter Resektion."
+    },
+    {
+      "q": "Was ist Neurofibromatose Typ 1 (von Recklinghausen)?",
+      "a": "Autosomal-dominant (NF1-Gen); Café-au-lait-Flecken, Neurofibrome, Optikusgliome, Lisch-Knötchen."
+    },
+    {
+      "q": "Was ist Neurofibromatose Typ 2?",
+      "a": "Autosomal-dominant (NF2-Gen); bilaterale Vestibularisschwannome, Meningiome, spinale Tumoren."
+    },
+    {
+      "q": "Was ist Von-Hippel-Lindau-Syndrom?",
+      "a": "Autosomal-dominant (VHL-Gen); zerebellare Hämangioblastome, Nierenzellkarzinome, Phäochromozytome, retinale Angiome."
+    },
+    {
+      "q": "Was ist tuberöse Sklerose?",
+      "a": "Autosomal-dominant (TSC1/2-Gene); kortikale Tuber, subependymale Riesenzellastrozytome, Angiomyolipome der Niere, Adenoma sebaceum, Epilepsie."
+    }
+  ],
+  "neurointensive": [
+    {
+      "q": "Nennen Sie die Monroe-Kellie-Doktrin.",
+      "a": "Intrakranielles Volumen ist konstant (Hirn + Blut + Liquor); Volumenzunahme einer Komponente erhöht intrakraniellen Druck (ICP)."
+    },
+    {
+      "q": "Was ist der normale intrakranielle Druck (ICP)?",
+      "a": "5-15 mmHg; ICP >20 mmHg ist pathologisch und erfordert Behandlung."
+    },
+    {
+      "q": "Was ist der zerebrale Perfusionsdruck (CPP)?",
+      "a": "CPP = MAP - ICP; Ziel: CPP >60-70 mmHg zur Aufrechterhaltung der Hirnperfusion."
+    },
+    {
+      "q": "Nennen Sie therapeutische Maßnahmen bei erhöhtem ICP.",
+      "a": "Oberkörper-Hochlagerung 30°, Normokapnie (pCO2 35-40 mmHg), osmotische Therapie (Mannitol, hyperton. NaCl), Sedierung, ggf. Hypothermie, dekompressive Kraniektomie."
+    },
+    {
+      "q": "Was ist eine zerebrale Herniation und nennen Sie Typen.",
+      "a": "Verlagerung von Hirngewebe durch erhöhten Druck; Typen: unkale Herniation, zentrale Herniation, Kleinhirntonsillenherniation (Foramen magnum)."
+    },
+    {
+      "q": "Was sind Zeichen einer unkalen Herniation?",
+      "a": "Ipsilaterale Mydriasis (N. III-Kompression), kontralaterale Hemiparese, Bewusstseinsstörung."
+    },
+    {
+      "q": "Was ist der Cushing-Reflex?",
+      "a": "Hypertonie + Bradykardie + irreguläre Atmung bei stark erhöhtem ICP und Hirnstamm-Ischämie; Spätsymptom!"
+    },
+    {
+      "q": "Was ist ein Schädel-Hirn-Trauma (SHT) nach Glasgow Coma Scale-Einteilung?",
+      "a": "Leicht: GCS 13-15; moderat: GCS 9-12; schwer: GCS 3-8."
+    },
+    {
+      "q": "Was ist ein epidurales Hämatom?",
+      "a": "Blutung zwischen Schädel und Dura, oft nach A. meningea media-Ruptur; typisch 'lucid interval', dann Verschlechterung; CT: bikonvexe hyperdense Läsion."
+    },
+    {
+      "q": "Was ist ein subdurales Hämatom?",
+      "a": "Blutung zwischen Dura und Arachnoidea, oft nach Brückenvenen-Ruptur; akut: dicht, sichelförmig; chronisch: hypodens, oft bei älteren Patienten."
+    },
+    {
+      "q": "Wann ist eine operative Entlastung eines subduralen Hämatoms indiziert?",
+      "a": "Bei Dicke >10 mm, Mittellinienverlagerung >5 mm, neurologischer Verschlechterung, oder GCS-Abfall."
+    },
+    {
+      "q": "Was ist eine Subarachnoidalblutung (SAB)?",
+      "a": "Blutung in Subarachnoidalraum, meist durch rupturiertes Aneurysma; Symptom: plötzlicher, schwerster Kopfschmerz."
+    },
+    {
+      "q": "Wie wird eine SAB diagnostiziert?",
+      "a": "Natives CT (sensitivste innerhalb 6h); bei negativem CT und klinischem Verdacht: Lumbalpunktion (Xanthochromie, Erythrozyten)."
+    },
+    {
+      "q": "Was ist die Hunt-Hess-Skala?",
+      "a": "Klinische Graduierung der SAB (1-5); Grad 1: asymptomatisch, Grad 5: tiefes Koma."
+    },
+    {
+      "q": "Was ist die Fisher-Skala?",
+      "a": "CT-basierte Graduierung der SAB zur Vorhersage von Vasospasmus (1-4); Grad 3 (dicke Blutschicht) höchstes Vasospasmus-Risiko."
+    },
+    {
+      "q": "Was ist zerebraler Vasospasmus nach SAB?",
+      "a": "Verzögerte Gefäßverengung 4-14 Tage nach SAB; Risiko: verzögerte zerebrale Ischämie (DCI)."
+    },
+    {
+      "q": "Wie wird Vasospasmus nach SAB behandelt?",
+      "a": "Triple-H-Therapie historisch (Hypertonie, Hypervolämie, Hämodilution); heute: Nimodipin p.o. (60 mg alle 4h für 21 Tage), euvolämische Normotonie."
+    },
+    {
+      "q": "Wann sollte ein rupturiertes Aneurysma versorgt werden?",
+      "a": "So früh wie möglich (innerhalb 24-72h) durch Coiling (endovaskulär) oder Clipping (mikrochirurgisch) zur Rezidivblutungs-Prävention."
+    },
+    {
+      "q": "Was ist therapeutische Hypothermie und wann wird sie eingesetzt?",
+      "a": "Zieltemperatur 32-36°C zur Neuroprotektion nach Reanimation bei nicht-shockable Rhythmen; Evidenz: mäßiger Benefit."
+    },
+    {
+      "q": "Was ist ein Status epilepticus refractarius (RSE)?",
+      "a": "Status epilepticus, der auf Benzodiazepine und ein weiteres Antiepileptikum nicht anspricht; erfordert Narkose."
+    }
+  ],
+  "neuroanatomy": [
+    {
+      "q": "Welche Funktion hat der Gyrus praecentralis?",
+      "a": "Primär motorischer Kortex (M1): willkürliche Bewegungen."
+    },
+    {
+      "q": "Welche Funktion hat der Gyrus postcentralis?",
+      "a": "Primär somatosensorischer Kortex (S1): taktile, propriozeptive, Schmerz- und Temperaturwahrnehmung."
+    },
+    {
+      "q": "Welche Funktion hat das Broca-Areal?",
+      "a": "Sprachproduktion (motorische Sprache); Läsion: nicht-flüssige (motorische) Aphasie."
+    },
+    {
+      "q": "Welche Funktion hat das Wernicke-Areal?",
+      "a": "Sprachverständnis (sensorische Sprache); Läsion: flüssige (sensorische) Aphasie mit Paraphasien."
+    },
+    {
+      "q": "Wo befindet sich das Broca-Areal?",
+      "a": "Inferior-frontaler Gyrus der dominanten Hemisphäre (meist links, Brodmann-Areale 44/45)."
+    },
+    {
+      "q": "Wo befindet sich das Wernicke-Areal?",
+      "a": "Posterior-superiorer temporaler Gyrus der dominanten Hemisphäre (meist links, Brodmann-Areal 22)."
+    },
+    {
+      "q": "Was ist der Fasciculus arcuatus?",
+      "a": "Weiße Substanz-Bahn, die Broca- und Wernicke-Areale verbindet; Läsion: Leitungsaphasie (Nachsprechstörung)."
+    },
+    {
+      "q": "Welche Strukturen gehören zu den Basalganglien?",
+      "a": "Nucleus caudatus, Putamen, Globus pallidus, Nucleus subthalamicus, Substantia nigra."
+    },
+    {
+      "q": "Welche Funktion haben die Basalganglien?",
+      "a": "Motorische Kontrolle, Bewegungsinitiierung, Hemmung ungewollter Bewegungen; Dysfunktion: Parkinson, Chorea, Dystonie."
+    },
+    {
+      "q": "Was ist das Striatum?",
+      "a": "Nucleus caudatus + Putamen."
+    },
+    {
+      "q": "Was sind die Hauptfunktionen des Kleinhirns?",
+      "a": "Koordination, Gleichgewicht, Feinabstimmung von Bewegungen."
+    },
+    {
+      "q": "Welche Symptome treten bei zerebellären Läsionen auf?",
+      "a": "Ataxie, Dysmetrie, Intentionstremor, Dysdiadochokinese, skandierende Sprache, Nystagmus."
+    },
+    {
+      "q": "Was ist das limbische System?",
+      "a": "Hippocampus, Amygdala, Gyrus cinguli, Fornix; Funktion: Gedächtnis, Emotionen, Motivation."
+    },
+    {
+      "q": "Welche Funktion hat der Hippocampus?",
+      "a": "Gedächtnisbildung, besonders deklaratives Gedächtnis (Fakten, Ereignisse)."
+    },
+    {
+      "q": "Was ist die Capsula interna und welche Fasern verlaufen hier?",
+      "a": "Weiße Substanz zwischen Thalamus und Basalganglien; enthält auf-/absteigende Bahnen (kortikospinale, kortikobulbäre, thalamokortikale Fasern)."
+    },
+    {
+      "q": "Was ist das Versorgungsgebiet der A. cerebri anterior?",
+      "a": "Mediale Hemisphäre (Gyrus praecentralis/postcentralis medial); Infarkt: kontralaterale Beinparese."
+    },
+    {
+      "q": "Was ist das Versorgungsgebiet der A. cerebri media?",
+      "a": "Laterale Hemisphäre (Insel, Frontallappen lateral, Temporallappen, Parietallappen); Infarkt: kontralaterale Arm-/Fazialisparese, Aphasie (dominant), Neglect (nicht-dominant)."
+    },
+    {
+      "q": "Was ist das Versorgungsgebiet der A. cerebri posterior?",
+      "a": "Okzipitallappen, mediale Temporallappen; Infarkt: Hemianopsie, Alexie, Gedächtnisstörungen."
+    },
+    {
+      "q": "Was ist das Wallenberg-Syndrom?",
+      "a": "Dorsolateraler Medulla oblongata-Infarkt (A. cerebelli inferior posterior); Symptome: ipsilaterale Ataxie, Horner, Hirnnervenausfälle (V, IX, X), kontralateraler Schmerz-/Temperaturverlust."
+    },
+    {
+      "q": "Was ist das Weber-Syndrom?",
+      "a": "Medialer Mesenzephalon-Infarkt; ipsilaterale N. III-Parese, kontralaterale Hemiparese."
+    },
+    {
+      "q": "Was ist die Blutversorgung des Rückenmarks?",
+      "a": "A. spinalis anterior (ventrale 2/3), Aa. spinales posteriores (dorsale 1/3), radiculäre Arterien (Arterie Adamkiewicz)."
+    },
+    {
+      "q": "Was ist das Conus-Cauda-Syndrom?",
+      "a": "Schädigung des Conus medullaris (L1/L2) und Cauda equina; schlaffe Paraparese, Reithosenanästhesie, Blasen-/Mastdarmstörung."
+    },
+    {
+      "q": "Was ist der Circulus arteriosus Willisii?",
+      "a": "Arterienring an der Hirnbasis (A. communicans anterior, Aa. cerebri anteriores, Aa. carotides internae, Aa. communicantes posteriores, Aa. cerebri posteriores); Kollateralfunktion."
+    },
+    {
+      "q": "Welche Hirnnerven treten durch die Fissura orbitalis superior?",
+      "a": "N. III (oculomotorius), N. IV (trochlearis), N. VI (abducens), N. V1 (ophthalmicus)."
+    },
+    {
+      "q": "Welcher Hirnnerv tritt durch das Foramen rotundum?",
+      "a": "N. V2 (maxillaris)."
+    },
+    {
+      "q": "Welcher Hirnnerv tritt durch das Foramen ovale?",
+      "a": "N. V3 (mandibularis)."
+    },
+    {
+      "q": "Welche Strukturen treten durch das Foramen jugulare?",
+      "a": "N. IX (glossopharyngeus), N. X (vagus), N. XI (accessorius), V. jugularis interna."
+    },
+    {
+      "q": "Welcher Hirnnerv tritt durch den Canalis nervi hypoglossi?",
+      "a": "N. XII (hypoglossus)."
+    },
+    {
+      "q": "Was sind die Faserbahnen in den Hintersträngen des Rückenmarks?",
+      "a": "Fasciculus gracilis (Beine, medial) und Fasciculus cuneatus (Arme, lateral); Propriozeption, Vibration, Feinberührung."
+    },
+    {
+      "q": "Was ist der Tractus spinothalamicus?",
+      "a": "Aufsteigende Bahn für Schmerz und Temperatur; kreuzt in der Medulla spinalis, verläuft kontralateral."
+    },
+    {
+      "q": "Was ist der Tractus corticospinalis?",
+      "a": "Absteigende motorische Bahn; Pyramidenkreuzung auf Höhe der Medulla oblongata (ca. 90% kreuzen), dann Tractus corticospinalis lateralis."
+    }
+  ],
+  "autonomic": [
+    {
+      "q": "Was ist orthostatische Hypotonie und wie wird sie definiert?",
+      "a": "Blutdruckabfall innerhalb 3 Min nach Aufstehen: systolisch ≥20 mmHg oder diastolisch ≥10 mmHg."
+    },
+    {
+      "q": "Nennen Sie neurologische Ursachen orthostatischer Hypotonie.",
+      "a": "Autonome Neuropathie (Diabetes, Parkinson, MSA), periphere Neuropathie (GBS, Amyloidose), Rückenmarksverletzung."
+    },
+    {
+      "q": "Was ist das posturale orthostatische Tachykardiesyndrom (POTS)?",
+      "a": "Herzfrequenzanstieg ≥30 bpm (bei <19 Jahre: ≥40 bpm) innerhalb 10 Min Stehen ohne orthostatische Hypotonie; Symptome: Schwindel, Palpitationen."
+    },
+    {
+      "q": "Wie wird orthostatische Hypotonie behandelt?",
+      "a": "Erhöhte Flüssigkeits-/Salzzufuhr, Kompressionsstrümpfe, Oberkörperhochlagerung beim Schlafen; medikamentös: Fludrocortison, Midodrin."
+    },
+    {
+      "q": "Was ist autonome Dysreflexie?",
+      "a": "Massive sympathische Überaktivität bei Rückenmarksverletzung ≥T6; Trigger: Blasendistension, Obstipation; Symptome: schwere Hypertonie, Bradykardie, Kopfschmerzen; Notfall!"
+    },
+    {
+      "q": "Nennen Sie Tests zur Evaluation der autonomen Funktion.",
+      "a": "Schellong-Test, Kipptischuntersuchung, Herzfrequenzvariabilität, quantitative Sudomotor Axon Reflex Test (QSART), sympathetic skin response."
+    },
+    {
+      "q": "Was ist das Horner-Syndrom und nennen Sie mögliche Ursachen.",
+      "a": "Ptosis, Miosis, Anhidrose durch Sympathikus-Läsion; Ursachen: zentral (Hirnstamm-Infarkt), prägangliionär (Pancoast-Tumor), postgangliionär (Karotisdissektion)."
+    },
+    {
+      "q": "Was ist neurogene Blasenstörung?",
+      "a": "Blasenfunktionsstörung durch neurologische Erkrankung; Typen: Detrusor-Hyperaktivität, Detrusor-Sphinkter-Dyssynergie, Detrusor-Areflexie."
+    },
+    {
+      "q": "Was ist die Onuf-Kern-Läsion und welche Symptome verursacht sie?",
+      "a": "Sakrales Rückenmark (S2-S4), Kontrolle von Blasen-/Darm-Sphinkter; Läsion: neurogene Blasen-/Darmstörung."
+    }
+  ],
+  "sleep": [
+    {
+      "q": "Was ist Narkolepsie Typ 1?",
+      "a": "Übermäßige Tagesschläfrigkeit, Kataplexie (plötzlicher Tonusverlust bei Emotionen), Hypnagogie Halluzinationen, Schlafparalyse; Hypocretin-Mangel im Liquor."
+    },
+    {
+      "q": "Wie wird Narkolepsie diagnostiziert?",
+      "a": "Polysomnographie + multipler Schlaflatenztest (MSLT): Schlaflatenz <8 Min, ≥2 SOREMPs (sleep-onset REM periods); Liquor: Hypocretin-1 <110 pg/ml bei Typ 1."
+    },
+    {
+      "q": "Was ist die Therapie bei Narkolepsie?",
+      "a": "Modafinil oder Methylphenidat (Wachheit), Natriumoxybat (Kataplexie, Schlafqualität), SSRIs (Kataplexie)."
+    },
+    {
+      "q": "Was ist REM-Schlaf-Verhaltensstörung (RBD)?",
+      "a": "Verlust der REM-Atonie, Ausagieren von Träumen; oft Prodrom von α-Synucleinopathien (Parkinson, DLB, MSA)."
+    },
+    {
+      "q": "Wie wird RBD behandelt?",
+      "a": "Melatonin, Clonazepam; Sicherheitsmaßnahmen im Schlafzimmer."
+    },
+    {
+      "q": "Was ist obstruktives Schlafapnoe-Syndrom (OSAS)?",
+      "a": "Repetitive obstruktive Apnoen/Hypopnoen im Schlaf; Symptome: Schnarchen, Tagesschläfrigkeit, morgendliche Kopfschmerzen; erhöhtes kardiovaskuläres Risiko."
+    },
+    {
+      "q": "Wie wird OSAS diagnostiziert und behandelt?",
+      "a": "Polysomnographie: Apnoe-Hypopnoe-Index (AHI) ≥5/h; Therapie: CPAP (continuous positive airway pressure), Gewichtsreduktion."
+    },
+    {
+      "q": "Was ist Restless-Legs-Syndrom (RLS)?",
+      "a": "Bewegungsdrang der Beine mit Parästhesien, abends/nachts verschlimmert, Besserung durch Bewegung; kann Schlaf stören."
+    },
+    {
+      "q": "Was sind Parasomnien?",
+      "a": "Abnorme Verhaltensweisen während des Schlafs; NREM-Parasomnien: Schlafwandeln, Pavor nocturnus; REM-Parasomnien: RBD, Alpträume."
+    }
+  ],
+  "pediatric": [
+    {
+      "q": "Was ist Fieberkrampf und wie wird er klassifiziert?",
+      "a": "Krampfanfall bei Fieber (>38°C) bei Kindern 6 Monate - 5 Jahre; einfach (kurz <15 Min, generalisiert) vs. komplex (>15 Min, fokal, rezidivierend in 24h)."
+    },
+    {
+      "q": "Wie wird ein einfacher Fieberkrampf behandelt?",
+      "a": "Meist selbstlimitierend; antipyretische Maßnahmen, Elternaufklärung; keine Antiepileptika notwendig; bei längerem Anfall: Benzodiazepine."
+    },
+    {
+      "q": "Was ist West-Syndrom?",
+      "a": "Infantile Spasmen (Salaam-Anfälle), Hypsarrhythmie im EEG, psychomotorische Retardierung; Beginn 3-12 Monate."
+    },
+    {
+      "q": "Wie wird West-Syndrom behandelt?",
+      "a": "ACTH oder Vigabatrin (First-Line bei tuberöser Sklerose); Steroide; Prognose abhängig von Ätiologie."
+    },
+    {
+      "q": "Was ist Lennox-Gastaut-Syndrom?",
+      "a": "Schwere Epilepsie-Enzephalopathie (Beginn 3-5 Jahre); multiple Anfallstypen (tonisch, atypische Absencen, atonisch), langsame Spike-Waves im EEG, geistige Beeinträchtigung."
+    },
+    {
+      "q": "Was ist Dravet-Syndrom?",
+      "a": "Schwere myoklonische Epilepsie des Kindesalters (SMEI); SCN1A-Mutation; Beginn 1. Lebensjahr mit prolongierten Fieberkrämpfen, Photosensitivität, Entwicklungsverzögerung."
+    },
+    {
+      "q": "Was ist Duchenne-Muskeldystrophie?",
+      "a": "X-chromosomal-rezessive Muskeldystrophie (Dystrophin-Gen); progressive proximale Schwäche ab ~3-5 Jahre, Gowers-Zeichen, Wadenhypertrophie, CK massiv erhöht."
+    },
+    {
+      "q": "Was ist spinale Muskelatrophie (SMA) Typ 1 (Werdnig-Hoffmann)?",
+      "a": "Schwerste Form, Beginn <6 Monate; SMN1-Gen-Deletion; floppy infant, Zungenfaszikulationen, Ateminsuffizienz; neue Therapien: Nusinersen, Risdiplam, Gentherapie."
+    },
+    {
+      "q": "Was ist Zerebralparese?",
+      "a": "Gruppe von Bewegungs- und Haltungsstörungen durch nicht-progressive Hirnschädigung in Entwicklung; Ursachen: perinatale Hypoxie, Frühgeburtlichkeit, Infektionen."
+    },
+    {
+      "q": "Nennen Sie Typen der Zerebralparese.",
+      "a": "Spastisch (häufigste), dyskinetisch (athetotisch, choreatisch), ataktisch, gemischt."
+    },
+    {
+      "q": "Was ist Sturge-Weber-Syndrom?",
+      "a": "Neurokutanes Syndrom mit Portweinfleck (Gesicht, V1-Distribution), leptomeningeale Angiomatose, Epilepsie, Glaukom, Entwicklungsverzögerung."
+    },
+    {
+      "q": "Was ist Rett-Syndrom?",
+      "a": "X-chromosomal-dominante neurologische Entwicklungsstörung (MECP2-Mutation), fast ausschließlich Mädchen; normale Entwicklung initial, dann Regression (~6-18 Monate): Verlust von Handfunktion, stereotype Handbewegungen, Ataxie, Epilepsie."
+    }
+  ],
+  "neuroophthalmology": [
+    {
+      "q": "Was ist eine Optikusneuritis?",
+      "a": "Entzündung des N. opticus; Symptome: subakuter Visusverlust, Schmerzen bei Augenbewegung, relatives afferentes Pupillendefizit (RAPD), Farbentsättigung."
+    },
+    {
+      "q": "Was ist ein relatives afferentes Pupillendefizit (RAPD)?",
+      "a": "Swinging-Flashlight-Test: betroffenes Auge dilatiert bei Licht (verminderte afferente Signale); Zeichen für Optikusneuropathie."
+    },
+    {
+      "q": "Was ist eine anteriore ischämische Optikusneuropathie (AION)?",
+      "a": "Infarkt des N. opticus; arteriitisch (Riesenzellarteriitis!) vs. nicht-arteriitisch; plötzlicher, schmerzloser Visusverlust."
+    },
+    {
+      "q": "Wie unterscheidet sich arteriitische von nicht-arteriitischer AION?",
+      "a": "Arteriitisch: Alter >50, Allgemeinsymptome (Fieber, Gewichtsverlust, Kiefer-Claudicatio), BSG/CRP erhöht; Risiko bilateraler Erblindung! Sofortige Steroide!"
+    },
+    {
+      "q": "Was ist Papillenödem?",
+      "a": "Optikusköpfchen-Schwellung durch erhöhten intrakraniellen Druck; bilateral, keine akute Visusminderung (initial)."
+    },
+    {
+      "q": "Was ist Pseudopapillenödem?",
+      "a": "Prominente Papille ohne echtes Ödem; z.B. bei Optikusdrusen; keine Symptome."
+    },
+    {
+      "q": "Was ist internukleäre Ophthalmoplegie (INO)?",
+      "a": "Läsion des medialen Längsbündels (MLF); ipsilaterale Adduktionsschwäche bei Blick zur Gegenseite, kontralateraler Abduzenz-Nystagmus; oft bei MS."
+    },
+    {
+      "q": "Was ist eine N. III-Parese (Oculomotorius)?",
+      "a": "Ptosis, Mydriasis (bei Pupillenbeteiligung), Unfähigkeit zu Adduktion/Elevation/Depression; Ursachen: Aneurysma, Diabetes, Hirnstamminfarkt."
+    },
+    {
+      "q": "Was ist eine N. IV-Parese (Trochlearis)?",
+      "a": "Einschränkung der Depression bei Adduktion (M. obliquus superior); Kopfneigung zur gesunden Seite; oft nach Trauma."
+    },
+    {
+      "q": "Was ist eine N. VI-Parese (Abducens)?",
+      "a": "Einschränkung der Abduktion; häufigste Hirnnervenparese; Ursachen: erhöhter ICP, Diabetes, Hirnstamm-Läsion."
+    },
+    {
+      "q": "Was ist Nystagmus?",
+      "a": "Unwillkürliche, rhythmische Augenbewegungen; peripher (schnelle Phase weg von Läsion, horizontal) vs. zentral (Richtungswechsel, vertikal/rotatorisch möglich)."
+    },
+    {
+      "q": "Was ist Parinaud-Syndrom (dorsales Mittelhirnsyndrom)?",
+      "a": "Vertikale Blickparese (besonders nach oben), Konvergenzschwäche, Lid-Retraktion (Collier-Zeichen), Pupillenstörung; Ursache: Pinealis-Region-Tumor, Hydrozephalus."
+    },
+    {
+      "q": "Was ist Homonymhemianopsie?",
+      "a": "Ausfall derselben Gesichtshälfte beider Augen; Läsion hinter Chiasma opticum (Tractus opticus, Radiatio optica, visueller Kortex)."
+    },
+    {
+      "q": "Was ist bitemporale Hemianopsie?",
+      "a": "Ausfall der temporalen Gesichtsfelder beider Augen; Läsion: Chiasma opticum (z.B. Hypophysenadenom)."
+    },
+    {
+      "q": "Was ist Anisokorie?",
+      "a": "Pupillendifferenz; physiologisch (<1mm) oder pathologisch (Horner, N. III-Läsion, Adie-Pupille, Pharmaka)."
+    },
+    {
+      "q": "Was ist eine Adie-Pupille?",
+      "a": "Tonische Pupille: langsame/unvollständige Reaktion auf Licht, bessere Nahreaktion; oft mit Areflexie (Holmes-Adie-Syndrom); benigne."
+    },
+    {
+      "q": "Was ist Idiopathische intrakranielle Hypertension (IIH)?",
+      "a": "Erhöhter ICP ohne Raumforderung/Hydrozephalus; Risikofaktoren: Adipositas, junge Frauen; Symptome: Kopfschmerzen, Papillenödem, Visusverlust; Liquoreröffnungsdruck >25 cmH2O."
+    },
+    {
+      "q": "Wie wird IIH behandelt?",
+      "a": "Gewichtsreduktion, Acetazolamid, wiederholte Lumbalpunktionen; bei Versagen: VP-Shunt oder Optikusscheiden-Fensterung."
+    }
+  ],
+  "toxicology": [
+    {
+      "q": "Was ist Wernicke-Enzephalopathie?",
+      "a": "Akute neurologische Störung durch Thiamin (Vitamin B1)-Mangel; Trias: Ophthalmoplegie, Ataxie, Konfusion; oft bei Alkoholikern."
+    },
+    {
+      "q": "Wie wird Wernicke-Enzephalopathie behandelt?",
+      "a": "Hochdosis-Thiamin i.v. (500 mg 3x/Tag für 3-5 Tage), BEVOR Glukose gegeben wird (Risiko der Verschlechterung)!"
+    },
+    {
+      "q": "Was ist Korsakow-Syndrom?",
+      "a": "Chronische Folge des Thiaminmangels nach Wernicke-Enzephalopathie; anterograde und retrograde Amnesie, Konfabulationen."
+    },
+    {
+      "q": "Was ist hepatische Enzephalopathie?",
+      "a": "Neurologische Komplikation bei Leberinsuffizienz; Symptome: Konfusion, Asterixis, Somnolenz bis Koma; erhöhtes Ammoniak."
+    },
+    {
+      "q": "Wie wird hepatische Enzephalopathie behandelt?",
+      "a": "Laktulose, Rifaximin, Proteinrestriktion (vorsichtig); Behandlung der Grunderkrankung."
+    },
+    {
+      "q": "Was ist Serotonin-Syndrom?",
+      "a": "Überschuss serotonerger Aktivität (SSRIs, MAO-Hemmer, Tramadol); Symptome: Hyperthermie, Myoklonus, Hyperreflexie, Agitiertheit, Schwitzen, Tremor."
+    },
+    {
+      "q": "Wie wird Serotonin-Syndrom behandelt?",
+      "a": "Absetzen der auslösenden Substanz, supportive Therapie (Kühlung, Hydratation), Cyproheptadin (Serotonin-Antagonist)."
+    },
+    {
+      "q": "Was ist malignes neuroleptisches Syndrom (MNS)?",
+      "a": "Seltene, lebensbedrohliche Reaktion auf Neuroleptika; Symptome: Hyperthermie, Rigor, autonome Instabilität, Bewusstseinsstörung; CK stark erhöht."
+    },
+    {
+      "q": "Wie wird MNS behandelt?",
+      "a": "Sofortiges Absetzen des Neuroleptikums, supportive Therapie, Dantrolen oder Bromocriptin.
