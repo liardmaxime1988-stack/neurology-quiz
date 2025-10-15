@@ -5,67 +5,408 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neurologie Prüfungsfragen Generator</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body { 
-      font-family: sans-serif; 
-      margin: 2rem; 
-      background: #f8f9fa; 
-      color: #212529; 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 2rem;
     }
-    h1 { color: #004085; }
-    button, select { 
-      padding: 0.5rem 1rem; 
-      margin-top: 1rem; 
-      font-size: 1rem; 
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 { 
+      color: white;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .subtitle {
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .control-panel {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+
+    .mode-select {
+      margin-bottom: 2rem;
+    }
+
+    .mode-select label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.8rem;
+      color: #2c3e50;
+      font-size: 1.1rem;
+    }
+
+    .mode-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .mode-btn {
+      padding: 1.2rem;
+      border: 3px solid #e0e0e0;
+      background: white;
+      border-radius: 10px;
       cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: all 0.3s;
+      text-align: center;
     }
+
+    .mode-btn:hover {
+      border-color: #667eea;
+      background: #f8f9fa;
+      transform: translateY(-2px);
+    }
+
+    .mode-btn.active {
+      border-color: #667eea;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .topic-select {
+      margin-bottom: 1.5rem;
+    }
+
+    .topic-select label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+    }
+
+    select {
+      width: 100%;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      transition: border 0.3s;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+
+    .generate-btn {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+    }
+
+    .generate-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .generate-btn:active {
+      transform: translateY(0);
+    }
+
+    /* Case Study Styles */
+    .case-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .case-card-preview {
+      padding: 1.5rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+      background: white;
+    }
+
+    .case-card-preview:hover {
+      border-color: #667eea;
+      box-shadow: 0 4px 20px rgba(102, 126, 234, 0.2);
+      transform: translateY(-3px);
+    }
+
+    .case-card-preview h3 {
+      margin: 0 0 0.5rem 0;
+      color: #2c3e50;
+      font-size: 1.3rem;
+    }
+
+    .case-card-preview p {
+      margin: 0;
+      color: #7f8c8d;
+      font-size: 0.95rem;
+    }
+
+    .case-badge {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      background: #667eea;
+      color: white;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    /* Case Container */
+    .case-container {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    }
+
+    .case-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    .back-btn {
+      padding: 0.7rem 1.5rem;
+      background: #95a5a6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #7f8c8d;
+      transform: translateY(-2px);
+    }
+
+    .case-progress {
+      font-weight: 600;
+      color: #667eea;
+      font-size: 1.2rem;
+    }
+
+    .case-title {
+      font-size: 1.8rem;
+      color: #2c3e50;
+      margin-bottom: 1.5rem;
+    }
+
+    .case-context {
+      background: #f8f9fa;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      border-left: 4px solid #667eea;
+      font-style: italic;
+      color: #495057;
+    }
+
+    .case-question-block {
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: #ffffff;
+      border: 2px solid #e9ecef;
+      border-radius: 10px;
+    }
+
+    .case-question-block.locked {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    .case-question-number {
+      font-weight: 700;
+      color: #667eea;
+      font-size: 1.1rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .case-question-text {
+      font-size: 1.1rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .case-reveal-btn {
+      padding: 0.7rem 1.5rem;
+      background: #667eea;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .case-reveal-btn:hover {
+      background: #764ba2;
+      transform: translateY(-2px);
+    }
+
+    .case-answer {
+      display: none;
+      margin-top: 1rem;
+      padding: 1.2rem;
+      background: #d4edda;
+      border-left: 4px solid #28a745;
+      border-radius: 8px;
+      color: #155724;
+      line-height: 1.6;
+    }
+
+    .case-answer.visible {
+      display: block;
+      animation: fadeIn 0.5s;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .case-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 2px solid #e0e0e0;
+    }
+
+    .nav-btn {
+      padding: 0.8rem 1.8rem;
+      background: #6c757d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      background: #5a6268;
+      transform: translateY(-2px);
+    }
+
+    .nav-btn:disabled {
+      background: #dee2e6;
+      cursor: not-allowed;
+      color: #6c757d;
+    }
+
+    .nav-btn.primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .nav-btn.primary:hover:not(:disabled) {
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    /* Standard Questions Styles */
     .question { 
       margin: 1rem 0; 
-      padding: 1rem; 
+      padding: 1.5rem; 
       background: white; 
-      border-left: 4px solid #17a2b8;
-      border-radius: 4px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-left: 4px solid #667eea;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s;
     }
+
+    .question:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+      transform: translateY(-2px);
+    }
+
     .question-image {
       max-width: 100%;
       height: auto;
       margin: 1rem 0;
       border: 2px solid #dee2e6;
-      border-radius: 4px;
+      border-radius: 8px;
       cursor: pointer;
+      transition: opacity 0.3s;
     }
+
     .question-image:hover {
       opacity: 0.9;
     }
+
     .answer { 
       display: none; 
       color: #155724; 
-      margin-top: 0.5rem;
-      padding: 0.5rem;
+      margin-top: 1rem;
+      padding: 1rem;
       background: #d4edda;
-      border-radius: 4px;
+      border-radius: 8px;
+      border-left: 4px solid #28a745;
+      line-height: 1.6;
     }
+
     .show-answer-btn { 
-      margin-left: 1rem; 
-      font-size: 0.9rem; 
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
       cursor: pointer; 
-      color: #007bff; 
-      background: none; 
-      border: 1px solid #007bff;
-      padding: 0.3rem 0.8rem;
-      border-radius: 4px;
-      transition: all 0.3s;
-    }
-    .show-answer-btn:hover {
-      background: #007bff;
       color: white;
+      background: #667eea;
+      border: none;
+      border-radius: 8px;
+      transition: all 0.3s;
+      font-weight: 600;
     }
+
+    .show-answer-btn:hover {
+      background: #764ba2;
+      transform: translateY(-2px);
+    }
+
     .image-caption {
-      font-size: 0.85rem;
+      font-size: 0.9rem;
       color: #6c757d;
       font-style: italic;
       margin-top: 0.5rem;
     }
+
     .modal {
       display: none;
       position: fixed;
@@ -76,6 +417,7 @@
       height: 100%;
       background-color: rgba(0,0,0,0.9);
     }
+
     .modal-content {
       margin: auto;
       display: block;
@@ -86,6 +428,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+
     .close-modal {
       position: absolute;
       top: 20px;
@@ -94,39 +437,103 @@
       font-size: 40px;
       font-weight: bold;
       cursor: pointer;
+      transition: color 0.3s;
     }
+
     .close-modal:hover {
       color: #bbb;
+    }
+
+    #questions {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .mode-buttons {
+        grid-template-columns: 1fr;
+      }
+
+      .case-header {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .case-navigation {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .nav-btn {
+        width: 100%;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>Neurologie Fragen Generator (DE)</h1>
-  <p>Wähle ein Thema und drücke den Button, um 20 zufällige Prüfungsfragen anzuzeigen.</p>
-  <label for="topic">Themenauswahl:</label>
-  <select id="topic">
-    <option value="general">Allgemein</option>
-    <option value="stroke">Schlaganfall</option>
-    <option value="epilepsy">Epilepsie</option>
-    <option value="ms">Multiple Sklerose</option>
-    <option value="movement">Bewegungsstörungen</option>
-    <option value="dementia">Demenz</option>
-    <option value="headache">Kopfschmerzen</option>
-    <option value="neuromuscular">Neuromuskulär</option>
-    <option value="infections">Infektionen</option>
-    <option value="tumors">Tumoren</option>
-    <option value="neurointensive">Neurointensiv</option>
-    <option value="neuroanatomy">Neuroanatomie</option>
-    <option value="autonomic">Autonomes Nervensystem</option>
-    <option value="sleep">Schlafmedizin</option>
-    <option value="pediatric">Pädiatrische Neurologie</option>
-    <option value="neuroophthalmology">Neuroophthalmologie</option>
-    <option value="toxicology">Toxikologie</option>
-    <option value="misc">Verschiedenes</option>
-    <option value="imaging">Bildgebung (MRT/CT/EEG)</option>
-  </select><br>
-  <button onclick="generateQuestions()">20 Fragen generieren</button>
-  <div id="questions"></div>
+  <div class="container">
+    <h1>🧠 Neurologie Prüfungsvorbereitung</h1>
+    <p class="subtitle">Fragen & Fallstudien für die mündliche Prüfung</p>
+
+    <div class="control-panel">
+      <div class="mode-select">
+        <label>Modus wählen:</label>
+        <div class="mode-buttons">
+          <button class="mode-btn active" onclick="switchMode('standard')">
+            📝 Standard Fragen
+          </button>
+          <button class="mode-btn" onclick="switchMode('case')">
+            🩺 Fallstudien (Oral Exam)
+          </button>
+        </div>
+      </div>
+
+      <div id="standardModeContent">
+        <div class="topic-select">
+          <label for="topic">Themenauswahl:</label>
+          <select id="topic">
+            <option value="general">Allgemein</option>
+            <option value="stroke">Schlaganfall</option>
+            <option value="epilepsy">Epilepsie</option>
+            <option value="ms">Multiple Sklerose</option>
+            <option value="movement">Bewegungsstörungen</option>
+            <option value="dementia">Demenz</option>
+            <option value="headache">Kopfschmerzen</option>
+            <option value="neuromuscular">Neuromuskulär</option>
+            <option value="infections">Infektionen</option>
+            <option value="tumors">Tumoren</option>
+            <option value="neurointensive">Neurointensiv</option>
+            <option value="neuroanatomy">Neuroanatomie</option>
+            <option value="autonomic">Autonomes Nervensystem</option>
+            <option value="sleep">Schlafmedizin</option>
+            <option value="pediatric">Pädiatrische Neurologie</option>
+            <option value="neuroophthalmology">Neuroophthalmologie</option>
+            <option value="toxicology">Toxikologie</option>
+            <option value="misc">Verschiedenes</option>
+            <option value="imaging">Bildgebung (MRT/CT/EEG)</option>
+          </select>
+        </div>
+        <button class="generate-btn" onclick="generateQuestions()">20 Fragen generieren</button>
+      </div>
+
+      <div id="caseModeContent" style="display: none;">
+        <div id="caseList" class="case-list"></div>
+      </div>
+    </div>
+
+    <div id="questions"></div>
+    <div id="caseContainer" style="display: none;"></div>
+  </div>
 
   <!-- Modal for enlarged images -->
   <div id="imageModal" class="modal" onclick="closeModal()">
@@ -136,10 +543,174 @@
 
   <script>
     let questions = {};
+    let currentMode = 'standard';
+    let currentCaseIndex = 0;
+    let caseStudies = [];
+
     fetch("questions.json?" + new Date().getTime())
       .then(response => response.json())
-      .then(data => questions = data)
+      .then(data => {
+        questions = data;
+        if (data.case_studies) {
+          caseStudies = data.case_studies;
+        }
+      })
       .catch(err => alert("Fehler beim Laden der Fragen."));
+
+    function switchMode(mode) {
+      currentMode = mode;
+      const buttons = document.querySelectorAll('.mode-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const standardContent = document.getElementById('standardModeContent');
+      const caseContent = document.getElementById('caseModeContent');
+      const questionsDiv = document.getElementById('questions');
+      const caseContainer = document.getElementById('caseContainer');
+
+      if (mode === 'standard') {
+        standardContent.style.display = 'block';
+        caseContent.style.display = 'none';
+        caseContainer.style.display = 'none';
+        questionsDiv.innerHTML = '';
+      } else {
+        standardContent.style.display = 'none';
+        caseContent.style.display = 'block';
+        questionsDiv.style.display = 'none';
+        caseContainer.style.display = 'none';
+        displayCaseList();
+      }
+    }
+
+    function displayCaseList() {
+      const caseList = document.getElementById('caseList');
+      caseList.innerHTML = '<h3 style="color: #2c3e50; margin-bottom: 1rem;">Wähle einen Fall:</h3>';
+
+      caseStudies.forEach((caseStudy, index) => {
+        // Count questions for this case
+        const questionCount = caseStudy.questions ? caseStudy.questions.length : 
+                             caseStudies.filter(c => c.case === caseStudy.case).length;
+        
+        const caseCard = document.createElement('div');
+        caseCard.className = 'case-card-preview';
+        caseCard.onclick = () => startCase(index);
+        
+        const title = caseStudy.case || `Fall ${index + 1}`;
+        const firstQuestion = caseStudy.q || (caseStudy.questions ? caseStudy.questions[0].q : '');
+        const preview = firstQuestion.substring(0, 100) + '...';
+        
+        caseCard.innerHTML = `
+          <h3>${title}</h3>
+          <p>${preview}</p>
+          <span class="case-badge">${questionCount} Fragen</span>
+        `;
+        caseList.appendChild(caseCard);
+      });
+    }
+
+    function startCase(caseIndex) {
+      currentCaseIndex = caseIndex;
+      const caseContainer = document.getElementById('caseContainer');
+      const caseList = document.getElementById('caseModeContent');
+      
+      caseList.style.display = 'none';
+      caseContainer.style.display = 'block';
+      
+      displayCase(caseIndex);
+    }
+
+    function displayCase(caseIndex) {
+      const caseStudy = caseStudies[caseIndex];
+      const caseContainer = document.getElementById('caseContainer');
+      
+      // Group questions by case
+      const caseQuestions = caseStudies.filter(c => c.case === caseStudy.case);
+      
+      const caseTitle = caseStudy.case || `Fall ${caseIndex + 1}`;
+      const totalCases = [...new Set(caseStudies.map(c => c.case))].length;
+      
+      let html = `
+        <div class="case-header">
+          <button class="back-btn" onclick="backToCaseList()">← Zurück zur Fallauswahl</button>
+          <div class="case-progress">Fall ${caseIndex + 1} von ${totalCases}</div>
+        </div>
+        <h2 class="case-title">${caseTitle}</h2>
+      `;
+      
+      caseQuestions.forEach((q, idx) => {
+        const questionNum = idx + 1;
+        const totalQuestions = caseQuestions.length;
+        
+        html += `
+          <div class="case-question-block" id="question-${idx}">
+            <div class="case-question-number">Frage ${questionNum}/${totalQuestions}</div>
+            <div class="case-question-text">${q.q}</div>
+            <button class="case-reveal-btn" onclick="revealCaseAnswer(${idx})">
+              Antwort anzeigen
+            </button>
+            <div class="case-answer" id="answer-${idx}">
+              <strong>Antwort:</strong> ${q.a}
+            </div>
+          </div>
+        `;
+      });
+      
+      html += `
+        <div class="case-navigation">
+          <button class="nav-btn" onclick="previousCase()" ${caseIndex === 0 ? 'disabled' : ''}>
+            ← Vorheriger Fall
+          </button>
+          <button class="nav-btn primary" onclick="nextCase()" ${caseIndex >= totalCases - 1 ? 'disabled' : ''}>
+            Nächster Fall →
+          </button>
+        </div>
+      `;
+      
+      caseContainer.innerHTML = html;
+    }
+
+    function revealCaseAnswer(questionIndex) {
+      const answer = document.getElementById(`answer-${questionIndex}`);
+      const nextQuestion = document.getElementById(`question-${questionIndex + 1}`);
+      
+      answer.classList.add('visible');
+      
+      if (nextQuestion) {
+        nextQuestion.classList.remove('locked');
+      }
+    }
+
+    function backToCaseList() {
+      document.getElementById('caseModeContent').style.display = 'block';
+      document.getElementById('caseContainer').style.display = 'none';
+    }
+
+    function previousCase() {
+      if (currentCaseIndex > 0) {
+        // Find the previous unique case
+        const currentCase = caseStudies[currentCaseIndex].case;
+        for (let i = currentCaseIndex - 1; i >= 0; i--) {
+          if (caseStudies[i].case !== currentCase) {
+            startCase(i);
+            break;
+          }
+        }
+      }
+    }
+
+    function nextCase() {
+      const totalCases = [...new Set(caseStudies.map(c => c.case))].length;
+      if (currentCaseIndex < totalCases - 1) {
+        // Find the next unique case
+        const currentCase = caseStudies[currentCaseIndex].case;
+        for (let i = currentCaseIndex + 1; i < caseStudies.length; i++) {
+          if (caseStudies[i].case !== currentCase) {
+            startCase(i);
+            break;
+          }
+        }
+      }
+    }
 
     function generateQuestions() {
       const topic = document.getElementById("topic").value;
@@ -147,6 +718,7 @@
       const shuffled = pool.sort(() => 0.5 - Math.random()).slice(0, 20);
       const container = document.getElementById("questions");
       container.innerHTML = "";
+      container.style.display = 'block';
 
       shuffled.forEach((qa, index) => {
         const div = document.createElement("div");
@@ -162,7 +734,7 @@
         
         div.innerHTML = `<strong>Frage ${index + 1}:</strong> ${qa.q}<br>` +
           imageHTML +
-          `<button class='show-answer-btn' onclick='this.nextElementSibling.style.display = "block"'>Antwort anzeigen</button>` +
+          `<button class='show-answer-btn' onclick='this.nextElementSibling.style.display = "block"; this.style.display = "none"'>Antwort anzeigen</button>` +
           `<div class='answer'><strong>Antwort:</strong> ${qa.a}</div>`;
         container.appendChild(div);
       });
@@ -179,7 +751,6 @@
       document.getElementById("imageModal").style.display = "none";
     }
 
-    // Close modal with Escape key
     document.addEventListener('keydown', function(event) {
       if (event.key === "Escape") {
         closeModal();
