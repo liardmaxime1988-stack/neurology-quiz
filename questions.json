@@ -1499,85 +1499,72 @@
   {
     "q": "MRT Gehirn: Sie sehen bilaterale, symmetrische T2/FLAIR-Hyperintensitäten in den Basalganglien (Putamen, Nucleus caudatus) und Thalami bei einem 45-jährigen Patienten mit progredienter Bewegungsstörung und kognitiven Störungen. Die Läsionen zeigen kein Enhancement. Was ist die wahrscheinlichste Diagnose?",
     "a": "Creutzfeldt-Jakob-Krankheit (CJK). Typisches 'Pulvinar sign' und 'hockey stick sign' in DWI/FLAIR bei sCJK. Zusätzlich: kortikales Ribboning möglich.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Creutzfeldt-jakob_disease.jpg/800px-Creutzfeldt-jakob_disease.jpg",
-    "imgCaption": "MRT FLAIR: Bilaterale Hyperintensitäten in Basalganglien und Thalamus bei CJK"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Creutzfeldt-Jakob disease' (Case ID 169236 oder ähnliche) - Zeigt bilaterale Hyperintensitäten in Basalganglien und Thalamus mit Hockey-stick-Zeichen"
   },
   {
     "q": "MRT Gehirn: T2-gewichtete Bilder zeigen ovale, periventrikuläre Läsionen, die senkrecht zu den Ventrikeln verlaufen ('Dawson-Finger'). Zusätzlich juxtakortikale und infratentorielle Läsionen. Einige Läsionen zeigen Gadolinium-Enhancement, andere nicht. Was ist die Diagnose?",
     "a": "Multiple Sklerose. Die Läsionen erfüllen die McDonald-Kriterien für Dissemination in Raum (DIS) und Zeit (DIT: gleichzeitiges Vorhandensein von KM-aufnehmenden und nicht-aufnehmenden Läsionen).",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ms-demyelinisation_mri_scan.jpg/800px-Ms-demyelinisation_mri_scan.jpg",
-    "imgCaption": "MRT FLAIR: Periventrikuläre MS-Läsionen (Dawson-Finger)"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Multiple sclerosis Dawson fingers' - Zeigt typische periventrikuläre MS-Läsionen senkrecht zu den Ventrikeln"
   },
   {
     "q": "MRT Wirbelsäule: Longitudinal extensive transverse Myelitis (LETM) über >3 Wirbelsegmente in der zervikalen und thorakalen Region. Die Läsion ist zentral im Rückenmark lokalisiert. Welche Diagnose ist am wahrscheinlichsten und welcher Test sollte durchgeführt werden?",
     "a": "Neuromyelitis-optica-Spektrum-Erkrankung (NMOSD). Test: Aquaporin-4-Antikörper im Serum.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Neuromyelitis_optica.jpg/600px-Neuromyelitis_optica.jpg",
-    "imgCaption": "MRT Wirbelsäule: Langstreckige Myelitis über >3 Segmente bei NMOSD"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Neuromyelitis optica' oder 'LETM' - Zeigt langstreckige zentrale Myelitis über mehrere Segmente"
   },
   {
     "q": "CT Schädel: Sie sehen eine bikonvexe, hyperdense extraaxiale Raumforderung, die die Mittellinie nicht überschreitet. Der Patient hatte ein Trauma vor 2 Stunden. Was ist die Diagnose und welche Gefäßstruktur ist typischerweise betroffen?",
     "a": "Epidurales Hämatom. Typischerweise durch Ruptur der A. meningea media nach Schädelfraktur im Temporalbereich.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Epidural_hematoma.jpg/800px-Epidural_hematoma.jpg",
-    "imgCaption": "CT: Bikonvexes epidurales Hämatom"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Epidural hematoma' oder 'Extradural haemorrhage' - Zeigt typische bikonvexe (linsenförmige) Konfiguration"
   },
   {
     "q": "CT Schädel: Sichelförmige, hyperdense Raumforderung, die sich entlang der Konvexität erstreckt und die Mittellinie überschreitet. Der Patient ist 75 Jahre alt und hatte vor 3 Wochen einen Sturz. Was ist die Diagnose?",
     "a": "Akutes subdurales Hämatom. Bei älteren Patienten oft durch Brückenvenenruptur, auch nach minimalem Trauma.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Subdural_hematoma.jpg/800px-Subdural_hematoma.jpg",
-    "imgCaption": "CT: Sichelförmiges subdurales Hämatom"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Subdural hematoma acute' - Zeigt sichelförmige Konfiguration entlang der Konvexität"
   },
   {
     "q": "CT Schädel: Hyperdens im Subarachnoidalraum, besonders in den basalen Zisternen (Stern-Konfiguration). Der Patient klagt über 'den schlimmsten Kopfschmerz seines Lebens'. Welche Komplikation sollte in den nächsten 4-14 Tagen besonders überwacht werden?",
     "a": "Subarachnoidalblutung. Komplikation: Zerebraler Vasospasmus mit Risiko für verzögerte zerebrale Ischämie (DCI). Monitoring durch transkranielle Doppler-Sonographie. Prophylaxe: Nimodipin 60 mg alle 4h für 21 Tage.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Subarachnoid_haemorrhage.png/800px-Subarachnoid_haemorrhage.png",
-    "imgCaption": "CT: Subarachnoidalblutung in basalen Zisternen"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Subarachnoid haemorrhage' - Zeigt Hyperdensität in basalen Zisternen mit Stern-Konfiguration"
   },
   {
     "q": "MRT Gehirn: T2/FLAIR zeigt symmetrische Hyperintensitäten in beiden Okzipitallappen und Parietallappen mit vasogenem Ödem. Die Patientin hat eine hypertensive Krise (RR 220/120 mmHg) und Krampfanfälle. Was ist die Diagnose?",
     "a": "Posteriores reversibles Enzephalopathiesyndrom (PRES). Therapie: Blutdrucksenkung, antikonvulsive Therapie. Die Läsionen sind in der Regel reversibel.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/PRES_MRI.jpg/800px-PRES_MRI.jpg",
-    "imgCaption": "MRT FLAIR: Posteriore Hyperintensitäten bei PRES"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'PRES' oder 'Posterior reversible encephalopathy syndrome' - Zeigt typische posteriore Hyperintensitäten"
   },
   {
     "q": "MRT Gehirn: Asymmetrische FLAIR-Hyperintensitäten im medialen Temporallappen, besonders im Hippocampus, mit T2-Hyperintensität und Schwellung. Der Patient hat Fieber, Verwirrtheit und fokale Anfälle. Was ist die wahrscheinlichste Diagnose und die dringendste Therapie?",
     "a": "Herpes-simplex-Enzephalitis (HSE). Sofortiger Therapiestart mit Aciclovir 10 mg/kg i.v. alle 8h, ohne auf PCR-Bestätigung zu warten!",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Herpes_simplex_encephalitis.jpg/800px-Herpes_simplex_encephalitis.jpg",
-    "imgCaption": "MRT FLAIR: Temporale Hyperintensitäten bei HSV-Enzephalitis"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Herpes simplex encephalitis' - Zeigt temporale Hyperintensitäten, oft asymmetrisch"
   },
   {
     "q": "MRT Gehirn: 'Hot cross bun sign' in der Pons (T2-gewichtete Bilder zeigen eine kreuzförmige Hyperintensität). Zusätzlich putaminale Atrophie mit T2-Hyperintensität. Der Patient hat Parkinson-Symptome, autonome Dysfunktion und schlechtes Levodopa-Ansprechen. Was ist die Diagnose?",
     "a": "Multisystematrophie (MSA). Das Hot-cross-bun-Zeichen ist pathognomonisch für MSA-C (zerebellärer Typ).",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hot_cross_bun_sign.jpg/600px-Hot_cross_bun_sign.jpg",
-    "imgCaption": "MRT T2: Hot-cross-bun-Zeichen bei MSA"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Hot cross bun sign' oder 'Multiple system atrophy' - Zeigt kreuzförmige Hyperintensität in der Pons"
   },
   {
     "q": "EEG: Sie sehen generalisierte 3-Hz-Spike-Wave-Komplexe, die während Hyperventilation provoziert wurden. Die 8-jährige Patientin hat kurze Bewusstseinspausen ohne Sturz. Was ist die Diagnose?",
     "a": "Absence-Epilepsie (Petit-mal). Typisches EEG-Muster bei Absence-Anfällen. Therapie: Ethosuximid oder Valproat.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/3Hz_spike_wave.png/800px-3Hz_spike_wave.png",
-    "imgCaption": "EEG: Generalisierte 3-Hz-Spike-Wave-Komplexe bei Absence-Epilepsie"
+    "imgCaption": "Referenz: Suche nach 'Absence epilepsy EEG' in medizinischen Bildungsdatenbanken - Zeigt generalisierte 3-Hz-Spike-Waves"
   },
   {
     "q": "EEG: Periodische lateralisierte epileptiforme Entladungen (PLEDs) über der rechten Temporalregion bei einem Patienten mit Fieber und Verwirrtheit. Was ist die wahrscheinlichste Diagnose?",
     "a": "Herpes-simplex-Enzephalitis (HSE). PLEDs sind typisch für HSE, besonders in der Frühphase.",
-    "imgCaption": "EEG: PLEDs bei HSV-Enzephalitis (Bild wird geladen wenn verfügbar)"
+    "imgCaption": "Referenz: Medizinische EEG-Lehrbücher - PLEDs über Temporalregion bei HSV-Enzephalitis"
   },
   {
     "q": "EEG: Hypsarrhythmie - hochamplitudige, desorganisierte Aktivität mit multifokalen Spikes und Wellen. Der 6 Monate alte Säugling hat Salaam-Anfälle. Was ist die Diagnose?",
     "a": "West-Syndrom (infantile Spasmen). Hypsarrhythmie ist das charakteristische EEG-Muster.",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Hypsarrhythmia.png/800px-Hypsarrhythmia.png",
-    "imgCaption": "EEG: Hypsarrhythmie bei West-Syndrom"
+    "imgCaption": "Referenz: Pädiatrische Neurologie-Lehrbücher - Hypsarrhythmie: chaotisches, hochamplitudiges EEG-Muster"
   },
   {
     "q": "CT Schädel: Hypodense, runde Läsion mit Ring-Enhancement und perifokalem Ödem im Parietallappen. Der Patient ist HIV-positiv mit CD4-Zahl <100/µl. Was ist die wahrscheinlichste Diagnose?",
     "a": "Zerebrale Toxoplasmose. Multiple ring-enhancing Läsionen sind typisch bei HIV-Patienten. DD: primäres ZNS-Lymphom (meist solitär, homogen).",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Toxoplasmosis.jpg/800px-Toxoplasmosis.jpg",
-    "imgCaption": "CT mit KM: Ring-enhancing Läsionen bei zerebraler Toxoplasmose"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Cerebral toxoplasmosis HIV' - Zeigt multiple ring-enhancing Läsionen"
   },
   {
     "q": "MRT Wirbelsäule: Zentral gelegene, langstreckige T2-Hyperintensität im zervikalen Rückenmark mit Erweiterung des Rückenmarks ('Syrinx'). Was ist die Diagnose und welche assoziierte Anomalie sollte gesucht werden?",
     "a": "Syringomyelie. Häufig assoziiert mit Arnold-Chiari-Malformation Typ I (Kleinhirntonsillen-Ektopie durch Foramen magnum).",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Syringomyelia.jpg/600px-Syringomyelia.jpg",
-    "imgCaption": "MRT T2 sagittal: Syrinx im zervikalen Rückenmark"
+    "imgCaption": "Referenz: Radiopaedia.org - Suche 'Syringomyelia' oder 'Syrinx' - Zeigt zentrale Höhle im Rückenmark auf T2-sagittal"
   }
 ]
 }
