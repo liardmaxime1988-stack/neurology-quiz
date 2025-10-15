@@ -619,12 +619,16 @@
       displayCase(caseIndex);
     }
 
+    let currentQuestionIndex = 0;
+    let currentCaseQuestions = [];
+
     function displayCase(caseIndex) {
       const caseStudy = caseStudies[caseIndex];
       const caseContainer = document.getElementById('caseContainer');
       
       // Group questions by case
-      const caseQuestions = caseStudies.filter(c => c.case === caseStudy.case);
+      currentCaseQuestions = caseStudies.filter(c => c.case === caseStudy.case);
+      currentQuestionIndex = 0;
       
       const caseTitle = caseStudy.case || `Fall ${caseIndex + 1}`;
       const totalCases = [...new Set(caseStudies.map(c => c.case))].length;
@@ -635,27 +639,7 @@
           <div class="case-progress">Fall ${caseIndex + 1} von ${totalCases}</div>
         </div>
         <h2 class="case-title">${caseTitle}</h2>
-      `;
-      
-      caseQuestions.forEach((q, idx) => {
-        const questionNum = idx + 1;
-        const totalQuestions = caseQuestions.length;
-        
-        html += `
-          <div class="case-question-block" id="question-${idx}">
-            <div class="case-question-number">Frage ${questionNum}/${totalQuestions}</div>
-            <div class="case-question-text">${q.q}</div>
-            <button class="case-reveal-btn" onclick="revealCaseAnswer(${idx})">
-              Antwort anzeigen
-            </button>
-            <div class="case-answer" id="answer-${idx}">
-              <strong>Antwort:</strong> ${q.a}
-            </div>
-          </div>
-        `;
-      });
-      
-      html += `
+        <div id="currentQuestionContainer"></div>
         <div class="case-navigation">
           <button class="nav-btn" onclick="previousCase()" ${caseIndex === 0 ? 'disabled' : ''}>
             ← Vorheriger Fall
@@ -667,16 +651,67 @@
       `;
       
       caseContainer.innerHTML = html;
+      showCurrentQuestion();
     }
 
-    function revealCaseAnswer(questionIndex) {
-      const answer = document.getElementById(`answer-${questionIndex}`);
-      const nextQuestion = document.getElementById(`question-${questionIndex + 1}`);
+    function showCurrentQuestion() {
+      const container = document.getElementById('currentQuestionContainer');
+      if (!container) return;
+      
+      const q = currentCaseQuestions[currentQuestionIndex];
+      const questionNum = currentQuestionIndex + 1;
+      const totalQuestions = currentCaseQuestions.length;
+      
+      let html = `
+        <div class="case-question-block">
+          <div class="case-question-number">Frage ${questionNum}/${totalQuestions}</div>
+          <div class="case-question-text">${q.q}</div>
+          <button class="case-reveal-btn" id="revealBtn" onclick="revealCurrentAnswer()">
+            Antwort anzeigen
+          </button>
+          <div class="case-answer" id="currentAnswer">
+            <strong>Antwort:</strong> ${q.a}
+          </div>
+      `;
+      
+      if (currentQuestionIndex < currentCaseQuestions.length - 1) {
+        html += `
+          <button class="case-reveal-btn" id="nextQuestionBtn" style="display: none; margin-left: 1rem; background: #28a745;" onclick="nextQuestion()">
+            Nächste Frage →
+          </button>
+        `;
+      } else {
+        html += `
+          <div id="caseComplete" style="display: none; margin-top: 1rem; padding: 1rem; background: #d4edda; border-radius: 8px; color: #155724; font-weight: 600;">
+            ✅ Fall abgeschlossen! Nutze die Navigation unten für den nächsten Fall.
+          </div>
+        `;
+      }
+      
+      html += `</div>`;
+      container.innerHTML = html;
+    }
+
+    function revealCurrentAnswer() {
+      const answer = document.getElementById('currentAnswer');
+      const revealBtn = document.getElementById('revealBtn');
+      const nextBtn = document.getElementById('nextQuestionBtn');
+      const caseComplete = document.getElementById('caseComplete');
       
       answer.classList.add('visible');
+      revealBtn.style.display = 'none';
       
-      if (nextQuestion) {
-        nextQuestion.classList.remove('locked');
+      if (nextBtn) {
+        nextBtn.style.display = 'inline-block';
+      } else if (caseComplete) {
+        caseComplete.style.display = 'block';
+      }
+    }
+
+    function nextQuestion() {
+      if (currentQuestionIndex < currentCaseQuestions.length - 1) {
+        currentQuestionIndex++;
+        showCurrentQuestion();
       }
     }
 
