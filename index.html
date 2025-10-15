@@ -27,7 +27,7 @@
   <div id="questions"></div>
   <script>
     let questions = {};
-    fetch("questions.json")
+    fetch("questions.json?" + new Date().getTime())
       .then(response => response.json())
       .then(data => questions = data)
       .catch(err => alert("Fehler beim Laden der Fragen."));
