@@ -2,14 +2,102 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neurologie Prüfungsfragen Generator</title>
   <style>
-    body { font-family: sans-serif; margin: 2rem; background: #f8f9fa; color: #212529; }
+    body { 
+      font-family: sans-serif; 
+      margin: 2rem; 
+      background: #f8f9fa; 
+      color: #212529; 
+    }
     h1 { color: #004085; }
-    button, select { padding: 0.5rem 1rem; margin-top: 1rem; font-size: 1rem; }
-    .question { margin: 1rem 0; padding: 1rem; background: white; border-left: 4px solid #17a2b8; }
-    .answer { display: none; color: #155724; margin-top: 0.5rem; }
-    .show-answer-btn { margin-left: 1rem; font-size: 0.9rem; cursor: pointer; color: #007bff; background: none; border: none; }
+    button, select { 
+      padding: 0.5rem 1rem; 
+      margin-top: 1rem; 
+      font-size: 1rem; 
+      cursor: pointer;
+    }
+    .question { 
+      margin: 1rem 0; 
+      padding: 1rem; 
+      background: white; 
+      border-left: 4px solid #17a2b8;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .question-image {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border: 2px solid #dee2e6;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .question-image:hover {
+      opacity: 0.9;
+    }
+    .answer { 
+      display: none; 
+      color: #155724; 
+      margin-top: 0.5rem;
+      padding: 0.5rem;
+      background: #d4edda;
+      border-radius: 4px;
+    }
+    .show-answer-btn { 
+      margin-left: 1rem; 
+      font-size: 0.9rem; 
+      cursor: pointer; 
+      color: #007bff; 
+      background: none; 
+      border: 1px solid #007bff;
+      padding: 0.3rem 0.8rem;
+      border-radius: 4px;
+      transition: all 0.3s;
+    }
+    .show-answer-btn:hover {
+      background: #007bff;
+      color: white;
+    }
+    .image-caption {
+      font-size: 0.85rem;
+      color: #6c757d;
+      font-style: italic;
+      margin-top: 0.5rem;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.9);
+    }
+    .modal-content {
+      margin: auto;
+      display: block;
+      max-width: 90%;
+      max-height: 90%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .close-modal {
+      position: absolute;
+      top: 20px;
+      right: 35px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close-modal:hover {
+      color: #bbb;
+    }
   </style>
 </head>
 <body>
@@ -35,9 +123,17 @@
     <option value="neuroophthalmology">Neuroophthalmologie</option>
     <option value="toxicology">Toxikologie</option>
     <option value="misc">Verschiedenes</option>
+    <option value="imaging">Bildgebung (MRT/CT/EEG)</option>
   </select><br>
   <button onclick="generateQuestions()">20 Fragen generieren</button>
   <div id="questions"></div>
+
+  <!-- Modal for enlarged images -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
   <script>
     let questions = {};
     fetch("questions.json?" + new Date().getTime())
@@ -55,12 +151,40 @@
       shuffled.forEach((qa, index) => {
         const div = document.createElement("div");
         div.className = "question";
+        
+        let imageHTML = '';
+        if (qa.img) {
+          imageHTML = `<img src="${qa.img}" alt="Medizinisches Bild" class="question-image" onclick="openModal('${qa.img}')">`;
+          if (qa.imgCaption) {
+            imageHTML += `<div class="image-caption">${qa.imgCaption}</div>`;
+          }
+        }
+        
         div.innerHTML = `<strong>Frage ${index + 1}:</strong> ${qa.q}<br>` +
+          imageHTML +
           `<button class='show-answer-btn' onclick='this.nextElementSibling.style.display = "block"'>Antwort anzeigen</button>` +
-          `<div class='answer'>${qa.a}</div>`;
+          `<div class='answer'><strong>Antwort:</strong> ${qa.a}</div>`;
         container.appendChild(div);
       });
     }
+
+    function openModal(imgSrc) {
+      const modal = document.getElementById("imageModal");
+      const modalImg = document.getElementById("modalImage");
+      modal.style.display = "block";
+      modalImg.src = imgSrc;
+    }
+
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    });
   </script>
 </body>
 </html>
