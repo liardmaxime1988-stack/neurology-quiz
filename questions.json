@@ -1668,9 +1668,8 @@
             "case": "Fall 6: Meningitis",
             "q": "Frage 2/3: Liquor: Zellzahl 2400/µl (95% Neutrophile), Protein 3.2 g/L, Glukose 1.8 mmol/L (Serum 5.5 mmol/L), Laktat 8 mmol/L. Grampräparat: Gram-positive Diplokokken. Was ist der wahrscheinlichste Erreger und adjustieren Sie die Therapie?",
             "a": "Befund: bakterielle Meningitis, Gram-positive Diplokokken → Streptococcus pneumoniae (Pneumokokken) - häufigster Erreger bei Erwachsenen. Therapie: Ceftriaxon 2g alle 12h i.v. für 10-14 Tage fortführen (deckt Pneumokokken ab). Dexamethason fortführen (reduziert Mortalität und neurologische Folgeschäden bei Pneumokokken-Meningitis). Bei Penicillin-Resistenz-Risiko: Vancomycin zusätzlich erwägen. Kontrollliquor bei kompliziertem Verlauf nach 48h."
-        }
-    ],
-    "case_studies_advanced": [
+        },
+    
         {
             "case": "Fall 7: Amyotrophe Lateralsklerose (ALS)",
             "q": "Ein 58-jähriger Bauarbeiter berichtet über 6 Monate progrediente Schwäche der rechten Hand mit Muskelatrophie, Faszikulationen und Steifigkeit des rechten Beins. Keine sensiblen Symptome. Keine Familienanamnese. Was ist Ihre Verdachtsdiagnose und welche Differentialdiagnosen müssen ausgeschlossen werden?",
