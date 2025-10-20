@@ -103,86 +103,86 @@
 		}
     ],
     "stroke": [
-        {
-            "q": "Innerhalb welcher Zeitfenster ist eine intravenöse Thrombolyse beim ischämischen Schlaganfall indiziert?",
-            "a": "Bis 4,5 Stunden nach Symptombeginn (nach aktuellen ESO-Guidelines)."
-        },
-        {
-            "q": "Welche bildgebende Methode ist Standard zur Detektion von Großgefäßverschlüssen vor mechanischer Thrombektomie?",
-            "a": "CT-Angiographie (CTA) oder MR-Angiographie (MRA)."
-        },
-        {
-            "q": "Was sind die absoluten Kontraindikationen für eine i.v.-Thrombolyse?",
-            "a": "Aktive Blutung, intrakranielle Blutung in der Anamnese, kürzlicher großer chirurgischer Eingriff (<14 Tage), unkontrollierte Hypertonie (>185/110 mmHg), Thrombozytopenie <100.000/µl."
-        },
-        {
-            "q": "Bis zu welchem Zeitfenster kann eine mechanische Thrombektomie bei nachgewiesenem Großgefäßverschluss durchgeführt werden?",
-            "a": "Bis zu 24 Stunden bei selektierten Patienten mit günstigem Penumbra-Profil (DAWN/DEFUSE-3-Kriterien)."
-        },
-        {
-            "q": "Was ist der NIHSS und welcher Score-Wert deutet auf einen schweren Schlaganfall hin?",
-            "a": "National Institutes of Health Stroke Scale; NIHSS >15 deutet auf schweren Schlaganfall hin."
-        },
-        {
-            "q": "Welche Blutdruckzielwerte gelten in den ersten 24h nach i.v.-Lyse?",
-            "a": "<180/105 mmHg in den ersten 24 Stunden post-Lyse."
-        },
-        {
-            "q": "Was versteht man unter dem ASPECTS-Score?",
-            "a": "Alberta Stroke Program Early CT Score: 10-Punkte-System zur Quantifizierung früher ischämischer Veränderungen im Media-Territorium; Score ≥6 ist oft Voraussetzung für Thrombektomie."
-        },
-        {
-            "q": "Welche Sekundärprophylaxe ist bei kardioembolischem Schlaganfall indiziert?",
-            "a": "Orale Antikoagulation (DOAK oder Vitamin-K-Antagonist bei Vorhofflimmern)."
-        },
-        {
-            "q": "Ab welchem Alter ist ein PFO-Verschluss nach kryptogenem Schlaganfall erwägenswert?",
-            "a": "Bei Patienten <60 Jahre mit hochrisiko-PFO-Merkmalen (großes PFO, Vorhofseptumaneurysma)."
-        },
-        {
-            "q": "Was ist ein Stroke Mimik und nennen Sie drei häufige Beispiele?",
-            "a": "Nicht-vaskuläre Ursachen schlaganfallähnlicher Symptome: Hypoglykämie, Krampfanfall (Todd-Parese), funktionelle Störung, Migräne mit Aura."
-        },
-        {
-            "q": "Welches ist das typische MRT-Muster bei posteriorem reversiblen Enzephalopathiesyndrom (PRES)?",
-            "a": "T2/FLAIR-Hyperintensitäten in den posterioren Hemisphären (okzipital, parietal), oft symmetrisch, vasogenes Ödem."
-        },
-        {
-            "q": "Was ist ein Malignominfarkt und wie wird er behandelt?",
-            "a": "Großer raumfordernder Mediainfarkt mit Herniation-Risiko; Behandlung: dekompressive Hemikraniektomie innerhalb von 48h bei Patienten <60 Jahre (DECIMAL/DESTINY/HAMLET-Studien)."
-        },
-        {
-            "q": "Welcher Gefäßverschluss führt typischerweise zum Locked-in-Syndrom?",
-            "a": "Basilarisverschluss mit bilateraler Pons-Läsion."
-        },
-        {
-            "q": "Was ist der CHA2DS2-VASc-Score und ab welchem Wert ist eine Antikoagulation bei Vorhofflimmern indiziert?",
-            "a": "Score zur Einschätzung des Schlaganfallrisikos bei Vorhofflimmern; ≥2 bei Männern, ≥3 bei Frauen: Antikoagulation empfohlen."
-        },
-        {
-            "q": "Nennen Sie drei bildgebende Zeichen einer frischen Hirnblutung im CT.",
-            "a": "Hyperdens, homogen, scharf begrenzt, Raumforderungseffekt mit Mittellinienshift möglich."
-        },
-        {
-            "q": "Wann sollte bei einer intrazerebralen Blutung eine chirurgische Evakuation erwogen werden?",
-            "a": "Bei lobärer Blutung >30ml mit klinischer Verschlechterung, zerebelläre Blutung >3cm mit Hirnstamm-Kompression oder Hydrozephalus."
-        },
-        {
-            "q": "Was ist die MISTIE-III-Studie und was waren ihre Ergebnisse?",
-            "a": "Studie zur minimal-invasiven Hämatom-Evakuation bei ICB; zeigte keinen funktionellen Benefit gegenüber konservativer Therapie."
-        },
-        {
-            "q": "Welche Blutdruckzielwerte werden in der Akutphase einer intrazerebralen Blutung empfohlen?",
-            "a": "Systolisch <140 mmHg innerhalb von 1 Stunde (INTERACT-2/ATACH-II)."
-        },
-        {
-            "q": "Was ist ein Moyamoya-Syndrom?",
-            "a": "Progressive Stenose der distalen A. carotis interna und proximalen Hirnarterien mit kompensatorischen Kollateralen ('Rauchwolke' in der Angiographie)."
-        },
-        {
-            "q": "Welche Laborparameter sollten vor i.v.-Lyse zwingend bestimmt werden?",
-            "a": "Thrombozyten, INR/aPTT, Blutzucker (Hypoglykämie ausschließen)."
-        },
+		{
+			"q": "Innerhalb welcher Zeitfenster ist eine intravenöse Thrombolyse beim ischämischen Schlaganfall indiziert?",
+			"a": "Bis 4.5 Stunden nach Symptombeginn bei gesichertem Zeitpunkt (ESO/AHA-Guidelines). Alteplase 0.9mg/kg i.v. (max 90mg): 10% Bolus, 90% über 60 Min. Erweitertes Zeitfenster bis 9h möglich bei selektierten Patienten mit MRT/CT-Perfusions-Mismatch (Penumbra nachweisbar). Wake-up-Stroke: Lyse möglich bei DWI-FLAIR-Mismatch (WAKE-UP-Studie). Absolute Kontraindikationen: intrakranielle Blutung (jemals), aktive Blutung, unkontrollierte Hypertonie (>185/110mmHg), Thrombozytopenie <100.000/µl, INR >1.7. Blutdruck-Management kritisch: <180/105mmHg für 24h post-Lyse. NNT ~10 bei <3h. Komplikation: symptomatische ICH 6-7%."
+		},
+		{
+			"q": "Welche bildgebende Methode ist Standard zur Detektion von Großgefäßverschlüssen vor mechanischer Thrombektomie?",
+			"a": "CT-Angiographie (CTA) oder MR-Angiographie (MRA), CTA bevorzugt (schneller, breiter verfügbar). Zeigt: 1) Thrombus-Lokalisation (ICA-T, M1/M2-MCA, Basilaris), 2) Kollateral-Status (entscheidend für Prognose: gute Kollateralen → längeres Penumbra-Überleben → erweitertes Zeitfenster), 3) Tandem-Läsionen (10-20%), 4) Gefäßanatomie für interventionellen Zugang. ASPECTS-Score (CT): quantifiziert frühe ischämische Veränderungen im MCA-Territorium, ≥6 Punkte günstig für Thrombektomie. Thrombektomie bis 24h möglich bei Penumbra-Nachweis (DAWN/DEFUSE-3). Bridging-Konzept: i.v.-Lyse + Thrombektomie bei LVO innerhalb 4.5h. NNT ~3-5 für gutes Outcome bei LVO-Thrombektomie."
+		},
+		{
+			"q": "Was sind die absoluten Kontraindikationen für eine i.v.-Thrombolyse?",
+			"a": "1) Intrakranielle Blutung in Anamnese (jemals), 2) Ischämischer Schlaganfall <3 Monate, 3) ZNS-Tumor/AV-Malformation/Aneurysma, 4) Aktive innere Blutung, 5) GI/Urogenital-Blutung <21 Tage, 6) Großer chirurgischer Eingriff/schweres Trauma <14 Tage, 7) Arterielle Punktion nicht-komprimierbel <7 Tage, 8) Thrombozytopenie <100.000/µl, 9) INR >1.7, aPTT erhöht, 10) DOAK innerhalb 48h (außer normale Gerinnungstests), 11) Therapeutisches Heparin (aPTT erhöht), 12) RR nicht kontrollierbar <185/110mmHg, 13) Glukose <2.7 oder >22.2 mmol/L (Stroke-Mimic!), 14) Infektiöse Endokarditis. Relative: Minor stroke, sehr schwerer Schlaganfall (NIHSS >25), Alter >80."
+		},
+		{
+			"q": "Bis zu welchem Zeitfenster kann eine mechanische Thrombektomie bei nachgewiesenem Großgefäßverschluss durchgeführt werden?",
+			"a": "Bis 6h: Standard bei anteriorer LVO (M1/M2-MCA, ICA-T) + ASPECTS ≥6 (MR CLEAN, ESCAPE, SWIFT PRIME). Bis 24h: bei selektierten Patienten mit günstigem Penumbra-Profil (DAWN/DEFUSE-3-Kriterien): CTP/MRP zeigt Mismatch (Penumbra/Infarktkern-Ratio >1.8, absoluter Mismatch >15ml), klinisch-radiologischer Mismatch (NIHSS vs. Infarktvolumen). Posteriore Zirkulation (Basilaris-Thrombose): bis 24h erwägen (BAOCHE, BASICS). Kriterien: LVO-Nachweis (CTA/MRA), funktionell unabhängig prämorbid (mRS 0-1), salvierbare Penumbra. Technik: Stent-Retriever, Aspiration. Ziel: TICI 2b-3 (Rekanalisation ≥50%). NNT 3-5. Komplikationen: sICH 5-7%, Dissektion, Perforation selten."
+		},
+		{
+			"q": "Was ist der NIHSS und welcher Score-Wert deutet auf einen schweren Schlaganfall hin?",
+			"a": "National Institutes of Health Stroke Scale: standardisiertes Assessment neurologischer Defizite beim akuten Schlaganfall. Skala 0-42 Punkte (höher = schwerer). Domains: Bewusstsein, Blickwendung, Gesichtsfeld, Fazialisparese, Motorik Arme/Beine, Ataxie, Sensibilität, Sprache, Dysarthrie, Neglect. Score-Interpretation: 0 = keine Symptome, 1-4 = minor stroke, 5-15 = moderater Schlaganfall, 16-20 = moderat-schwer, 21-42 = schwerer Schlaganfall. NIHSS >15: schwer, oft Großgefäßverschluss, hohe Behinderungsrate ohne Intervention. Prognostisch: NIHSS bei Aufnahme korreliert mit 3-Monats-Outcome. Verwendet für: Therapie-Entscheidung (Lyse/Thrombektomie), Schweregrad-Dokumentation, Verlaufs-Assessment. Schulung nötig (Interrater-Reliabilität)."
+		},
+		{
+			"q": "Welche Blutdruckzielwerte gelten in den ersten 24h nach i.v.-Lyse?",
+			"a": "<180/105 mmHg in den ersten 24h post-Lyse (reduziert Blutungsrisiko). Prä-Lyse: RR MUSS <185/110mmHg VOR Lyse-Beginn. Bei Überschreitung: i.v.-Antihypertensiva (Labetalol 10-20mg Bolus, Urapidil 10-50mg, Nicardipin-Infusion). CAVE: zu aggressive Senkung → Hypoperfusion der Penumbra! Vorgehen: sanft, Ziel 185/110 erreichen, nicht drastisch darunter. Post-Lyse: Monitoring alle 15 Min für 2h, dann alle 30 Min für 6h, dann stündlich. Bei RR >180/105: i.v.-Senkung. Ab 24h post-Lyse: individualisierte Ziele (meist 140-160 systolisch toleriert). CAVE: Nitroprussid vermeiden (erhöht ICP). Bei klinischer Verschlechterung + RR-Anstieg: sofort CT (V.a. Blutung!)."
+		},
+		{
+			"q": "Was versteht man unter dem ASPECTS-Score?",
+			"a": "Alberta Stroke Program Early CT Score: 10-Punkte-System zur Quantifizierung früher ischämischer Veränderungen im MCA-Territorium auf nativem CT. Zwei Ebenen: Basalganglien-Ebene (7 Regionen: Caudatus, Lentiformen, Insula, Capsula interna, M1-3) + supragangliäre Ebene (3 Regionen: M4-6). Pro betroffener Region: -1 Punkt. Score 10 = normal, 0 = komplette MCA-Infarkt. Frühe ischämische Zeichen: Hypodensität, Sulci-Verstreichen, Verlust grau-weiß-Differenzierung. Klinische Bedeutung: ASPECTS ≥6 = gute Kandidaten für Thrombektomie (kleine Infarktkerne, viel Penumbra rettbar). ASPECTS <6 = schlechtere Prognose, größeres Blutungsrisiko, oft von Thrombektomie ausgeschlossen. MRT-ASPECTS: DWI-basiert, sensibler. Interrater-Variabilität Challenge. Ergänzt durch CTP/MRP-Mismatch bei erweitertem Zeitfenster."
+		},
+		{
+			"q": "Welche Sekundärprophylaxe ist bei kardioembolischem Schlaganfall indiziert?",
+			"a": "Orale Antikoagulation bei Vorhofflimmern (häufigste Ursache kardioembolisch). DOAKs bevorzugt (Apixaban, Rivaroxaban, Edoxaban, Dabigatran): gleiche/bessere Wirksamkeit vs. VKA, weniger ICH-Risiko, keine INR-Kontrolle. VKA (Warfarin, Phenprocoumon) bei: mechanischen Herzklappen, schwerer Mitralstenose, DOAK-Kontraindikation. Timing nach Schlaganfall: 1-4-7-14 Tage-Regel je nach Infarktgröße (TIA: 1 Tag, klein: 3-4 Tage, mittel: 7 Tage, groß: 14 Tage) → Balance Rezidiv- vs. Blutungsrisiko. Andere kardiale Emboliequellen: PFO (<60J + high-risk features: Verschluss erwägen), dilatative Kardiomyopathie (EF <30%: Antikoagulation), LV-Thrombus (3-6 Monate), Endokarditis (Antibiotika, keine Antikoagulation initial)."
+		},
+		{
+			"q": "Ab welchem Alter ist ein PFO-Verschluss nach kryptogenem Schlaganfall erwägenswert?",
+			"a": "Bei Patienten <60 Jahre mit kryptogenem Schlaganfall + hochrisiko-PFO-Merkmalen (RESPECT, CLOSE, REDUCE-Studien). Hochrisiko-PFO: großes PFO (>2mm), Vorhofseptumaneurysm, großer Rechts-Links-Shunt, lange Tunnel-Anatomie. Kriterien: 1) Kryptogener Schlaganfall (keine andere Ursache trotz extensiver Diagnostik: Holter, TEE, Gefäßbildgebung, Thrombophilie-Screening), 2) Alter <60 (bis 65 in manchen Studien), 3) Funktionell unabhängig (mRS ≤2). Technik: interventioneller Verschluss (Amplatzer, Gore-Occluder). Post-Prozedur: duale Plättchenhemmung (ASS + Clopidogrel) 1-6 Monate, dann ASS lebenslang. NNT ~40 für 5 Jahre. Vorteil: 50% Rezidiv-Reduktion vs. medikamentös. Komplikationen: Vorhofflimmern (neu, 5%), Perikarderguss, Thrombus auf Device."
+		},
+		{
+			"q": "Was ist ein Stroke Mimic und nennen Sie drei häufige Beispiele?",
+			"a": "Nicht-vaskuläre Ursachen schlaganfallähnlicher Symptome (~30% der 'Stroke-Codes'). Wichtig: nicht verpassen, aber auch echten Stroke nicht verzögern. Häufige Mimics: 1) HYPOGLYKÄMIE (häufigste!): fokal-neurologische Defizite möglich (Hemiparese, Aphasie), BZ-Messung obligat bei jedem Schlaganfall-Verdacht, Therapie: Glukose i.v. → rasche Besserung, 2) POSIKTALE TODD-PARESE: nach fokalem Anfall, transiente Parese (Minuten-Stunden), Anamnese: vorausgehender Anfall, EEG: postiktale Verlangsamung, 3) FUNKTIONELLE STÖRUNG (Konversion): inkonsistente Befunde (Hoover-Zeichen negativ, 'give-way' weakness), nicht-anatomische Ausfälle, jüngere Patienten, 4) MIGRÄNE-Aura: Aura-Symptome können Schlaganfall imitieren, aber: entwickeln sich langsam (5-20 Min), wandernd, positiv (Flimmern) vor negativ (Ausfall), Kopfschmerz folgt. Andere: Sepsis-Enzephalopathie, hypertensive Enzephalopathie, MS-Schub, Tumor."
+		},
+		{
+			"q": "Welches ist das typische MRT-Muster bei posteriorem reversiblen Enzephalopathiesyndrom (PRES)?",
+			"a": "T2/FLAIR-Hyperintensitäten in posterioren Hemisphären (okzipital/parietal), meist symmetrisch, vasogenes Ödem. Lokalisation: Okzipitallappen (98%), Parietallappen (90%), posterior-frontal (70%), Kleinhirn (50%), Hirnstamm (30%), Basalganglien/Thalamus (10-30%). Schlüssel: VASOGENES Ödem (extrazelluläre Flüssigkeit) → KEINE Diffusionsrestriktion in DWI (ADC erhöht, nicht erniedrigt wie bei Infarkt). Kontrastmittel: variables Enhancement (leptomeningeal, gyriform möglich). Pathophysiologie: Autoregulations-Versagen bei schwerer Hypertonie → Endothel-Dysfunktion → Plasma-Extravasation. Ursachen: Eklampsie, maligne Hypertonie, Immunsuppressiva (Ciclosporin, Tacrolimus), Niereninsuffizienz, Chemotherapie. Therapie: Blutdrucksenkung (Ziel 140-160 systolisch, sanft!), Antikonvulsiva. Prognose: 'reversibel' bei adäquater Therapie (70-90% komplette MRT-Normalisierung in 2-8 Wochen), aber bei Verzögerung → zytotoxisches Ödem → Infarkt irreversibel."
+		},
+		{
+			"q": "Was ist ein Malignominfarkt und wie wird er behandelt?",
+			"a": "Großer raumfordernder MCA-Infarkt (>50% MCA-Territorium oder >145ml Volumen) mit malignem Hirnödem, erhöhtem ICP, Herniation-Risiko. Typisch: jüngere Patienten (<60J), proximaler MCA-Verschluss (M1), schlechte Kollateralen. Klinik: initial Hemiparese/Aphasie, dann innerhalb 24-96h: Vigilanzminderung (Somnolenz → Stupor → Koma), Anisokorie (Herniation), klinische Verschlechterung trotz Rekanalisation. CT/MRT: großer Infarkt, Mittellinienverlagerung >5mm, Kompression Ventrikel/basaler Zisternen. THERAPIE: Dekompressive Hemikraniektomie innerhalb 48h (optimal <24h) bei: Alter <60 Jahre, NIHSS >15, Infarkt >50% MCA, Bewusstseinsstörung. Evidenz: DECIMAL/DESTINY/HAMLET-Studien: reduziert Mortalität von 80% auf 30%, verbessert funktionelles Outcome (mRS ≤3 bei 40% vs. 20%). OP: große Kraniektomie (≥12cm), Duraplastik. Konservativ: osmotische Therapie (Mannitol, hypertone NaCl), Hypothermie experimentell."
+		},
+		{
+			"q": "Welcher Gefäßverschluss führt typischerweise zum Locked-in-Syndrom?",
+			"a": "Basilarisverschluss mit bilateraler ventraler Pons-Läsion. Anatomie: ventrale Pons enthält kortikospinale (Pyramiden) und kortikobulbäre Bahnen (bilateral). Ischämie → bilaterale Tetraplegie + Anarthrie, ABER: dorsale Pons (tegmentum) mit Bewusstseins-Formatio reticularis + dorsale okulomotorische Zentren intakt → erhaltenes Bewusstsein + vertikale Augenbewegungen (supranukleär) + Lidschlag (N. VII dorsal). Klinik: wach und orientiert, kann nur vertikale Augenbewegungen/Lidschlag zur Kommunikation nutzen, komplett gelähmt (Tetraplegie), kann nicht sprechen/schlucken, oft beatmungspflichtig. Diagnostik: MRT (Pons-Infarkt ventral bilateral), CTA/MRA (Basilaris-Verschluss). Therapie: Thrombektomie bis 24h (BAOCHE-Studie, Basilaris-Thrombektomie verbessert Outcome trotz längerem Zeitfenster). Prognose: variabel, manche erhalten partielle Erholung (Jahre), manche persistierend Locked-in. Differenzierung: Koma (keine Wachheit), akinetischer Mutismus (frontale Läsion, reduziertes Bewusstsein)."
+		},
+		{
+			"q": "Was ist der CHA2DS2-VASc-Score und ab welchem Wert ist eine Antikoagulation bei Vorhofflimmern indiziert?",
+			"a": "Score zur Einschätzung des Schlaganfall-Risikos bei Vorhofflimmern. Punkte: C (CHF/Herzinsuffizienz 1), H (Hypertonie 1), A₂ (Alter ≥75J 2), D (Diabetes 1), S₂ (Stroke/TIA/Thromboembolie 2), V (vaskuläre Erkrankung [KHK, pAVK, Aorten-Plaque] 1), A (Alter 65-74J 1), Sc (Sex category weiblich 1). Maximum: 9 Punkte. ANTIKOAGULATION empfohlen: Männer ≥2 Punkte, Frauen ≥3 Punkte (da weibliches Geschlecht allein kein Risiko, nur Modifikator). Rationale: ab diesen Schwellen überwiegt Nutzen (Schlaganfall-Prävention) Blutungsrisiko. CHA₂DS₂-VASc 0 (Männer) oder 1 (Frauen): keine Antikoagulation. DOAKs bevorzugt (Apixaban, Rivaroxaban, Edoxaban, Dabigatran). HAS-BLED-Score (Blutungsrisiko) ergänzend, aber hoher Score KEINE Kontraindikation (nur Vorsicht, modifizierbare Faktoren adressieren)."
+		},
+		{
+			"q": "Nennen Sie drei bildgebende Zeichen einer frischen Hirnblutung im CT.",
+			"a": "1) HYPERDENS: Blut erscheint hell/weiß im nativen CT (Hounsfield 50-80, vs. Hirn 30-40), 2) HOMOGEN: frisches Blut uniformer Dichte (vs. älteres Hämatom: heterogen, Sedimentation, Flüssigkeitsspiegel möglich), 3) SCHARF BEGRENZT: klare Abgrenzung zum umgebenden Hirnparenchym. ZUSÄTZLICH: Raumforderungseffekt (Masseneffekt): Kompression Ventrikel, Mittellinienverlagerung, Auslöschung Sulci, periläsionales Ödem (hypodenser Saum, entwickelt sich über Stunden-Tage). Zeitverlauf: frisch (<3 Tage): hyperdens homogen, subakut (3-14 Tage): Peripherie wird isodens (wie Hirn), chronisch (>14 Tage): hypodens (dunkler als Hirn, älteres organisiertes Hämatom). Differenzierung: SAB (Blut in Subarachnoidalraum, Sulci/Zisternen), SDH (sichelförmig, konkav-konvex), EDH (bikonvex, an Suturen begrenzt). Kontrastmittel: 'Spot-Sign' (aktive Blutung) = Kontrast-Extravasation in Hämatom."
+		},
+		{
+			"q": "Wann sollte bei einer intrazerebralen Blutung eine chirurgische Evakuation erwogen werden?",
+			"a": "1) LOBÄRE Blutung (subkortikal): >30ml Volumen + klinische Verschlechterung (GCS-Abfall, neurologische Progression), besonders wenn: oberflächlich (<1cm von Kortex), Patient jung (<60J), GCS >8. Mechanismus: weniger tiefe Strukturen geschädigt → chirurgischer Zugang einfacher, weniger Kollateralschaden. 2) ZEREBELLARE Blutung: >3cm Durchmesser (oder >15ml) ODER: Hirnstamm-Kompression, 4. Ventrikel-Obstruktion, Hydrozephalus, klinische Verschlechterung. NOTFALL: zerebellare Herniation (tonsilläre Herniation durch Foramen magnum) → Atemstillstand → sofortige OP. Externe Ventrikeldrainage (EVD) zusätzlich bei Hydrozephalus. 3) GANGLIENBLOÄRE (tiefe) Blutung: meist KONSERVATIV, OP selten hilft (STICH-II-Studie: kein Benefit), außer: große Blutung mit Masseneffekt + junge Patienten. KONTRAINDIKATIONEN: GCS 3-4 (schlechte Prognose), tiefe Blutung (Basalganglien, Thalamus) <30ml, stabil, Alter/Komorbidität-prohibitiv. MISTIE-III-Studie: minimal-invasive Evakuation zeigte keinen Benefit vs. konservativ."
+		},
+		{
+			"q": "Was ist die MISTIE-III-Studie und was waren ihre Ergebnisse?",
+			"a": "Minimally Invasive Surgery plus rt-PA for Intracerebral Hemorrhage Evacuation (MISTIE-III): randomisierte Studie (2019) zur minimal-invasiven ICH-Evakuation. Methode: stereotaktische Katheter-Einlage ins Hämatom + rtPA-Instillation (0.3mg alle 8h, max 9 Dosen) zur Lyse/Aspiration, Ziel: Hämatom-Reduktion auf <15ml. Hypothese: Hämatom-Volumen-Reduktion verbessert Outcome (Hämatotoxizität reduzieren). Patienten: supratentorielle ICH, Volumen 20-80ml, GCS 5-14, stabil. Ergebnis: KEIN signifikanter funktioneller Benefit (primäres Outcome: mRS 0-3 bei 45% MISTIE vs. 41% konservativ, p=0.33). Subgruppen-Analyse: bei Hämatom-Reduktion auf <15ml + minimal periläsionaler Schädigung → Trend zu Benefit. Komplikationen: Infektionen, Re-Blutungen vergleichbar. Schlussfolgerung: minimal-invasive Evakuation in aktueller Form NICHT Standard-Therapie. Standard bleibt: konservatives Management für meiste ICH, kraniale Evakuation nur bei ausgewählten lobären/zerebellären Blutungen. Offene Kraniotomie: STICH-II (2013) zeigte auch keinen Benefit bei lobärer ICH."
+		},
+		{
+			"q": "Welche Blutdruckzielwerte werden in der Akutphase einer intrazerebralen Blutung empfohlen?",
+			"a": "Systolisch <140 mmHg innerhalb 1 Stunde bei spontaner ICH (INTERACT-2-Studie: sicher, Trend zu besserem Outcome). Aktuell Guidelines (AHA/ESO): wenn systolisch 150-220 mmHg bei Präsentation: aggressive Senkung auf <140 mmHg sicher und wahrscheinlich effektiv. CAVE: nicht unter 130 (Hypoperfusion-Risiko). Bei systolisch >220: <140-160 erwägen, aber Vorsicht (erhöhte Niereninsuffizienz-Rate bei zu aggressiv). ATACH-II-Studie (2016): intensiv (110-139) vs. standard (140-179) → kein Unterschied im Outcome, aber mehr Niereninsuffizienz intensiv-Gruppe. Medikamente: Labetalol (10-20mg i.v. Bolus), Urapidil (10-50mg i.v.), Nicardipin-Infusion (5-15mg/h). Kontinuierliche Monitoring erste 24h. CAVE: bei V.a. erhöhtem ICP (große ICH, Masseneffekt): CPP erhalten (CPP = MAP - ICP), Ziel CPP >60mmHg, RR-Senkung vorsichtiger. Rationale: hoher RR → Hämatom-Expansion (früh 30-40%), aber Balance: zu niedriger RR → Ischämie periläsional."
+		},
+		{
+			"q": "Was ist ein Moyamoya-Syndrom?",
+			"a": "Progressive Stenose der distalen A. carotis interna (supraklinoidal) und proximalen Hirnarterien (A. cerebri anterior/media) mit charakteristischen kompensatorischen Kollateralen. Name: japanisch 'Moyamoya' = 'Rauchwolke' (Angiographie-Erscheinung der feinen Kollateralen an Schädelbasis). Pathophysiologie: idiopathisch (Moyamoya-Krankheit, RNF213-Mutation bei 80% asiatischer Patienten) oder sekundär (Moyamoya-Syndrom: NF1, Down-Syndrom, Sichelzell-Anämie, Bestrahlung, Autoimmun). Klinik: biphasisch: Kinder (5-10J): ischämisch (TIA, Stroke, transiente neurologische Episoden bei Hyperventilation/Weinen), Erwachsene (30-40J): hämorrhagisch (ICH durch rupturierte fragile Kollateralen) + ischämisch. Diagnostik: MRA/DSA (Goldstandard): bilaterale ICA-Stenosen/Verschlüsse + 'puff of smoke' Kollateralen, 'ivy sign' im MRT (leptomeningeale Kollateralen). Therapie: chirurgische Revaskularisation (direkter Bypass: STA-MCA oder indirekter: EDAMS/EMS), Antikoagulation vermeiden (Blutungsrisiko), Thrombozytenaggregation bei ischämisch-dominant."
+		},
+		{
+			"q": "Welche Laborparameter sollten vor i.v.-Lyse zwingend bestimmt werden?",
+			"a": "OBLIGAT (vor Lyse-Beginn, dürfen Therapie NICHT verzögern wenn kritisch!): 1) BLUTZUCKER (Point-of-Care): Hypoglykämie (<2.7 mmol/L) = häufiger Stroke-Mimic, Hyperglykämie (>22.2 mmol/L) = Kontraindikation + schlechtere Prognose. Therapie: Glukose i.v. bei Hypo, Insulin bei schwerer Hyper. 2) THROMBOZYTEN: <100.000/µl = absolute Kontraindikation (Blutungsrisiko). 3) INR/aPTT: INR >1.7 = Kontraindikation (Vitamin-K-Antagonisten), aPTT erhöht = Kontraindikation (Heparin). 4) DOAK-Anamnese: innerhalb 48h = Kontraindikation (außer: normale Gerinnungstests + Anti-Xa/Thrombinzeit negativ, aber kaum verfügbar → meist Ausschluss). OPTIONAL (sinnvoll, aber verzögern nicht): Blutbild komplett, Elektrolyte, Kreatinin, Leberwerte, Troponin/EKG (kardiale Ursache?), Schwangerschaftstest (Frauen im gebärfähigen Alter). 'ZEIT ist HIRN': Labor parallel zu Bildgebung, Lyse NICHT verzögern auf komplette Laborergebnisse wenn klinisch keine Kontraindikation."
+		},
         {
             "q": "Was ist das mRS-Score-System?",
             "a": "Modified Rankin Scale: 0-6 Punkte zur Beurteilung des funktionellen Outcomes nach Schlaganfall (0=asymptomatisch, 6=Tod)."
