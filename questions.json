@@ -1867,6 +1867,80 @@
             "case": "Fall 12: Spinale Pathologie - Syringomyelie",
             "q": "MRT HWS zeigt Syringomyelie C4-Th2 mit Chiari-I-Malformation (Tonsillen 8mm unterhalb Foramen magnum). Wie ist das Management?",
             "a": "Management Syringomyelie: 1) Asymptomatisch/stabil: konservative Beobachtung, jährliche MRT. 2) Symptomatisch/progredient: chirurgische Therapie. Bei Chiari-assoziiert: subokzipitale Dekompression (Foramen-magnum-Dekompression, Duraplastik) → 50-70% Symptom-Stabilisierung/Verbesserung, Syrinx-Größenabnahme in 50-80%. Syrinx-Drainage (Shunt) wenn Dekompression insuffizient. Bei posttraumatisch: Syrinx-Shunt. 3) Symptomatische Therapie: neuropathischer Schmerz (Gabapentin, Pregabalin), Physiotherapie, Schutz vor Verbrennungen (fehlendes Schmerzempfinden!). 4) Follow-up: MRT nach 6 Monate, dann jährlich. Ohne Therapie: progressive Myelopathie bei 50-80%. Prognose: OP stabilisiert meist, Reversibilität etablierter Defizite begrenzt (frühe OP wichtig!)."
+        },
+		 {
+            "case": "Fall A – Akute MSCC bei Prostatakarzinom",
+            "q": "Ein 65-jähriger Patient mit bekanntem Prostatakarzinom entwickelt über 6 Stunden progrediente Beinschwäche, bilaterale Parästhesien ab Th8-Niveau und Harnverhalt. Bei Aufnahme: Paraparese beider Beine MRC 2/5, sensibles Niveau Th8, Analreflex fehlt, Sphinktertonus reduziert. MRT der Wirbelsäule zeigt eine epidurale Weichteilkomponente Th7/Th8 mit Kompression des Myelons und aufgehobenem Liquorsaum. Was ist Ihr diagnostisches und therapeutisches Vorgehen in den nächsten Stunden?",
+            "verdachtsdiagnose": "Metastatische epidurale Rückenmarkskompression (MSCC) auf Höhe Th7/Th8 bei bekanntem Prostatakarzinom – neurologischer und onkologischer Notfall.",
+            "schluesselbefunde": [
+                "Bekanntes (ossär metastasierendes) Prostatakarzinom plus neu aufgetretenes, rasch progredientes Querschnittssyndrom.",
+                "Sensibles Niveau Th8 mit Paraparese MRC 2/5 – Höhenlokalisation thorakal.",
+                "Harnverhalt, reduzierter Sphinktertonus und fehlender Analreflex – sakrale/autonome Mitbeteiligung.",
+                "MRT: epidurale Raumforderung Th7/Th8 mit Myelonkompression und aufgehobenem Liquorsaum (entspricht ESCC/Bilsky Grad 3, high-grade)."
+            ],
+            "ddx_kritisch": [
+                { "dd": "Spinaler epiduraler Abszess", "grund": "praktisch identische Kompressionsklinik; Fieber, CRP/BSG und kontrastverstärkte MRT klären ab – würde zu Antibiose plus Drainage statt onkologischem Pfad führen." },
+                { "dd": "Lymphom / hämatologische Manifestation", "grund": "steroidsensibel – Kortikosteroide können die Histologie verschleiern; bei radiologischem Lymphomverdacht hämatologische Rücksprache vor Steroidgabe." }
+            ],
+            "ddx_weitere": ["Epidurales Hämatom", "pathologische Wirbelfraktur mit Instabilität", "primärer Knochentumor", "degenerative Stenose (im akuten onkologischen Kontext unwahrscheinlich)"],
+            "sofort_diagnostik": [
+                "MRT der GESAMTEN Wirbelsäule mit Kontrastmittel (multiple/nicht-kontiguierliche Läsionen möglich und strategieändernd); bereits vorliegende fokale Bildgebung entsprechend vervollständigen.",
+                "Beurteilung von Höhe, Kompressionsgrad (ESCC/Bilsky) und Stabilität (SINS-Score).",
+                "Labor: Blutbild, CRP/BSG (Abszess-Ausschluss), Gerinnung (OP-Vorbereitung), Nierenfunktion; Blasensonographie/Restharn.",
+                "Die Notfallversorgung NICHT durch ein vollständiges Tumorstaging verzögern (Primärtumor ist bekannt)."
+            ],
+            "therapie": [
+                "Sofort Dexamethason 16 mg (i.v. oder p.o.), danach 16 mg/Tag bis zur definitiven Therapie (NICE NG234); Ausschleichen erst nach OP- bzw. RT-Beginn über 5-7 Tage. Cave Lymphomverdacht.",
+                "Unverzügliche interdisziplinäre Kontaktaufnahme mit Neurochirurgie UND Radioonkologie.",
+                "Bei diesem Patienten (akut progredientes, schweres Defizit seit erst 6 h, fokale hochgradige Kompression, ossär metastasierender Tumor): dringliche operative Dekompression ± Stabilisierung, sofern Allgemeinzustand, Stabilität und Prognose dies erlauben – gefolgt von postoperativer Radiotherapie.",
+                "Die Entscheidung OP versus alleinige Radiotherapie ist immer individuell und multidisziplinär (NOMS-Framework: Neurologie, Onkologie, Mechanik/Stabilität, Systemik).",
+                "Supportiv: Thromboseprophylaxe, Blasenmanagement, Analgesie, Dekubitusprophylaxe, frühe Rehabilitation."
+            ],
+            "nachfragen": [
+                "Wie klassifizieren Sie die Kompression? (ESCC/Bilsky 0-3; Grad 2 = Liquor noch sichtbar, Grad 3 = kein Liquorsaum; high-grade = 2-3, unabhängig vom T2-Signal des Myelons.)",
+                "Welcher Score beurteilt die spinale Stabilität? (SINS.)",
+                "Welche Evidenz stützt die primäre Dekompression? (Patchell-Studie: direkte chirurgische Dekompression plus Radiotherapie der alleinigen Radiotherapie überlegen bei ausgewählten Patienten.)",
+                "Ändert eine seit über 48 h bestehende komplette Paraplegie Ihr Vorgehen? (Schlechtere Erholungsprognose, aber KEINE absolute OP-Kontraindikation – Entscheidung bleibt individuell.)",
+                "Warum die gesamte Wirbelsäule abbilden? (Multiple bzw. nicht-kontiguierliche Metastasen möglich.)"
+            ],
+            "fiche": "MSCC/MESCC ist ein onkologischer Notfall. Pathophysiologie: epidurale Tumorausdehnung (meist ossär-metastatisch; Prostata, Mamma, Lunge, Niere, Myelom) fuehrt zu mechanischer Kompression plus venoeser Stauung/Oedem und konsekutiver Myelopathie; thorakale Lokalisation am haeufigsten. Klinik: progrediente Schwaeche, sensibles Niveau, Blasen-/Mastdarmstoerung, oft vorausgehender nachtbetonter Rueckenschmerz. ESCC/Bilsky-Klassifikation (axiales T2): Grad 0 nur Knochen; 1a epidurale Ausdehnung ohne Duralsackdeformation; 1b Duralsackdeformation ohne Myelonkontakt; 1c Myelonkontakt ohne Kompression; Grad 2 Myelonkompression mit noch sichtbarem Liquor; Grad 3 Myelonkompression ohne sichtbaren Liquor. High-grade = Grad 2-3 (unabhaengig vom Myelon-T2-Signal). SINS-Score zur Stabilitaetsbeurteilung. Diagnostik: MRT der gesamten Wirbelsaeule mit KM ist Methode der Wahl; Notfallversorgung nicht fuer Staging/Biopsie verzoegern. Therapie: Dexamethason 16 mg sofort, dann 16 mg/Tag bis zur definitiven Therapie, danach Ausschleichen ueber 5-7 Tage; bei Lymphomverdacht Steroide erst nach haematologischer Ruecksprache. Definitive Therapie multidisziplinaer (NOMS): dringliche chirurgische Dekompression ± Stabilisierung bei akutem Defizit, mechanischer Instabilitaet oder radioresistentem Tumor, meist gefolgt von Radiotherapie; alleinige Radiotherapie bei nicht-operablen bzw. radiosensitiven Situationen ohne Instabilitaet. Evidenz: Patchell zeigte einen Vorteil der direkten chirurgischen Dekompression plus Radiotherapie gegenueber Radiotherapie allein bei ausgewaehlten Patienten. Prognose: wesentlicher Faktor ist der neurologische bzw. gehfaehige Status vor Therapiebeginn; eine seit ueber 48 h bestehende komplette Paraplegie spricht gegen eine relevante Erholung, ist aber keine absolute OP-Kontraindikation."
+        },
+        {
+            "case": "Fall B – Akute LETM bei junger Patientin",
+            "q": "Eine 28-jährige Patientin entwickelt über 48 Stunden eine aufsteigende Para-/Tetraparese (aktuell Beine MRC 1/5, Arme 3/5), sensibles Niveau C5 und Harnverhalt. Zwei Wochen zuvor bestand eine Diarrhö. MRT HWS/BWS: zentral gelegene, langstreckige T2-Hyperintensität C3-Th6 mit Myelonschwellung und fleckigem Kontrastmittel-Enhancement. Liquor: 85 Zellen/µl (95% Lymphozyten), Protein 1.2 g/L, Glukose normal, oligoklonale Banden negativ. Was ist die wahrscheinlichste Diagnose und Ihr differentialdiagnostisches Vorgehen?",
+            "verdachtsdiagnose": "Akute entzündliche Myelitis mit longitudinal extensiver transverser Myelitis (LETM, C3-Th6), wahrscheinlich (para-)infektiös getriggert – NMOSD und MOGAD müssen aktiv ausgeschlossen werden.",
+            "schluesselbefunde": [
+                "Subakut (48 h) aufsteigende, schwere Para-/Tetraparese mit sensiblem Niveau C5 und Harnverhalt.",
+                "MRT: zentral gelegene, langstreckige T2-Läsion über mindestens drei Segmente (C3-Th6) mit Myelonschwellung und KM-Enhancement – LETM-Muster.",
+                "Liquor entzündlich (85 Zellen/µl, lymphozytär; Protein erhöht), oligoklonale Banden negativ – eher gegen klassische MS.",
+                "Vorausgehende Diarrhö als möglicher immunologischer Trigger (kein Beweis für eine benigne postinfektiöse Genese)."
+            ],
+            "ddx_kritisch": [
+                { "dd": "AQP4-positive NMOSD", "grund": "typische LETM-Ursache; unbehandelt hohe Rezidiv- und Behinderungsrate, erfordert spezifische Langzeitimmuntherapie – und klassische MS-Therapien verschlechtern sie." },
+                { "dd": "MOGAD", "grund": "häufige LETM-Ursache mit anderem Therapie- und Prognoseprofil (oft steroidsensibel, Rezidivneigung bei zu raschem Taper)." }
+            ],
+            "ddx_weitere": ["MS (meist kurzstreckige Läsionen)", "infektiöse Myelitis (VZV, HSV, HIV, Borrelien, Lues)", "systemische Autoimmunerkrankung/Neurosarkoidose", "spinale Ischämie", "ADEM"],
+            "sofort_diagnostik": [
+                "MRT der gesamten Wirbelsäule plus Schädel-MRT mit KM (kompressive Ursache formal ausschliessen; MS-/ADEM-typische Läsionsverteilung beurteilen).",
+                "Serum AQP4-IgG UND MOG-IgG mittels Cell-based Assay (bei LETM zwingend).",
+                "Liquor: Zellzahl/Differenzierung, Protein, oligoklonale Banden, Laktat; gezielte infektiologische PCR/Serologie (VZV, HSV, HIV, Lues, Borrelien).",
+                "Basislabor und autoimmunes Screening nach Klinik (ANA, ENA, ACE); bei Sarkoidoseverdacht Thoraxbildgebung."
+            ],
+            "therapie": [
+                "Akut nach Ausschluss einer aktiven Infektion: Methylprednisolon 1 g i.v./Tag über 3-5 Tage.",
+                "Bei schwerem Defizit (hier Beine 1/5, Arme 3/5, Harnverhalt) oder unzureichendem Steroid-Ansprechen frühzeitige Eskalation zur Plasmapherese/Immunadsorption.",
+                "Steroid-Ausschleichen individuell nach Ätiologie und Verlauf – kein starres Schema (v.a. MOGAD neigt bei zu raschem Taper zu Rezidiven).",
+                "Ätiologiespezifische Langzeitimmuntherapie bei NMOSD (z.B. Rituximab, Eculizumab, Satralizumab, Inebilizumab) oder rezidivierendem MOGAD; keine dauerhafte Immunsuppression bei monophasischer idiopathischer Myelitis.",
+                "Supportiv: Blasenmanagement, Thrombose- und Dekubitusprophylaxe, frühe Rehabilitation."
+            ],
+            "nachfragen": [
+                "Was spricht für NMOSD versus MOGAD versus MS? (Zentrale LETM plus negative OKB eher gegen MS; AQP4- versus MOG-IgG entscheiden; MOGAD oft conusbetont mit besserer Erholung.)",
+                "Welche Antikörper und mit welcher Methode? (AQP4- und MOG-IgG, Cell-based Assay – sensitiver/spezifischer als ELISA.)",
+                "Warum ist die Unterscheidung therapeutisch wichtig? (Klassische MS-Therapien verschlechtern NMOSD; unterschiedliche Rezidivprophylaxe.)",
+                "Vorgehen bei fehlendem Steroid-Ansprechen? (Frühzeitige Plasmapherese.)",
+                "Warum ein Schädel-MRT? (MS-/ADEM-typische Läsionen, Area-postrema-Läsion bei NMOSD.)"
+            ],
+            "fiche": "Akute Myelitis: entzuendliches Rueckenmarkssyndrom mit sensomotorischem Querschnitt, (para-)infektioesem oder autoimmunem Hintergrund. LETM = longitudinal extensive Laesion ueber mindestens drei Wirbelkoerpersegmente, oft zentral in der grauen Substanz – muss aktiv NMOSD und MOGAD ausschliessen lassen. DD in drei Gruppen: (A) entzuendlich/demyelinisierend: MS, AQP4-NMOSD, MOGAD, idiopathische Myelitis, systemische Autoimmunerkrankung/Sarkoidose; (B) infektioes: VZV, HSV, CMV, HIV, Borrelien, Lues; (C) nicht-entzuendlich: spinale Ischaemie, Kompression, durale AV-Fistel, Tumor/Infiltration. Diagnostischer Algorithmus: 1) wirklich eine Myelopathie? (Klinik + MRT); 2) Kompression ausgeschlossen? (MRT gesamte Wirbelsaeule); 3) entzuendlich? (KM-Enhancement, Liquorpleozytose/Protein); 4) LETM -> AQP4- und MOG-IgG (Cell-based Assay) zwingend; 5) MS? (Schaedel-MRT, OKB – OKB fehlen haeufig bei NMOSD/MOGAD); 6) infektioes/systemisch gezielt; 7) vaskulaer (hyperakuter Beginn, initialer Schmerz, DWI). MS versus NMOSD versus MOGAD: MS meist kurzstreckig/peripher gelegen, OKB oft positiv; NMOSD zentral/LETM, AQP4-IgG positiv, oft schwere Optikusneuritis, haeufig schlechtere Erholung; MOGAD haeufig LETM/conusbetont, MOG-IgG positiv, oft gute funktionelle Erholung. Diese Muster sind Hinweise, keine absoluten Kriterien. Therapie: Methylprednisolon 1 g i.v./Tag ueber 3-5 Tage; bei schwerem Verlauf oder Nichtansprechen frueh Plasmapherese. Steroid-Taper und Langzeitimmuntherapie aetiologieabhaengig. Prognose: abhaengig von initialer neurologischer Schwere, Aetiologie und Therapietempo; NMOSD kann schwere Residuen hinterlassen, MOGAD zeigt haeufig eine bessere funktionelle Erholung."
         }
     ],
     "advanced": [
