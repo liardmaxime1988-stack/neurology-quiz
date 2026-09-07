@@ -329,6 +329,11 @@
     .fallen-liste { margin: 0.4rem 0 0 1.1rem; }
     .fallen-liste li { margin-bottom: 0.5rem; }
     .fallen-erkl { color: #555; }
+
+	      .case-question-image {
+      display: block; max-width: 100%; height: auto;
+      margin: 0.8rem auto; border-radius: 6px; background: #000;
+    }
 	  
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-10px); }
@@ -780,6 +785,7 @@
         <div class="case-question-block">
           <div class="case-question-number">Frage ${questionNum}/${totalQuestions}</div>
           <div class="case-question-text">${q.q}</div>
+		            ${q.img ? `<img src="${q.img}" alt="Befund" class="case-question-image">` : ''}
           <button class="case-reveal-btn" id="revealBtn" onclick="revealCurrentAnswer()">
             Antwort anzeigen
           </button>
