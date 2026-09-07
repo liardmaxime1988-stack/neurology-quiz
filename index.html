@@ -314,6 +314,21 @@
       cursor: pointer; font-weight: 600; color: #2c3e50;
     }
     .ant-fiche > div { margin-top: 0.6rem; line-height: 1.6; color: #333; }
+
+	      .ant-fallen { margin-top: 1rem; border-top: 1px dashed #cbd5e0; padding-top: 0.6rem; }
+    .ant-fallen > summary { cursor: pointer; font-weight: 600; color: #c0392b; }
+    .fallen-toggle { margin: 0.6rem 0; }
+    .fallen-btn { border: 1px solid #c0392b; background: #fff; color: #c0392b;
+      padding: 0.25rem 0.8rem; cursor: pointer; border-radius: 4px; margin-right: 0.4rem; font-size: 0.85rem; }
+    .fallen-btn.active { background: #c0392b; color: #fff; }
+    .fall-item { margin: 0.5rem 0; padding-left: 0.5rem; border-left: 3px solid #e0b4b4; }
+    .fall-item > summary { cursor: pointer; color: #2c3e50; }
+    .fall-antwort { margin: 0.4rem 0 0.2rem 0.6rem; font-size: 0.95rem; }
+    .fall-antwort.ok { color: #1e7e34; }
+    .fall-antwort.no { color: #c0392b; }
+    .fallen-liste { margin: 0.4rem 0 0 1.1rem; }
+    .fallen-liste li { margin-bottom: 0.5rem; }
+    .fallen-erkl { color: #555; }
 	  
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-10px); }
@@ -718,13 +733,41 @@
         h += `<details class="ant-nachfragen"><summary>Mögliche Nachfragen des Prüfers</summary>
                 <ul>${q.nachfragen.map(x => `<li>${x}</li>`).join('')}</ul></details>`;
       }
+      if (q.pruefungsfallen) {
+        const items = q.pruefungsfallen;
+        const quiz = items.map(p =>
+          `<details class="fall-item"><summary>${p.aussage}</summary>
+             <div class="fall-antwort ${p.richtig ? 'ok' : 'no'}">
+               <strong>${p.richtig ? 'RICHTIG ✓' : 'FALSCH ✗'}</strong> — ${p.erklaerung}
+             </div></details>`).join('');
+        const liste = '<ul class="fallen-liste">' + items.map(p =>
+          `<li><strong>${p.richtig ? 'RICHTIG:' : 'FALSCH:'}</strong> ${p.aussage}
+             <span class="fallen-erkl">→ ${p.erklaerung}</span></li>`).join('') + '</ul>';
+        h += `<details class="ant-fallen"><summary>⚠️ Prüfungsfallen</summary>
+                <div>
+                  <div class="fallen-toggle">
+                    <button type="button" class="fallen-btn active" onclick="setFallenMode(this,'quiz')">Quiz</button>
+                    <button type="button" class="fallen-btn" onclick="setFallenMode(this,'liste')">Liste</button>
+                  </div>
+                  <div class="fallen-quiz">${quiz}</div>
+                  <div class="fallen-liste-wrap" style="display:none">${liste}</div>
+                </div>
+              </details>`;
+      }
+		
       if (q.fiche) {
         h += `<details class="ant-fiche"><summary>📖 Fiche de révision détaillée</summary>
                 <div>${q.fiche}</div></details>`;
       }
       return h;
     }
-	  
+	function setFallenMode(btn, mode) {
+      const wrap = btn.closest('.ant-fallen');
+      wrap.querySelectorAll('.fallen-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      wrap.querySelector('.fallen-quiz').style.display = (mode === 'quiz') ? 'block' : 'none';
+      wrap.querySelector('.fallen-liste-wrap').style.display = (mode === 'liste') ? 'block' : 'none';
+    } 
     function showCurrentQuestion() {
       const container = document.getElementById('currentQuestionContainer');
       if (!container) return;
