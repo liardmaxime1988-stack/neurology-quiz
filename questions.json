@@ -2034,6 +2034,58 @@
         }
     ],
     "fiche": "Akute Myelitis: entzuendliches Rueckenmarkssyndrom mit sensomotorischem Querschnitt, (para-)infektioesem oder autoimmunem Hintergrund. LETM = longitudinal extensive Laesion ueber mindestens drei Wirbelkoerpersegmente, oft zentral in der grauen Substanz – muss aktiv NMOSD und MOGAD ausschliessen lassen. DD in drei Gruppen: (A) entzuendlich/demyelinisierend: MS, AQP4-NMOSD, MOGAD, idiopathische Myelitis, systemische Autoimmunerkrankung/Sarkoidose; (B) infektioes: VZV, HSV, CMV, HIV, Borrelien, Lues; (C) nicht-entzuendlich: spinale Ischaemie, Kompression, durale AV-Fistel, Tumor/Infiltration. Diagnostischer Algorithmus: 1) wirklich eine Myelopathie? (Klinik + MRT); 2) Kompression ausgeschlossen? (MRT gesamte Wirbelsaeule); 3) entzuendlich? (KM-Enhancement, Liquorpleozytose/Protein); 4) LETM -> AQP4- und MOG-IgG (Cell-based Assay) unbedingt bestimmen; 5) MS? (Schaedel-MRT, OKB – OKB fehlen haeufig bei NMOSD/MOGAD); 6) infektioes/systemisch gezielt; 7) vaskulaer (hyperakuter Beginn, initialer Schmerz, DWI). MS versus NMOSD versus MOGAD: MS meist kurzstreckig/peripher gelegen, OKB oft positiv; NMOSD zentral/LETM, AQP4-IgG positiv, oft schwere Optikusneuritis, haeufig schlechtere Erholung; MOGAD haeufig LETM/conusbetont, MOG-IgG positiv, oft gute funktionelle Erholung. Diese Muster sind Hinweise, keine absoluten Kriterien. Therapie: Methylprednisolon 1 g i.v./Tag ueber 3-5 Tage; bei schwerem Verlauf oder Nichtansprechen frueh Plasmapherese. Steroid-Taper und Langzeitimmuntherapie aetiologieabhaengig. Prognose: abhaengig von initialer neurologischer Schwere, Aetiologie und Therapietempo; NMOSD kann schwere Residuen hinterlassen, MOGAD zeigt haeufig eine bessere funktionelle Erholung."
+},
+		{
+    "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
+    "img_spec": "BILD 1: axiales T1 post-KM – solitäre ringförmig KM-aufnehmende Raumforderung mit zentraler Nekrose und perifokalem Ödem.",
+    "q": "52-jähriger Patient, subakut über 10 Tage: Kopfschmerzen, subfebrile Temperaturen, seit 2 Tagen fazial betonte Hemiparese rechts. 🖼️ [BILD 1 – MRT Kopf, T1 mit KM]: solitäre, ringförmig kontrastmittelaufnehmende Läsion frontal links mit perifokalem Ödem. Wie lautet Ihre Differentialdiagnose, und welche EINE Zusatzsequenz ordnen Sie als Nächstes an, um einzugrenzen?",
+    "a": "Befund: ringförmige KM-Aufnahme mit zentraler Nekrose und perifokalem Ödem – ein unspezifisches Muster mit breiter DD. Kritische DD (merken): Hirnabszess, Glioblastom, solitäre Metastase, primäres ZNS-Lymphom, seltener Toxoplasmose (bei Immunsuppression) oder tumefaktive Demyelinisierung. Nächster Schritt zur Eingrenzung: diffusionsgewichtete Sequenz (DWI/ADC) – sie trennt am schnellsten Abszess von Tumor.",
+    "img": "images/Case1_1.png"
+},
+{
+    "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
+    "img_spec": "BILD 2: DWI + ADC-Karte – hyperintenses Zentrum in DWI mit korrespondierend niedrigem ADC (Diffusionsrestriktion).",
+    "q": "🖼️ [BILD 2 – DWI + ADC]: kräftige zentrale Diffusionsrestriktion (hell in DWI, niedriges ADC). Wie interpretieren Sie das, und was ist jetzt Ihre führende Diagnose?",
+    "a": "Zentrale Diffusionsrestriktion spricht stark für einen pyogenen Hirnabszess: der visköse, zellreiche Eiter schränkt die Diffusion ein. Tumornekrose (GBM, Metastase) zeigt typischerweise KEINE zentrale Restriktion (freie Diffusion, hohes ADC), oft mit dickerer/irregulärer Ringwand. Führende Diagnose: Hirnabszess. Cave: DWI ist ein starker Hinweis, kein Beweis – Bestätigung über Klinik, Entzündungszeichen und Erregersicherung.",
+    "img": "images/Case1_2.png"
+},
+{
+    "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
+    "img_spec": "kein Bild – rein klinische Frage",
+    "q": "Sie gehen von einem Hirnabszess aus. Welche sofortige Diagnostik und Therapie leiten Sie ein?",
+    "a": "Diagnostik: Entzündungszeichen (CRP/BSG, Leukozyten), mehrere Blutkulturen, Fokussuche (Zähne/NNH, Endokarditis-Echo, HIV/Immunstatus); neurochirurgische Vorstellung zur stereotaktischen Aspiration mit Gram/Kultur/PCR (Erreger + Resistenz). Cave: Lumbalpunktion bei raumforderndem Abszess kontraindiziert (Einklemmungsgefahr). Therapie: neurochirurgische Aspiration/Drainage (diagnostisch UND therapeutisch) plus empirische i.v.-Antibiose (z.B. Cephalosporin 3. Generation + Metronidazol, ± Vancomycin je nach Risiko), danach erregergerecht über mehrere Wochen; Fokussanierung. Steroide nur zurückhaltend bei relevantem Masseneffekt."
+},
+{
+    "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
+    "img_spec": "optional BILD 3: MR-Perfusion/Spektroskopie zur Illustration",
+    "q": "Nachfrage des Prüfers: Was hätte die DWI bei einem Glioblastom oder einer Metastase gezeigt – und welche Zusatztechnik hilft in unklaren Fällen weiter?",
+    "a": "Bei Tumornekrose: keine zentrale Diffusionsrestriktion (hohes ADC). Zusatztechniken bei Unklarheit: MR-Perfusion (erhöhtes rCBV im Tumorrand bei GBM, niedrig beim Abszess) und MR-Spektroskopie (Aminosäuren/Laktat/Azetat im Abszess; Cholin-Peak beim Tumor). In der Praxis: Klinik + DWI + Verlauf; im Zweifel stereotaktische Aspiration. Prüfungsfalle: ringförmige KM-Aufnahme ist NIE für sich diagnostisch – erst die DWI (und ggf. Perfusion/Spektroskopie) grenzt ein."
+},
+{
+    "case": "Fall C2 – Rasch progrediente Demenz",
+    "img_spec": "BILD 1: EEG mit generalisierten periodischen Sharp-wave-Komplexen (PSWC), ~1 Hz, bi-/triphasisch.",
+    "q": "68-jähriger Patient, über 8 Wochen rasch progrediente kognitive Verschlechterung, seit kurzem Myoklonien und Gangataxie. 🖼️ [BILD 1 – EEG]: periodische, bi-/triphasische Sharp-wave-Komplexe (~1/Sek). Welche Diagnosen kommen infrage, und welche EINE Bildgebung ordnen Sie zur Eingrenzung an?",
+    "a": "Befund: periodische Sharp-wave-Komplexe – hinweisend, aber NICHT spezifisch. DD der raschen Demenz mit periodischem EEG: Creutzfeldt-Jakob-Krankheit (CJK); metabolisch-toxische Enzephalopathie (Triphasic waves); nicht-konvulsiver Status epilepticus (NCSE); und – wichtig, weil behandelbar – autoimmune/limbische Enzephalitis (z.B. LGI1). Nächster Schritt: MRT mit DWI/FLAIR.",
+    "img": "images/Case2_eeg.png"
+},
+{
+    "case": "Fall C2 – Rasch progrediente Demenz",
+    "img_spec": "BILD 2: DWI/FLAIR mit gyriformer kortikaler Hyperintensität (cortical ribbon sign) + hyperintensem Caudatus/Putamen.",
+    "q": "🖼️ [BILD 2 – MRT DWI/FLAIR]: kortikale Hyperintensitäten ('cortical ribboning') sowie Signalanhebung in Nucleus caudatus und Putamen. Wie ändert das Ihre Einschätzung?",
+    "a": "Cortical ribboning plus Basalganglien-Restriktion ist hochcharakteristisch für die CJK (DWI/FLAIR-Sensitivität ~96-98%). Zusammen mit rasch progredienter Demenz, Myoklonien und periodischem EEG erfüllt der Fall die Kriterien einer wahrscheinlichen CJK (revidierte Kriterien 2017). Aber: behandelbare Mimics – v.a. autoimmune Enzephalitis – müssen aktiv ausgeschlossen werden, bevor man sich festlegt.",
+    "img": "images/Case2_mri.png"
+},
+{
+    "case": "Fall C2 – Rasch progrediente Demenz",
+    "img_spec": "kein Bild – Labor/Liquor",
+    "q": "Wie sichern Sie die Diagnose, und welche behandelbaren Differentialdiagnosen schliessen Sie zwingend aus?",
+    "a": "Sicherung: RT-QuIC im Liquor (hat 14-3-3 als Test der Wahl weitgehend abgelöst; Spezifität ~100%, Sensitivität ~96%), ergänzend 14-3-3 und Tau. Definitive Diagnose nur neuropathologisch oder per positiver RT-QuIC. Behandelbare Mimics ausschliessen: autoimmune/paraneoplastische Enzephalitis (Antikörper in Serum/Liquor – LGI1, NMDA-R, CASPR2), Hashimoto-Enzephalopathie (TPO-AK, steroidresponsiv), metabolisch-toxisch, ZNS-Infektion, NCSE. Cave Prionen: spezielle Hygiene-/Instrumentenmassnahmen bei invasiven Eingriffen."
+},
+{
+    "case": "Fall C2 – Rasch progrediente Demenz",
+    "img_spec": "kein Bild – Management/Prognose",
+    "q": "Diagnose gesichert (sporadische CJK). Was ist Ihr weiteres Vorgehen?",
+    "a": "Keine kurative Therapie – supportiv/palliativ (Myoklonien z.B. Clonazepam/Levetiracetam, Symptomkontrolle, Angehörigenbetreuung). Meldepflicht/Surveillance nach nationalen Vorgaben (in der Schweiz sind Prionerkrankungen meldepflichtig). Prionspezifische Vorsichtsmassnahmen bei chirurgischen/invasiven Prozeduren. Prognose: median wenige Monate, fast immer letal innerhalb eines Jahres. Prüfungsfalle: eine rasch progrediente Demenz NIE als CJK abstempeln, ohne die behandelbare autoimmune Enzephalitis ausgeschlossen zu haben."
 }
     ],
     "advanced": [
