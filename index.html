@@ -292,17 +292,33 @@
       color: #155724;
       line-height: 1.6;
     }
-
     .case-answer.visible {
       display: block;
       animation: fadeIn 0.5s;
     }
-
+    .ant-block { margin: 0.9rem 0; }
+    .ant-label {
+      display: inline-block; font-weight: 700; color: #2c3e50;
+      font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em;
+      margin-bottom: 0.3rem;
+    }
+    .ant-block ul { margin: 0.2rem 0 0 1.1rem; }
+    .ant-block li { margin-bottom: 0.35rem; }
+    .ddx-weitere {
+      margin-top: 0.5rem; font-style: italic; color: #555; font-size: 0.95rem;
+    }
+    .ant-nachfragen, .ant-fiche {
+      margin-top: 1rem; border-top: 1px dashed #cbd5e0; padding-top: 0.6rem;
+    }
+    .ant-nachfragen summary, .ant-fiche summary {
+      cursor: pointer; font-weight: 600; color: #2c3e50;
+    }
+    .ant-fiche > div { margin-top: 0.6rem; line-height: 1.6; color: #333; }
+	  
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-10px); }
       to { opacity: 1; transform: translateY(0); }
     }
-
     .case-navigation {
       display: flex;
       justify-content: space-between;
@@ -669,6 +685,46 @@
       showCurrentQuestion();
     }
 
+    function renderCaseAnswer(q) {
+      // Altes Format: nur Text
+      if (!q.verdachtsdiagnose) {
+        return `<strong>Antwort:</strong> ${q.a}`;
+      }
+      // Neues strukturiertes Format (mündliche Musterantwort)
+      let h = '';
+      h += `<div class="ant-block"><span class="ant-label">1 · Verdachtsdiagnose</span>
+              <div>${q.verdachtsdiagnose}</div></div>`;
+      if (q.schluesselbefunde) {
+        h += `<div class="ant-block"><span class="ant-label">2 · Schlüsselbefunde</span>
+                <ul>${q.schluesselbefunde.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+      }
+      if (q.ddx_kritisch) {
+        h += `<div class="ant-block"><span class="ant-label">3 · Kritische DD – aktiv ausschliessen</span>
+                <ul>${q.ddx_kritisch.map(x => `<li><strong>${x.dd}</strong> — ${x.grund}</li>`).join('')}</ul>`;
+        if (q.ddx_weitere && q.ddx_weitere.length) {
+          h += `<div class="ddx-weitere">Weitere DD (nur nennen): ${q.ddx_weitere.join(', ')}.</div>`;
+        }
+        h += `</div>`;
+      }
+      if (q.sofort_diagnostik) {
+        h += `<div class="ant-block"><span class="ant-label">4 · Sofortige Diagnostik</span>
+                <ul>${q.sofort_diagnostik.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+      }
+      if (q.therapie) {
+        h += `<div class="ant-block"><span class="ant-label">5 · Therapie (akut + Eskalation)</span>
+                <ul>${q.therapie.map(x => `<li>${x}</li>`).join('')}</ul></div>`;
+      }
+      if (q.nachfragen) {
+        h += `<details class="ant-nachfragen"><summary>Mögliche Nachfragen des Prüfers</summary>
+                <ul>${q.nachfragen.map(x => `<li>${x}</li>`).join('')}</ul></details>`;
+      }
+      if (q.fiche) {
+        h += `<details class="ant-fiche"><summary>📖 Fiche de révision détaillée</summary>
+                <div>${q.fiche}</div></details>`;
+      }
+      return h;
+    }
+	  
     function showCurrentQuestion() {
       const container = document.getElementById('currentQuestionContainer');
       if (!container) return;
@@ -685,7 +741,7 @@
             Antwort anzeigen
           </button>
           <div class="case-answer" id="currentAnswer">
-            <strong>Antwort:</strong> ${q.a}
+                ${renderCaseAnswer(q)}
           </div>
       `;
       
