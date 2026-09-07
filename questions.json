@@ -2038,15 +2038,15 @@
 		{
     "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
     "img_spec": "BILD 1: axiales T1 post-KM – solitäre ringförmig KM-aufnehmende Raumforderung mit zentraler Nekrose und perifokalem Ödem.",
-    "q": "52-jähriger Patient, subakut über 10 Tage: Kopfschmerzen, subfebrile Temperaturen, seit 2 Tagen fazial betonte Hemiparese rechts. 🖼️ [BILD 1 – MRT Kopf, T1 mit KM]: solitäre, ringförmig kontrastmittelaufnehmende Läsion frontal links mit perifokalem Ödem. Wie lautet Ihre Differentialdiagnose, und welche EINE Zusatzsequenz ordnen Sie als Nächstes an, um einzugrenzen?",
+    "q": "52-jähriger Patient, subakut über 10 Tage: Kopfschmerzen, subfebrile Temperaturen, seit 2 Tagen fazial betonte Hemiparese rechts. 🖼️ [BILD 1 – MRT Kopf, T1 mit KM]. Beschreiben Sie den Befund, nennen Sie Ihre Differentialdiagnose und die EINE Zusatzsequenz, die Sie als Nächstes anordnen, um einzugrenzen.",
     "a": "Befund: ringförmige KM-Aufnahme mit zentraler Nekrose und perifokalem Ödem – ein unspezifisches Muster mit breiter DD. Kritische DD (merken): Hirnabszess, Glioblastom, solitäre Metastase, primäres ZNS-Lymphom, seltener Toxoplasmose (bei Immunsuppression) oder tumefaktive Demyelinisierung. Nächster Schritt zur Eingrenzung: diffusionsgewichtete Sequenz (DWI/ADC) – sie trennt am schnellsten Abszess von Tumor.",
     "img": "images/Case1_1.png"
 },
 {
     "case": "Fall C1 – Ringförmig KM-aufnehmende Läsion",
     "img_spec": "BILD 2: DWI + ADC-Karte – hyperintenses Zentrum in DWI mit korrespondierend niedrigem ADC (Diffusionsrestriktion).",
-    "q": "🖼️ [BILD 2 – DWI + ADC]: kräftige zentrale Diffusionsrestriktion (hell in DWI, niedriges ADC). Wie interpretieren Sie das, und was ist jetzt Ihre führende Diagnose?",
-    "a": "Zentrale Diffusionsrestriktion spricht stark für einen pyogenen Hirnabszess: der visköse, zellreiche Eiter schränkt die Diffusion ein. Tumornekrose (GBM, Metastase) zeigt typischerweise KEINE zentrale Restriktion (freie Diffusion, hohes ADC), oft mit dickerer/irregulärer Ringwand. Führende Diagnose: Hirnabszess. Cave: DWI ist ein starker Hinweis, kein Beweis – Bestätigung über Klinik, Entzündungszeichen und Erregersicherung.",
+    "q": "🖼️ [BILD 2 – DWI + ADC]. Beschreiben Sie den Befund. Wie interpretieren Sie ihn, und was ist jetzt Ihre führende Diagnose?",
+    "a": "Befund: kräftige zentrale Diffusionsrestriktion (hell in DWI, niedriges ADC) – spricht stark für einen pyogenen Hirnabszess: der visköse, zellreiche Eiter schränkt die Diffusion ein. Tumornekrose (GBM, Metastase) zeigt typischerweise KEINE zentrale Restriktion (freie Diffusion, hohes ADC), oft mit dickerer/irregulärer Ringwand. Führende Diagnose: Hirnabszess. Cave: DWI ist ein starker Hinweis, kein Beweis – Bestätigung über Klinik, Entzündungszeichen und Erregersicherung.",
     "img": "images/Case1_2.png"
 },
 {
@@ -2064,15 +2064,15 @@
 {
     "case": "Fall C2 – Rasch progrediente Demenz",
     "img_spec": "BILD 1: EEG mit generalisierten periodischen Sharp-wave-Komplexen (PSWC), ~1 Hz, bi-/triphasisch.",
-    "q": "68-jähriger Patient, über 8 Wochen rasch progrediente kognitive Verschlechterung, seit kurzem Myoklonien und Gangataxie. 🖼️ [BILD 1 – EEG]: periodische, bi-/triphasische Sharp-wave-Komplexe (~1/Sek). Welche Diagnosen kommen infrage, und welche EINE Bildgebung ordnen Sie zur Eingrenzung an?",
+    "q": "68-jähriger Patient, über 8 Wochen rasch progrediente kognitive Verschlechterung, seit kurzem Myoklonien und Gangataxie. 🖼️ [BILD 1 – EEG]. Beschreiben Sie den Befund. Welche Diagnosen kommen infrage, und welche EINE Bildgebung ordnen Sie zur Eingrenzung an?",
     "a": "Befund: periodische Sharp-wave-Komplexe – hinweisend, aber NICHT spezifisch. DD der raschen Demenz mit periodischem EEG: Creutzfeldt-Jakob-Krankheit (CJK); metabolisch-toxische Enzephalopathie (Triphasic waves); nicht-konvulsiver Status epilepticus (NCSE); und – wichtig, weil behandelbar – autoimmune/limbische Enzephalitis (z.B. LGI1). Nächster Schritt: MRT mit DWI/FLAIR.",
     "img": "images/Case2_eeg.png"
 },
 {
     "case": "Fall C2 – Rasch progrediente Demenz",
     "img_spec": "BILD 2: DWI/FLAIR mit gyriformer kortikaler Hyperintensität (cortical ribbon sign) + hyperintensem Caudatus/Putamen.",
-    "q": "🖼️ [BILD 2 – MRT DWI/FLAIR]: kortikale Hyperintensitäten ('cortical ribboning') sowie Signalanhebung in Nucleus caudatus und Putamen. Wie ändert das Ihre Einschätzung?",
-    "a": "Cortical ribboning plus Basalganglien-Restriktion ist hochcharakteristisch für die CJK (DWI/FLAIR-Sensitivität ~96-98%). Zusammen mit rasch progredienter Demenz, Myoklonien und periodischem EEG erfüllt der Fall die Kriterien einer wahrscheinlichen CJK (revidierte Kriterien 2017). Aber: behandelbare Mimics – v.a. autoimmune Enzephalitis – müssen aktiv ausgeschlossen werden, bevor man sich festlegt.",
+    "q": "🖼️ [BILD 2 – MRT DWI/FLAIR]. Beschreiben Sie den Befund. Wie ändert das Ihre Einschätzung?",
+    "a": "Befund: kortikale gyriforme DWI-Hyperintensität ('cortical ribboning') sowie Hyperintensität in Nucleus caudatus und Putamen. Cortical ribboning plus Basalganglien-Restriktion ist hochcharakteristisch für die CJK (DWI/FLAIR-Sensitivität ~96-98%). Zusammen mit rasch progredienter Demenz, Myoklonien und periodischem EEG erfüllt der Fall die Kriterien einer wahrscheinlichen CJK (revidierte Kriterien 2017). Aber: behandelbare Mimics – v.a. autoimmune Enzephalitis – müssen aktiv ausgeschlossen werden, bevor man sich festlegt.",
     "img": "images/Case2_mri.png"
 },
 {
