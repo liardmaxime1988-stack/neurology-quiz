@@ -1649,50 +1649,50 @@
 	],
     "case_studies": [
         {
-            "case": "Fall 1: Schlaganfall",
-            "q": "Frage 1/5: Ein 68-jähriger Mann wird mit akut aufgetretener rechtsseitiger Hemiparese und Aphasie in die Notaufnahme gebracht. Symptombeginn war vor 90 Minuten. RR 165/95 mmHg, HF 88/min, GCS 14. Was sind Ihre ersten 3 Schritte?",
-            "a": "1) ABCDE-Schema stabilisieren, 2) Sofortige kraniale Bildgebung (CT nativ zum Ausschluss Blutung), 3) Stroke-Team aktivieren, NIHSS-Score erheben, Zeitfenster für Lyse/Thrombektomie prüfen. Blutzucker messen (Hypoglykämie-Ausschluss)."
-        },
-        {
-            "case": "Fall 1: Schlaganfall",
-            "q": "Frage 2/5: Das native CT zeigt keine Blutung, einen ASPECTS-Score von 8, und eine hyperdense Media links. CTA zeigt einen M1-Verschluss links. NIHSS ist 16. Was ist Ihre Therapie?",
-            "a": "Kombination aus i.v.-Thrombolyse (Alteplase 0.9mg/kg, max 90mg) UND mechanische Thrombektomie. Bridging-Konzept bei großem Gefäßverschluss innerhalb 4.5h. ASPECTS ≥6 ist günstig für Thrombektomie. M1-Verschluss = klare Indikation für MT."
-        },
-        {
-            "case": "Fall 1: Schlaganfall",
-            "q": "Frage 3/5: Die Thrombektomie war erfolgreich (TICI 3). 24h später: RR 195/110 mmHg. Wie managen Sie den Blutdruck post-Thrombektomie?",
-            "a": "Post-Thrombektomie: RR-Ziel <180/105 mmHg in ersten 24h (wie nach Lyse). Vorsichtige Senkung mit i.v.-Antihypertensiva (Urapidil, Labetalol). Bei erfolgreicher Reperfusion RR nicht zu stark senken (Penumbra-Perfusion wichtig). Ab 24h post-interventionell: individualisierte Ziele je nach Patient."
-        },
-        {
-            "case": "Fall 1: Schlaganfall",
-            "q": "Frage 4/5: Ätiologische Abklärung: EKG zeigt Vorhofflimmern (neu diagnostiziert), Echokardiographie unauffällig, Karotisduplex zeigt 30% Stenose beidseits. Wie sieht Ihre Sekundärprophylaxe aus?",
-            "a": "Kardioembolischer Schlaganfall bei VHF: Orale Antikoagulation (DOAK bevorzugt: Apixaban, Rivaroxaban, Edoxaban oder Dabigatran; alternativ VKA). Start nach ~4-14 Tagen je nach Infarktgröße (große Infarkte: später Start wegen Blutungsrisiko). Keine Thrombozytenaggregation zusätzlich nötig. Statine, RR-Kontrolle, Risikofaktoren-Management."
-        },
-        {
-            "case": "Fall 1: Schlaganfall",
-            "q": "Frage 5/5: Wann kann der Patient nach Hause entlassen werden und welche Rehabilitation empfehlen Sie?",
-            "a": "Entlassung wenn: medizinisch stabil, Schluckstörung ausgeschlossen/versorgt, Sekundärprophylaxe etabliert, häusliche Versorgung geklärt. Rehabilitation: bei NIHSS >5 oder funktionellen Defiziten → stationäre Neuro-Reha empfohlen. Frührehabilitation Phase B/C je nach Schweregrad. Ambulante Physio-/Ergotherapie, Logopädie bei Bedarf. Fahreignung: mind. 3 Monate pausieren."
-        },
-        {
-            "case": "Fall 2: Status epilepticus",
-            "q": "Frage 1/4: Eine 35-jährige Frau hat seit 15 Minuten einen generalisierten tonisch-klonischen Anfall. Keine Epilepsie-Anamnese bekannt. Was tun Sie?",
-            "a": "Status epilepticus (SE) ab 5 Min kontinuierlicher Aktivität. Sofortmaßnahmen: 1) ABCDE (Atemweg sichern, O2, venöser Zugang), 2) Blutzucker-Schnelltest, 3) Benzodiazepine i.v.: Lorazepam 4mg i.v. (oder Diazepam 10mg, Midazolam 10mg i.m. wenn kein Zugang). Bei Anhalten nach 5 Min: Lorazepam wiederholen (max 8mg total)."
-        },
-        {
-            "case": "Fall 2: Status epilepticus",
-            "q": "Frage 2/4: Nach 2x Lorazepam persistiert der Anfall. BZ 6.5 mmol/L. Was ist der nächste Schritt?",
-            "a": "Etablierter/refraktärer SE: Second-Line-Antiepileptikum i.v.: Optionen: 1) Levetiracetam 60mg/kg (max 4500mg) über 15 Min, 2) Valproat 40mg/kg (max 3000mg) über 10 Min, 3) Phenytoin 20mg/kg (max 1500mg) über 30 Min (EKG-Monitoring!). Levetiracetam bevorzugt (wenig NW, keine Interaktionen). Parallel: Ursachensuche (Labor, CT, Toxikologie)."
-        },
-        {
-            "case": "Fall 2: Status epilepticus",
-            "q": "Frage 3/4: Nach Levetiracetam sistiert der Anfall. CT zeigt links temporal eine KM-aufnehmende Raumforderung mit Ödem. Was ist Ihre Verdachtsdiagnose und weiteres Vorgehen?",
-            "a": "V.a. Hirntumor oder Abszess. Weiteres Vorgehen: 1) MRT mit KM zur besseren Charakterisierung, 2) Dexamethason 8mg i.v. (Ödem-Therapie), 3) Fortführung AED (Levetiracetam), 4) Neurochirurgische Mitbeurteilung, 5) Bei V.a. Abszess: Infekt-Labor, Blutkulturen. Differentialdiagnose: Glioblastom, Metastase, Abszess, Lymphom. Biopsie/Resektion zur Histologie nötig."
-        },
-        {
-            "case": "Fall 2: Status epilepticus",
-            "q": "Frage 4/4: Histologie zeigt Glioblastom WHO Grad 4. Wie beraten Sie die Patientin bezüglich Prognose und Therapie?",
-            "a": "Glioblastom: mediane Überlebenszeit 15 Monate mit Therapie. Standardtherapie (Stupp-Protokoll): 1) Maximale sichere Resektion, 2) Radiotherapie 60 Gy über 6 Wochen, 3) Konkomitantes Temozolomid während RT, 4) Adjuvantes Temozolomid 6 Monate. Prognosefaktoren: MGMT-Promotor-Methylierung (besser), Alter, KPS, Resektionsausmaß. Antiepileptika fortführen. Multidisziplinäres Team (Neurochirurgie, Onkologie, Radioonkologie)."
-        },
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 1/5: Ein 68-jähriger Mann wird mit akut aufgetretener rechtsseitiger Hemiparese und Aphasie in die Notaufnahme gebracht. Symptombeginn war vor 90 Minuten. RR 165/95 mmHg, HF 88/min, GCS 14. Was sind Ihre ersten 3 Schritte?",
+    "a": "1) ABCDE + sofort Blutzucker (Hypoglykämie als Stroke-Mimic ausschliessen). 2) Sofortige kraniale Bildgebung ohne Verzögerung: CT nativ + CT-Angiographie. 3) Stroke-Team aktivieren, Reperfusionsentscheid, Zeitfenster/Kontraindikationen klären. NIHSS zur Schweregradquantifizierung – darf aber Bildgebung und Reperfusion nicht verzögern."
+},
+{
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 2/5: Das native CT zeigt keine Blutung, einen ASPECTS-Score von 8, und eine hyperdense Media links. CTA zeigt einen M1-Verschluss links. NIHSS ist 16. Was ist Ihre Therapie?",
+    "a": "IV-Thrombolyse: Tenecteplase 0.25 mg/kg (max 25 mg) ODER Alteplase 0.9 mg/kg (max 90 mg) innerhalb 4.5 h – Tenecteplase ist bei LVO vor geplanter Thrombektomie bevorzugt bzw. empfohlen, sofern lokal etabliert. PLUS mechanische Thrombektomie: ASPECTS 8, M1-Verschluss und NIHSS 16 sprechen hier klar für eine mechanische Thrombektomie (proximaler Verschluss der vorderen Zirkulation, NIHSS ≥6, prämorbider mRS 0-1, innerhalb 6 h). Die früheren strengen Ausschlusskriterien für grosse Infarktkerne wurden inzwischen erweitert; auch ausgewählte Patienten mit ASPECTS 3-5 können von einer Thrombektomie profitieren (SELECT2, ANGEL-ASPECT). Erweitertes Zeitfenster (bis 24 h) nach Perfusions-/Mismatch-Kriterien möglich."
+},
+{
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 3/5: Die Thrombektomie war erfolgreich (TICI 3). 24h später: RR 195/110 mmHg. Wie managen Sie den Blutdruck post-Thrombektomie?",
+    "a": "Da der Patient thrombolysiert wurde, Blutdruck in den ersten 24 h <180/105 mmHg. Nach erfolgreicher Rekanalisation keine aggressive Blutdrucksenkung auf <140 mmHg systolisch – eine intensive Senkung ist nicht routinemässig empfohlen und kann schädlich sein. Bei 195/110 vorsichtige i.v. Senkung, z.B. Labetalol oder Urapidil, mit engmaschiger Kontrolle. Individualisierte Ziele je nach Rekanalisationserfolg und Klinik."
+},
+{
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 4/5: Ätiologische Abklärung: EKG zeigt Vorhofflimmern (neu diagnostiziert), Echokardiographie unauffällig, Karotisduplex zeigt 30% Stenose beidseits. Wie sieht Ihre Sekundärprophylaxe aus?",
+    "a": "Kardioembolischer Schlaganfall bei VHF: orale Antikoagulation, DOAK bevorzugt (Apixaban, Rivaroxaban, Edoxaban, Dabigatran) vor VKA. Zeitpunkt individuell nach Infarktgrösse und Risiko der hämorrhagischen Transformation (kleiner Infarkt: früher; grosser: später). Neuere Evidenz (ELAN-Studie) stützt einen früheren DOAK-Beginn als das klassische «1-3-6-12-Tage»-Schema, ohne erhöhtes Blutungsrisiko. Keine zusätzliche Thrombozytenaggregationshemmung. Plus Statin, RR-Kontrolle, Risikofaktoren-Management."
+},
+{
+    "case": "Fall 1: Schlaganfall",
+    "q": "Frage 5/5: Wann kann der Patient nach Hause entlassen werden und welche Rehabilitation empfehlen Sie?",
+    "a": "Entlassung wenn medizinisch stabil, Dysphagie-Screening versorgt, Sekundärprophylaxe etabliert, Nachsorge/häusliche Versorgung geklärt. Rehabilitationsbedarf richtet sich nach den funktionellen Defiziten – nicht nach einem NIHSS-Grenzwert allein: Schlucken, Mobilität, Kommunikation, Selbstständigkeit im Alltag, soziales Umfeld und Reha-Potential. Bei relevanten Defiziten stationäre Neuroreha, sonst ambulante Physio-/Ergo-/Logotherapie. Fahreignung: Fahrpause, Dauer nach nationalen (Schweizer) verkehrsmedizinischen Vorgaben und individueller Beurteilung – kein starrer Einheitswert."
+},
+{
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 1/4: Eine 35-jährige Frau hat seit 15 Minuten einen generalisierten tonisch-klonischen Anfall. Keine Epilepsie-Anamnese bekannt. Was tun Sie?",
+    "a": "Status epilepticus ab 5 Min kontinuierlicher Aktivität. Sofortmassnahmen: 1) ABCDE (Atemweg sichern, O2, venöser Zugang), 2) Blutzucker-Schnelltest, 3) Benzodiazepin i.v.: Lorazepam 4 mg (oder Diazepam 10 mg; Midazolam 10 mg i.m. wenn kein Zugang). Bei persistierendem Anfall nach 5-10 min zweite adäquate Benzodiazepin-Dosis. Cave: Benzodiazepine nicht unterdosieren – häufigster Fehler."
+},
+{
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 2/4: Nach 2x Lorazepam persistiert der Anfall. BZ 6.5 mmol/L. Was ist der nächste Schritt?",
+    "a": "Etablierter SE (Benzo-Versagen): Second-Line-Antiepileptikum i.v. Levetiracetam, Valproat oder (Fos-)Phenytoin sind etablierte Second-Line-Optionen mit vergleichbarer Wirksamkeit in der ESETT-Studie: Levetiracetam 60 mg/kg (max 4500 mg), Valproat 40 mg/kg (max 3000 mg), (Fos-)Phenytoin 20 mg/kg (max 1500 mg, EKG-Monitoring). Bei dieser 35-jährigen Frau im gebärfähigen Alter Valproat möglichst vermeiden (Teratogenität) → Levetiracetam bevorzugen. Refraktärer SE (Versagen von 2 Substanzklassen) → Anästhetika (Propofol, Midazolam). Parallel: Ursachensuche (Labor, CT, Toxikologie)."
+},
+{
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 3/4: Nach Levetiracetam sistiert der Anfall. CT zeigt links temporal eine KM-aufnehmende Raumforderung mit Ödem. Was ist Ihre Verdachtsdiagnose und weiteres Vorgehen?",
+    "a": "Eine kontrastmittelaufnehmende Raumforderung mit perifokalem Ödem ist zunächst unspezifisch. DD insbesondere Gliom/Glioblastom, Metastase, Abszess und Lymphom. Weiteres Vorgehen: 1) MRT mit KM + DWI/ADC (DWI hilft u.a. zur Abgrenzung eines Abszesses), 2) bei persistierender Bewusstseinsstörung dringendes EEG zum Ausschluss eines non-konvulsiven Status, 3) Dexamethason i.v. bei relevantem Ödem, 4) Fortführung AED, 5) neurochirurgische Mitbeurteilung, bei V.a. Abszess Infekt-Labor/Blutkulturen. Histologie (Biopsie/Resektion) zur Diagnosesicherung nötig."
+},
+{
+    "case": "Fall 2: Status epilepticus",
+    "q": "Frage 4/4: Histologie zeigt Glioblastom WHO Grad 4. Wie beraten Sie die Patientin bezüglich Prognose und Therapie?",
+    "a": "Histologie und Molekularpathologie ergeben ein Glioblastom, IDH-Wildtyp, CNS WHO Grad 4. Therapie nach Stupp-Protokoll: maximale sichere Resektion, Radiotherapie ~60 Gy über 6 Wochen, konkomitantes Temozolomid, adjuvantes Temozolomid; TTFields können bei ausgewählten Patienten diskutiert werden. MGMT-Promotormethylierung = prädiktiver Marker für das Ansprechen auf alkylierende Chemotherapie (Temozolomid). Prognose: hochmaligne Erkrankung mit hoher Rezidivwahrscheinlichkeit; mediane Überlebenszeit ~15 Monate mit multimodaler Therapie, stark abhängig von Alter, KPS, MGMT-Status und Resektionsausmass – bei jüngeren Patienten mit günstigem Profil deutlich besser. AED fortführen, multidisziplinäres Board (Neurochirurgie, Onkologie, Radioonkologie)."
+},
         {
             "case": "Fall 3: Multiple Sklerose",
             "q": "Frage 1/5: Eine 28-jährige Frau berichtet über subakuten Visusverlust rechts mit Schmerzen bei Augenbewegung seit 4 Tagen. Visus RE 0.3, LE 1.0. RAPD rechts positiv. Ophthalmoskopie: leichte Papillenschwellung RE. Was ist Ihre Verdachtsdiagnose und Diagnostik?",
