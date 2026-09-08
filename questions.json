@@ -1694,50 +1694,50 @@
     "a": "Histologie und Molekularpathologie ergeben ein Glioblastom, IDH-Wildtyp, CNS WHO Grad 4. Therapie nach Stupp-Protokoll: maximale sichere Resektion, Radiotherapie ~60 Gy über 6 Wochen, konkomitantes Temozolomid, adjuvantes Temozolomid; TTFields können bei ausgewählten Patienten diskutiert werden. MGMT-Promotormethylierung = prädiktiver Marker für das Ansprechen auf alkylierende Chemotherapie (Temozolomid). Prognose: hochmaligne Erkrankung mit hoher Rezidivwahrscheinlichkeit; mediane Überlebenszeit ~15 Monate mit multimodaler Therapie, stark abhängig von Alter, KPS, MGMT-Status und Resektionsausmass – bei jüngeren Patienten mit günstigem Profil deutlich besser. AED fortführen, multidisziplinäres Board (Neurochirurgie, Onkologie, Radioonkologie)."
 },
         {
-            "case": "Fall 3: Multiple Sklerose",
-            "q": "Frage 1/5: Eine 28-jährige Frau berichtet über subakuten Visusverlust rechts mit Schmerzen bei Augenbewegung seit 4 Tagen. Visus RE 0.3, LE 1.0. RAPD rechts positiv. Ophthalmoskopie: leichte Papillenschwellung RE. Was ist Ihre Verdachtsdiagnose und Diagnostik?",
-            "a": "Verdacht auf Optikusneuritis (ON). Diagnostik: 1) MRT Orbita mit KM (Nachweis N. opticus-Enhancement), 2) MRT Schädel (DD: MS, NMOSD, andere), 3) VEP (verzögerte Latenz), 4) Labor: AQP4-AK (NMOSD), MOG-AK. ON ist bei 50% Erstsymptom der MS. Bei isolierter ON ohne MS-typische Läsionen im MRT: Risiko für MS-Entwicklung 25% in 5 Jahren, 50% in 15 Jahren."
-        },
-        {
-            "case": "Fall 3: Multiple Sklerose",
-            "q": "Frage 2/5: MRT Schädel zeigt 8 periventrikuläre ovale Läsionen (Dawson-Finger), 2 juxtakortikale Läsionen, 1 infratentorielle Läsion. Eine Läsion zeigt KM-Enhancement. AQP4/MOG-AK negativ. Erfüllt das die McDonald-Kriterien 2017?",
-            "a": "JA. McDonald 2017: Dissemination in Raum (DIS): ≥2 von 4 Regionen (periventrikulär ✓, juxtakortikal ✓, infratentoriell ✓, spinal). Dissemination in Zeit (DIT): Gleichzeitiges Vorhandensein von KM-aufnehmenden und nicht-aufnehmenden Läsionen ✓. ODER: neue Läsion im Verlaufs-MRT. → Diagnose: Multiple Sklerose. Weitere Diagnostik: Liquor (oligoklonale Banden zur Bestätigung intrathekaler IgG-Synthese)."
-        },
-        {
-            "case": "Fall 3: Multiple Sklerose",
-            "q": "Frage 3/5: Liquor: Zellzahl 8/µl, Protein 0.45 g/L, oligoklonale Banden Typ 2. MS bestätigt. Wie behandeln Sie den akuten Schub?",
-            "a": "Akuter MS-Schub: Hochdosis-Methylprednisolon i.v. 1000mg/Tag für 3-5 Tage. Bei unzureichendem Ansprechen: Eskalation auf 2000mg/Tag für 3-5 Tage ODER Plasmapherese (5-7 Zyklen). Keine orale Ausschleichung nötig (außer bei sehr langer i.v.-Therapie). Ziel: Beschleunigung der Schub-Rückbildung, aber kein Einfluss auf Langzeitprognose. Bei ON: Therapie verkürzt Erholungszeit."
-        },
-        {
-            "case": "Fall 3: Multiple Sklerose",
-            "q": "Frage 4/5: Nach Schub-Therapie deutliche Besserung (Visus RE 0.8). Sie empfehlen eine krankheitsmodifizierende Therapie (DMT). Welche Optionen diskutieren Sie bei dieser jungen Patientin?",
-            "a": "Optionen nach Aktivität/Risiko: Moderate Wirksamkeit: Interferone (IFN-β), Glatirameracetat, Teriflunomid, Dimethylfumarat. Hohe Wirksamkeit bei aktiver MS (≥2 Schübe/Jahr, KM-aufnehmende Läsionen): Natalizumab, Ocrelizumab, Fingolimod, Cladribin, Alemtuzumab. Bei junger Patientin mit aktiver MS: Ocrelizumab (B-Zell-Depletion, alle 6 Monate i.v., gute Wirksamkeit) oder Fingolimod (oral) erwägen. Kinderwunsch besprechen (Ocrelizumab: 6 Monate Pause vor Konzeption)."
-        },
-        {
-            "case": "Fall 3: Multiple Sklerose",
-            "q": "Frage 5/5: Die Patientin entscheidet sich für Ocrelizumab. Welche Vorabklärungen und Monitoring sind notwendig?",
-            "a": "Vorabklärungen: 1) Impfstatus (Lebendimpfstoffe VOR Therapie, Totimpfstoffe möglich), 2) Hepatitis B/C-Serologie, 3) Quantiferon/Tuberkulin-Test, 4) IgG/IgM-Spiegel, 5) BB mit Differentialblutbild. Monitoring: 1) Infusionsreaktionen (Prämedikation: Methylprednisolon, Antihistaminikum), 2) Infektionen (vor jeder Infusion), 3) IgG-Spiegel (alle 6 Monate), 4) MRT-Monitoring (jährlich zur Aktivitätsbeurteilung). Über PML-Risiko aufklären (gering, aber möglich)."
-        },
-        {
-            "case": "Fall 4: Myasthenia gravis",
-            "q": "Frage 1/4: Ein 45-jähriger Mann klagt über zunehmende beidseitige Ptosis und Diplopie, verstärkt am Abend. Zusätzlich Kauschwäche beim Essen. Symptome bessern sich nach Ruhe. Was ist Ihre Verdachtsdiagnose?",
-            "a": "Verdacht auf Myasthenia gravis (MG). Leitsymptome: belastungsabhängige, fluktuierende Schwäche, okuläre Symptome (Ptosis, Diplopie) häufig initial, Besserung durch Ruhe. Differentialdiagnosen: Lambert-Eaton-Myasthenie-Syndrom (LEMS: eher proximale Schwäche, postexerzitorische Fazilitation), Mitochondriopathie, okuläre Myopathie, MuSK-positive MG."
-        },
-        {
-            "case": "Fall 4: Myasthenia gravis",
-            "q": "Frage 2/4: Welche Diagnostik führen Sie durch?",
-            "a": "1) Serologie: Anti-AChR-Antikörper (85% positiv bei generalisierter MG), bei Negativität: Anti-MuSK-AK (5-10%), Anti-LRP4-AK. 2) Repetitive Nerven-Stimulation (RNS): Dekrement >10% bei 3 Hz. 3) Einzel-Faser-EMG (sensitivster Test). 4) Tensilon-Test (Edrophonium i.v.): heute seltener, kurzzeitige Besserung. 5) CT Thorax: Thymom-Suche (10-15% der MG-Patienten). 6) Lungenfunktion bei Verdacht auf Atemmuskel-Beteiligung."
-        },
-        {
-            "case": "Fall 4: Myasthenia gravis",
-            "q": "Frage 3/4: Anti-AChR-Antikörper positiv (35 nmol/L, Norm <0.4). CT Thorax zeigt ein 3cm großes Thymom. Wie behandeln Sie?",
-            "a": "Therapie: 1) Symptomatisch: Pyridostigmin 60mg alle 4-6h p.o. (Cholinesterase-Hemmer). 2) Immunsuppression: Prednisolon (einschleichen: 10mg → 1mg/kg), Azathioprin als Steroid-Sparer. 3) Thymektomie: Bei Thymom OBLIGAT (Tumor-Entfernung), auch bei generalisierter AChR-positiver MG ohne Thymom empfohlen (besonders <65 Jahre). Thymektomie verbessert Langzeitprognose. OP: nach Stabilisierung, Vorbereitung mit IVIG/Plasmapherese bei schwerer MG."
-        },
-        {
-            "case": "Fall 4: Myasthenia gravis",
-            "q": "Frage 4/4: 3 Monate post-Thymektomie entwickelt der Patient akute Dyspnoe, Orthopnoe und kann nicht mehr schlucken. Was ist passiert und wie handeln Sie?",
-            "a": "Myasthene Krise: akute schwere Exazerbation mit respiratorischer Insuffizienz. Trigger: Infektion, OP-Stress, Medikamente (Aminoglykoside, Fluorchinolone, Betablocker). Akutmanagement: 1) SOFORT: ABC-Stabilisierung, NIV/Intubation bei Bedarf, 2) Intensivstation, 3) Plasmapherese (5-7 Zyklen) ODER IVIg (0.4g/kg für 5 Tage) - gleichwertig, 4) Pyridostigmin pausieren (kann Sekretion erhöhen), 5) Hochdosis-Steroide NACH Plasmapherese/IVIg. Vitalkapazität-Monitoring (<15ml/kg → Intubation erwägen)."
-        },
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 1/5: Eine 28-jährige Frau berichtet über subakuten Visusverlust rechts mit Schmerzen bei Augenbewegung seit 4 Tagen. Visus RE 0.3, LE 1.0. RAPD rechts positiv. Ophthalmoskopie: leichte Papillenschwellung RE. Was ist Ihre Verdachtsdiagnose und Diagnostik?",
+    "a": "Verdacht auf Optikusneuritis (ON). Diagnostik: MRT Gehirn + Orbita mit KM (N.-opticus-Enhancement; MS-typische Läsionen? DD NMOSD/MOGAD), AQP4- und MOG-AK, VEP; OCT und VEP ergänzend, v.a. zur objektiven Dokumentation und im Verlauf. ON ist häufiges MS-Erstsymptom; eine erste ON nicht automatisch als «MS-ON» einordnen. Nachfrage: In den McDonald-Kriterien 2024 zählt der N. opticus neu als 5. anatomische Lokalisation für die räumliche Dissemination; fettsupprimierte T2/STIR und post-Gd-T1 zur ON-Darstellung; Konversionsrisiko deutlich erhöht bei MS-typischen MRT-Läsionen."
+},
+{
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 2/5: MRT Schädel zeigt 8 periventrikuläre ovale Läsionen (Dawson-Finger), 2 juxtakortikale Läsionen, 1 infratentorielle Läsion. Eine Läsion zeigt KM-Enhancement. AQP4/MOG-AK negativ. Erfüllt das die McDonald-Kriterien?",
+    "a": "Ja. Räumliche Dissemination (DIS) erfüllt (3 von 5 Lokalisationen: periventrikulär, juxtakortikal, infratentoriell). Eine klassische zeitliche Dissemination (DIT) ist nach den McDonald-Kriterien 2024 nicht mehr zwingend, wenn ein alternatives Kriterium erfüllt ist – z.B. positive Liquormarker (oligoklonale Banden oder Kappa-Freie-Leichtketten-Index). → Diagnose Multiple Sklerose, sofern kein besserer alternativer Befund vorliegt (Cave Überdiagnose). Nachfrage: die 5 Regionen sind periventrikulär, kortikal/juxtakortikal, infratentoriell, spinal und neu N. opticus; optionale Spezifitätsmarker Central Vein Sign und Paramagnetic Rim Lesions; bei >50 J. oder vaskulären Risikofaktoren strengere Schwellen."
+},
+{
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 3/5: Liquor: Zellzahl 8/µl, Protein 0.45 g/L, oligoklonale Banden Typ 2. MS bestätigt. Wie behandeln Sie den akuten Schub?",
+    "a": "Akuter MS-Schub: Hochdosis-Methylprednisolon i.v. 1000 mg/Tag für 3-5 Tage. Bei schwerem, steroidrefraktärem Schub (z.B. schwere ON) frühzeitig Plasmapherese/Immunadsorption erwägen. Keine orale Ausschleichung zwingend nötig. Wichtig: Steroide beschleunigen die Rückbildung, beeinflussen aber die Langzeitprognose nicht. Nachfrage: als Rescue-Strategie ist auch eine höhere Steroiddosis diskutierbar, doch bei Steroidrefraktärität steht die Plasmapherese im Vordergrund."
+},
+{
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 4/5: Nach Schub-Therapie deutliche Besserung (Visus RE 0.8). Sie empfehlen eine krankheitsmodifizierende Therapie (DMT). Welche Optionen diskutieren Sie bei dieser jungen Patientin?",
+    "a": "DMT-Wahl nach Krankheitsaktivität, prognostischen Faktoren und Patientenpräferenz. Beispiele moderat wirksam: Interferone, Glatirameracetat, Teriflunomid, Dimethylfumarat. Beispiele hoch wirksam: Anti-CD20 (Ocrelizumab, Ofatumumab), Natalizumab, S1P-Modulatoren, Cladribin, Alemtuzumab. Bei hoher Krankheitsaktivität kann eine frühzeitige hochwirksame Therapie («early high-efficacy») bevorzugt werden, z.B. ein Anti-CD20-Antikörper. Kinderwunsch, Infektions- und Impfstatus mitberücksichtigen. Nachfrage: Eskalations- vs. early-high-efficacy-Strategie; Konzeptionsabstände und Sicherheitsprofile der einzelnen Substanzen."
+},
+{
+    "case": "Fall 3: Multiple Sklerose",
+    "q": "Frage 5/5: Die Patientin entscheidet sich für eine Anti-CD20-Therapie (Ocrelizumab). Welche Vorabklärungen und welches Monitoring sind notwendig?",
+    "a": "Vorabklärungen: Impfstatus (Lebendimpfstoffe VOR Therapie; Totimpfstoffe möglich), Hepatitis-B-Serologie (wichtig – Reaktivierungsrisiko, bei durchgemachter/aktiver Infektion spezialisierte Mitbeurteilung), IgG/IgM-Spiegel, Blutbild, Infektionsscreening nach Anamnese/Risikoprofil. Monitoring: Infusionsreaktionen (Prämedikation), Infektionen vor jeder Infusion, IgG-Spiegel, jährliches MRT. Nachfrage: sehr seltene PML-Fälle wurden unter Ocrelizumab beschrieben – bei neuen neurologischen Symptomen entsprechend abklären (Risiko nicht mit Natalizumab vergleichbar); Quantiferon/TB-Test je nach Risikoprofil."
+},
+{
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 1/4: Ein 45-jähriger Mann klagt über zunehmende beidseitige Ptosis und Diplopie, verstärkt am Abend. Zusätzlich Kauschwäche beim Essen. Symptome bessern sich nach Ruhe. Was ist Ihre Verdachtsdiagnose?",
+    "a": "Verdacht auf Myasthenia gravis (MG). Leitsymptome: belastungsabhängige, fluktuierende Schwäche, okuläre Symptome (Ptosis, Diplopie) oft initial, Besserung durch Ruhe. Bei Dysphagie/Kauermüdung bereits an generalisierte MG denken und respiratorische Beteiligung aktiv suchen. DD: Lambert-Eaton-Syndrom (proximale Schwäche, postexerzitorische Fazilitation), Mitochondriopathie, okuläre Myopathie, MuSK-positive MG."
+},
+{
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 2/4: Welche Diagnostik führen Sie durch?",
+    "a": "Serologie: Anti-AChR-AK zuerst; bei Negativität MuSK-AK, ggf. LRP4-AK. Repetitive Nervenstimulation (Dekrement >10% bei 3 Hz). Einzelfaser-EMG (sehr sensitiv, aber nicht spezifisch). Bedside: Eis-Test bei Ptosis. CT Thorax zur Thymom-Suche. Lungenfunktion/Vitalkapazität bei bulbären Symptomen. Nachfrage: AChR-AK sind bei ~85% der generalisierten MG positiv; Tensilon-Test heute selten."
+},
+{
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 3/4: Anti-AChR-Antikörper positiv (35 nmol/L, Norm <0.4). CT Thorax zeigt ein 3cm großes Thymom. Wie behandeln Sie?",
+    "a": "Symptomatisch: Pyridostigmin 60 mg alle 4-6 h p.o. Immunsuppression: Prednisolon (einschleichend), Azathioprin als Steroid-Sparer. Thymektomie: bei Thymom obligat; bei ausgewählten AChR-positiven Patienten mit generalisierter MG kann eine frühe Thymektomie empfohlen/diskutiert werden, insbesondere Alter <50 J. (MGTX). Wichtig: OP erst nach Stabilisierung, ggf. Vorbereitung mit IVIg/Plasmapherese bei schwerer MG. Nachfrage: Steroidbeginn kann MG initial verschlechtern – einschleichen und überwachen."
+},
+{
+    "case": "Fall 4: Myasthenia gravis",
+    "q": "Frage 4/4: 3 Monate post-Thymektomie entwickelt der Patient akute Dyspnoe, Orthopnoe und kann nicht mehr schlucken. Was ist passiert und wie handeln Sie?",
+    "a": "Myasthene Krise: akute Exazerbation mit respiratorischer Insuffizienz. Vorgehen: 1) Intensivstation, Atemweg/Beatmung – deutlich reduzierte oder rasch abfallende Vitalkapazität sowie klinische Zeichen der respiratorischen Insuffizienz → frühzeitige Intubation/Beatmung erwägen (klinische Entscheidung, kein starrer Grenzwert). 2) Plasmapherese ODER IVIg (0.4 g/kg/Tag über 5 Tage) – beide wirksam, PLEX bei schwerer Krise oft bevorzugt. 3) Trigger behandeln (Infektion, Medikamente wie Aminoglykoside/Fluorchinolone/Betablocker). 4) Begleitende Immunsuppression. Bei intubierten Patienten kann Pyridostigmin vorübergehend pausiert werden (Sekretproblematik). Nachfrage: bei refraktärer generalisierter MG erweitertes Spektrum – FcRn-Inhibitoren (Efgartigimod, Rozanolixizumab, Nipocalimab) und Komplement-C5-Inhibitoren (Eculizumab, Ravulizumab, Zilucoplan)."
+},
         {
             "case": "Fall 5: Guillain-Barré-Syndrom",
             "q": "Frage 1/3: Ein 52-jähriger Mann hat seit 3 Tagen zunehmende Schwäche beider Beine, aufsteigend. Heute auch Arme betroffen. Vor 2 Wochen Durchfall-Erkrankung. Klinisch: areflexisch, symmetrische distale und proximale Schwäche (Kraft 3/5 Beine, 4/5 Arme). Was ist Ihre Verdachtsdiagnose und Diagnostik?",
